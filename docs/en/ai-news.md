@@ -7,3 +7,11 @@ Tracking the global progress of supercomputing and next-generation AI infrastruc
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
+- **[Llama 4: Open Weights with Infinite Reasoning | Meta AI](https://ai.meta.com/blog/llama-4-release/)**
+    - Meta officially releases Llama 4, featuring a 2M context window and native reasoning capabilities, marking it as the most powerful open-source LLM to date and closing the gap with closed-source models.
+
+- **[NVIDIA Blackwell B300 Series Announced | NVIDIA](https://nvidianews.nvidia.com/news/blackwell-b300-architecture-announcement)**
+    - NVIDIA introduces the B300 architecture, specifically optimized for large-scale inference. It doubles the throughput of its predecessor while significantly reducing energy consumption per million tokens.
+
+- **[DeepSeek-V4: Breaking the Cost Barrier | DeepSeek](https://www.deepseek.com/news/v4-launch)**
+    - DeepSeek launches V4, utilizing an innovative Mixture-of-Experts (MoE) architecture to achieve GPT-4o level performance at 1/10th the training and inference cost.
