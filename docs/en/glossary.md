@@ -15,7 +15,7 @@ A subfield of AI that focuses on algorithms that learn patterns from vast datase
 ### **Deep Learning (DL)**
 A subset of Machine Learning centered around "Neural Networks" that mimic brain structure. It is the primary technology behind modern AI breakthroughs like ChatGPT.
 
-### **Artificial Neural Networks (ANN)**
+### **Neural Network (ANN)**
 A structure composed of many digital "neurons." These neurons connect via "Parameters," simulating how the brain processes information.
 
 ### **Large Language Model (LLM)**
