@@ -25,13 +25,13 @@ flowchart LR
     Trends --- T1[🎓 跨領域學術研究]
     Trends --- T2[最新 AI 新聞]
 
-    click P1 "tools-coding/" "點擊進入 🖥️ 程式開發"
-    click P2 "tools-image/" "點擊進入 🎨 影像生成"
-    click P3 "local-ai-privacy/" "點擊進入 🏠 本地模型與隱私"
-    click R1 "research-workflow/" "點擊進入 🔍 學術研究工作流"
-    click R2 "advanced-prompting/" "點擊進入 ⚡ 提示詞工程進階"
-    click R3 "agent/" "點擊進入 🧩 Agent 智能體"
-    click T1 "academic-trends/" "點擊進入 🎓 跨領域學術研究"
+    click P1 "/ai-map/zh/tools-coding/" "點擊進入 🖥️ 程式開發"
+    click P2 "/ai-map/zh/tools-image/" "點擊進入 🎨 影像生成"
+    click P3 "/ai-map/zh/local-ai-privacy/" "點擊進入 🏠 本地模型與隱私"
+    click R1 "/ai-map/zh/research-workflow/" "點擊進入 🔍 學術研究工作流"
+    click R2 "/ai-map/zh/advanced-prompting/" "點擊進入 ⚡ 提示詞工程進階"
+    click R3 "/ai-map/zh/agent/" "點擊進入 🧩 Agent 智能體"
+    click T1 "/ai-map/zh/academic-trends/" "點擊進入 🎓 跨領域學術研究"
     
     style root fill:#f9f,stroke:#333,stroke-width:2px
     style Basics fill:#bbf,stroke:#333
