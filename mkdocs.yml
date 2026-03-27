@@ -68,6 +68,7 @@ nav:
       - 🧩 Agent 智能體基礎: zh/agent.md
       - 📂 QMD 本地知識引擎: zh/qmd.md
     - 📢 [趨勢] 新聞與學術動態:
+      - 🧠 AI 模型概覽: zh/model-index.md
       - 📰 最新 AI 新聞: zh/ai-news.md
       - 🎓 跨領域學術研究: zh/academic-trends.md
   - English (EN):
@@ -85,5 +86,6 @@ nav:
       - 🧩 Agent Basics: en/agent.md
       - 📂 QMD Local Knowledge: en/qmd.md
     - 📢 [Trends] News & Academic:
+      - 🧠 AI Models Index: en/model-index.md
       - 📰 AI News: en/ai-news.md
       - 🎓 Cross-domain Research: en/academic-trends.md
