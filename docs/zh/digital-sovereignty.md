@@ -17,6 +17,8 @@
     - **[TAIDE 官方網站](https://taide.tw/)**
     - **[【數位主權】為什麼台灣需要自己的大型語言模型？](https://youtu.be/u13MUp1WwS4?si=023Y5f4y_O_v99Gj)**
         - 詳細解釋了 TAIDE 如何守護台灣的數位主權與在地價值。
+    - **[【生成式人工智慧與機器學習導論2025】](https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT)**
+        - 台大李宏毅教授的最新課程。透過在地教育資源的普及，強化台灣在 AI 時代的技術自主性。
 
 ## 個人與企業如何實踐數位主權？
 

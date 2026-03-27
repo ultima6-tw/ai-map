@@ -23,6 +23,8 @@ LLM 的本質是一個超級強大的「文字接龍」引擎：
 
 - **[李宏毅 Hung-yi Lee (YouTube 頻道)](https://www.youtube.com/@HungyiLeeNTU)**
     - **強烈推薦**：台大李宏毅教授的機器學習與深度學習課程，是全球華語圈公認最優質、最易懂的 AI 入門教材。
+    - **[【生成式人工智慧與機器學習導論2025】(YouTube 播放清單)](https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT)**
+        - **最新課程**：李宏毅教授 2025 年的最新生成式 AI 課程，涵蓋了從基礎 LLM 到最新 Agent 技術的完整導論。
 - **[A Visual Guide to How LLMs Work](https://youtu.be/XLN2x3bAMLQ?si=WpDqG4B9Xk6_6m7b)**
     - **原理詳解**：3Blue1Brown 製作，深入淺出地解釋了大型語言模型如何將「意義」轉化為向量空間，並進行機率預測。
 - **[But what is a GPT? Visual intro to Transformers](https://youtu.be/wjZofJX0v4M?si=GzK16kE_65k7x_9e)**
