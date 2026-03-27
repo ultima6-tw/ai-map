@@ -25,13 +25,13 @@ flowchart LR
     Trends --- T1[🎓 Cross-domain Research]
     Trends --- T2[Latest AI News]
 
-    click P1 "/ai-map/en/tools-coding/" "View 🖥️ Coding Tools"
-    click P2 "/ai-map/en/tools-image/" "View 🎨 Image Generation"
-    click P3 "/ai-map/en/local-ai-privacy/" "View 🏠 Local AI & Privacy"
-    click R1 "/ai-map/en/research-workflow/" "View 🔍 AI-Assisted Workflow"
-    click R2 "/ai-map/en/advanced-prompting/" "View ⚡ Advanced Prompting"
-    click R3 "/ai-map/en/agent/" "View 🧩 AI Agents"
-    click T1 "/ai-map/en/academic-trends/" "View 🎓 Cross-domain Research"
+    click P1 "en/tools-coding/" "View 🖥️ Coding Tools"
+    click P2 "en/tools-image/" "View 🎨 Image Generation"
+    click P3 "en/local-ai-privacy/" "View 🏠 Local AI & Privacy"
+    click R1 "en/research-workflow/" "View 🔍 AI-Assisted Workflow"
+    click R2 "en/advanced-prompting/" "View ⚡ Advanced Prompting"
+    click R3 "en/agent/" "View 🧩 AI Agents"
+    click T1 "en/academic-trends/" "View 🎓 Cross-domain Research"
     
     style root fill:#f9f,stroke:#333,stroke-width:2px
     style Basics fill:#bbf,stroke:#333
