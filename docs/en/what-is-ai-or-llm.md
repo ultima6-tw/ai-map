@@ -17,10 +17,12 @@ At its heart, an LLM is a powerful "text completion" engine:
 2. **Prediction**: Based on its training data, the model calculates the probability of the next most likely word.
 3. **Iteration**: After generating a word, it adds it back to the input and predicts the next one until a complete response is formed.
 
-## Featured Educational Videos
+## Featured Educational Resources
 
-For a deeper dive into the underlying principles, these videos provide excellent visual explanations:
+For a deeper dive into the underlying principles, these resources provide excellent explanations:
 
+- **[Hung-yi Lee (YouTube Channel)](https://www.youtube.com/@HungyiLeeNTU)**
+    - **Highly Recommended**: Professor Hung-yi Lee from National Taiwan University provides some of the most accessible and high-quality machine learning courses globally.
 - **[How GPT Works: Why Predict the Next Word?](https://youtu.be/j5N2j6Ydhao?si=awVsdfhlfcYgOsiL)**
     - Explains the core logic of GPT: Probabilistic prediction of the next Token.
 - **[ChatGPT's Hidden Tech: Transformer Architecture](https://youtu.be/nIncwp0iAkw?si=a-GX30FLkbYvNGxM)**

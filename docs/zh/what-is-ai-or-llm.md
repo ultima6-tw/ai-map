@@ -17,10 +17,12 @@ LLM 的本質是一個超級強大的「文字接龍」引擎：
 2. **預測 (Prediction)**：模型會根據之前的訓練數據，計算出下一個最有可能出現的字。
 3. **循環 (Iteration)**：模型產出一個字後，會將其放回輸入中，繼續預測下一個字，直到生成完整的句子。
 
-## 精選科普影片 (推薦必看)
+## 精選科普與教學 (推薦必看)
 
-如果您想深入理解底層原理，這幾段影片提供極佳的視覺化解釋：
+如果您想深入理解底層原理，這幾位教育者的內容提供極佳的解釋：
 
+- **[李宏毅 Hung-yi Lee (YouTube 頻道)](https://www.youtube.com/@HungyiLeeNTU)**
+    - **強烈推薦**：台大李宏毅教授的機器學習與深度學習課程，是全球華語圈公認最優質、最易懂的 AI 入門教材。
 - **[【漫士科普】GPT 是如何工作的？為什麼要預測下一個詞？](https://youtu.be/j5N2j6Ydhao?si=awVsdfhlfcYgOsiL)**
     - 深入淺出地解釋 GPT 的核心邏輯：機率性地預測下一個 Token。
 - **[ChatGPT 原理揭密！背後的黑科技 Transformer](https://youtu.be/nIncwp0iAkw?si=a-GX30FLkbYvNGxM)**
