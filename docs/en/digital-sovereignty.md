@@ -17,6 +17,8 @@ Digital sovereignty refers to the autonomous control that individuals, organizat
     - **[TAIDE Official Website](https://taide.tw/)**
     - **[Why Taiwan Needs Its Own LLM: Digital Sovereignty](https://youtu.be/u13MUp1WwS4?si=023Y5f4y_O_v99Gj)**
         - Detailed explanation of how TAIDE safeguards Taiwan's digital sovereignty and local values.
+    - **[Intro to Generative AI & Machine Learning 2025](https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT)**
+        - Professor Hung-yi Lee's latest course, empowering Taiwan's technical autonomy through accessible local education.
 
 ## How to Practice Digital Sovereignty
 
