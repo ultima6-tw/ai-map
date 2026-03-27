@@ -6,6 +6,8 @@ AI is transforming how developers work, moving from simple code completion to fu
 - **[Cursor](https://cursor.com/)**: Currently the most powerful AI code editor, built on VS Code. Features a robust `Composer` mode for cross-file editing and automated debugging.
 - **[GitHub Copilot](https://github.com/features/copilot)**: The most stable and widely used assistant, supporting multiple IDEs and integrated with GitHub PR reviews.
 - **[Cline (formerly Claude Dev)](https://github.com/cline/cline)**: An open-source VS Code extension that turns Claude 4.6 into an autonomous developer agent capable of file operations and CLI execution.
+- **[Claude Code](https://claude.ai/code)**: Anthropic's official CLI agent that lives in your terminal, integrating deeply with your shell for true "Vibe Coding."
+    - **[Claude Code Tutorial (YouTube Video)](https://www.youtube.com/watch?v=2pM-7fBXc_M)**: A comprehensive guide on how to set up and build anything with Claude Code.
 - **[Replit Agent](https://replit.com/ai)**: Ideal for rapid prototyping; describe your app in plain English, and it builds and deploys it for you.
 
 ## Recommended Models
