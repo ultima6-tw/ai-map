@@ -56,6 +56,7 @@ nav:
   - 繁體中文 (ZH):
     - 🧩 [科普] AI 基礎與生活:
       - 什麼是 AI/LLM?: zh/what-is-ai-or-llm.md
+      - AI 名詞解釋 (Glossary): zh/glossary.md
       - AI 應用與案例: zh/ai-application.md
       - 安全使用 (防幻覺): zh/ai-hallucination.md
     - 🛠️ [實戰] 熱門工具與開發:
@@ -74,6 +75,7 @@ nav:
   - English (EN):
     - 🧩 [General] AI Basics & Life:
       - What is AI/LLM?: en/what-is-ai-or-llm.md
+      - AI Glossary: en/glossary.md
       - AI Applications: en/ai-application.md
       - Safe Usage (Hallucination): en/ai-hallucination.md
     - 🛠️ [Practical] Tools & Coding:
