@@ -60,7 +60,7 @@ nav:
   - Impact & Tools:
     - AI Impact: ai-impact.md
     - QMD Tool: qmd.md
-    - AI Map Source: ai--.md
+    - AI Hallucination: ai-hallucination.md
 theme:
   features:
     - content.action.edit
