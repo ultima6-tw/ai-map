@@ -5,22 +5,39 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 ## 🗺️ Visual Roadmap
 
 ```mermaid
-mindmap
-  root((AI Map))
-    Basics
-      What is LLM?
-      Hallucination Prevention
-    Practical
-      Coding Tools
-      Image Generation
-      Local AI & Privacy
-    Research
-      AI-Assisted Workflow
-      Advanced Prompting
-      AI Agents
-    Trends
-      Cross-domain Research
-      Latest AI News
+flowchart LR
+    root((AI Map)) --- Basics(Basics)
+    root --- Practical(Practical)
+    root --- Research(Research)
+    root --- Trends(Trends)
+
+    Basics --- B1[What is LLM?]
+    Basics --- B2[Hallucination Prevention]
+
+    Practical --- P1[🖥️ Coding Tools]
+    Practical --- P2[🎨 Image Generation]
+    Practical --- P3[🏠 Local AI & Privacy]
+
+    Research --- R1[🔍 AI-Assisted Workflow]
+    Research --- R2[⚡ Advanced Prompting]
+    Research --- R3[🧩 AI Agents]
+
+    Trends --- T1[🎓 Cross-domain Research]
+    Trends --- T2[Latest AI News]
+
+    click P1 "tools-coding.md"
+    click P2 "tools-image.md"
+    click P3 "local-ai-privacy.md"
+    click R1 "research-workflow.md"
+    click R2 "advanced-prompting.md"
+    click R3 "agent.md"
+    click T1 "academic-trends.md"
+    
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    style Basics fill:#bbf,stroke:#333
+    style Practical fill:#bfb,stroke:#333
+    style Research fill:#fbb,stroke:#333
+    style Trends fill:#fdb,stroke:#333
 ```
 
 ## 📂 Explore Categories

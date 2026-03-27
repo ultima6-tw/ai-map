@@ -5,22 +5,39 @@
 ## 🗺️ 視覺路線圖
 
 ```mermaid
-mindmap
-  root((AI Map))
-    基礎 (Basics)
-      什麼是 LLM?
-      AI 幻覺預防
-    實戰 (Practical)
-      程式開發 (Coding)
-      影像生成 (Image Gen)
-      本地模型與隱私
-    科研 (Research)
-      AI 輔助研究工作流
-      進階提示詞工程
-      Agent 智能體
-    趨勢 (Trends)
-      跨領域學術研究
-      最新 AI 新聞
+flowchart LR
+    root((AI Map)) --- Basics(基礎 Basics)
+    root --- Practical(實戰 Practical)
+    root --- Research(科研 Research)
+    root --- Trends(趨勢 Trends)
+
+    Basics --- B1[什麼是 LLM?]
+    Basics --- B2[AI 幻覺預防]
+
+    Practical --- P1[🖥️ 程式開發]
+    Practical --- P2[🎨 影像生成]
+    Practical --- P3[🏠 本地模型與隱私]
+
+    Research --- R1[🔍 學術研究工作流]
+    Research --- R2[⚡ 提示詞工程進階]
+    Research --- R3[🧩 Agent 智能體]
+
+    Trends --- T1[🎓 跨領域學術研究]
+    Trends --- T2[最新 AI 新聞]
+
+    click P1 "tools-coding.md"
+    click P2 "tools-image.md"
+    click P3 "local-ai-privacy.md"
+    click R1 "research-workflow.md"
+    click R2 "advanced-prompting.md"
+    click R3 "agent.md"
+    click T1 "academic-trends.md"
+    
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    style Basics fill:#bbf,stroke:#333
+    style Practical fill:#bfb,stroke:#333
+    style Research fill:#fbb,stroke:#333
+    style Trends fill:#fdb,stroke:#333
 ```
 
 ## 📂 探索類別
