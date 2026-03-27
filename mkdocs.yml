@@ -57,21 +57,33 @@ nav:
     - 🧩 [科普] AI 基礎與生活:
       - 什麼是 AI/LLM?: zh/what-is-ai-or-llm.md
       - AI 應用與案例: zh/ai-application.md
-      - AI 對我們的影響: zh/ai-impact.md
       - 安全使用 (防幻覺): zh/ai-hallucination.md
-    - 🔬 [科研] 專業實戰與工具:
-      - 如何獲得最佳 LLM: zh/how-get-best-llm.md
-      - Agent 智能體基礎: zh/agent.md
-      - QMD 本地知識引擎: zh/qmd.md
-    - 📢 最新新聞: zh/ai-news.md
+    - 🛠️ [實戰] 熱門工具與開發:
+      - 🖥️ 程式開發 (Coding): zh/tools-coding.md
+      - 🎨 影像生成 (Image Gen): zh/tools-image.md
+      - 🏠 本地模型與隱私 (Local AI): zh/local-ai-privacy.md
+    - 🔬 [科研] AI 輔助研究:
+      - ⚡ 提示詞工程進階: zh/advanced-prompting.md
+      - 🔍 學術研究工作流: zh/research-workflow.md
+      - 🧩 Agent 智能體基礎: zh/agent.md
+      - 📂 QMD 本地知識引擎: zh/qmd.md
+    - 📢 [趨勢] 新聞與學術動態:
+      - 📰 最新 AI 新聞: zh/ai-news.md
+      - 🎓 跨領域學術研究: zh/academic-trends.md
   - English (EN):
     - 🧩 [General] AI Basics & Life:
       - What is AI/LLM?: en/what-is-ai-or-llm.md
       - AI Applications: en/ai-application.md
-      - AI Impacts: en/ai-impact.md
       - Safe Usage (Hallucination): en/ai-hallucination.md
-    - 🔬 [Scientific] Research & Tools:
-      - How to get best LLM: en/how-get-best-llm.md
-      - Agent Basics: en/agent.md
-      - QMD Local Knowledge: en/qmd.md
-    - 📢 AI News: en/ai-news.md
+    - 🛠️ [Practical] Tools & Coding:
+      - 🖥️ Coding: en/tools-coding.md
+      - 🎨 Image Generation: en/tools-image.md
+      - 🏠 Local AI & Privacy: en/local-ai-privacy.md
+    - 🔬 [Research] AI-Assisted Study:
+      - ⚡ Advanced Prompting: en/advanced-prompting.md
+      - 🔍 Academic Workflow: en/research-workflow.md
+      - 🧩 Agent Basics: en/agent.md
+      - 📂 QMD Local Knowledge: en/qmd.md
+    - 📢 [Trends] News & Academic:
+      - 📰 AI News: en/ai-news.md
+      - 🎓 Cross-domain Research: en/academic-trends.md
