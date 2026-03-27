@@ -8,6 +8,8 @@ Track breakthrough progress of AI in professional fields like physics, materials
 - **[Climate Change AI (CCAI)](https://www.climatechange.ai/)**: Explores how AI assists in weather forecasting, energy transition, and climate monitoring.
 
 ## Selected Resources
+- **[Mathematics in the Era of AI | Terence Tao & Mark Chen | Progress & Limitations](https://www.youtube.com/watch?v=48lLiHkBfNg)**
+    - Exploring AI in Formal Verification and mathematical theoretical frameworks.
 - **[arXiv.org](https://arxiv.org/list/cs.AI/recent)**: The front line for AI pre-prints.
 - **[Hugging Face Papers](https://huggingface.co/papers)**: Daily trending machine learning papers.
 - **[Papers with Code](https://paperswithcode.com/)**: Connects papers with their source code implementations.
