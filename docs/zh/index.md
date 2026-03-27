@@ -13,6 +13,7 @@ flowchart LR
 
     Basics --- B1[什麼是 LLM?]
     Basics --- B2[AI 幻覺預防]
+    Basics --- B3[AI 應用案例]
 
     Practical --- P1[🖥️ 程式開發]
     Practical --- P2[🎨 影像生成]
@@ -21,17 +22,23 @@ flowchart LR
     Research --- R1[🔍 學術研究工作流]
     Research --- R2[⚡ 提示詞工程進階]
     Research --- R3[🧩 Agent 智能體]
+    Research --- R4[📂 QMD 本地知識]
 
     Trends --- T1[🎓 跨領域學術研究]
     Trends --- T2[最新 AI 新聞]
 
-    click P1 "zh/tools-coding/" "點擊進入 🖥️ 程式開發"
-    click P2 "zh/tools-image/" "點擊進入 🎨 影像生成"
-    click P3 "zh/local-ai-privacy/" "點擊進入 🏠 本地模型與隱私"
-    click R1 "zh/research-workflow/" "點擊進入 🔍 學術研究工作流"
-    click R2 "zh/advanced-prompting/" "點擊進入 ⚡ 提示詞工程進階"
-    click R3 "zh/agent/" "點擊進入 🧩 Agent 智能體"
-    click T1 "zh/academic-trends/" "點擊進入 🎓 跨領域學術研究"
+    click B1 "what-is-ai-or-llm/" "點擊進入 什麼是 LLM?"
+    click B2 "ai-hallucination/" "點擊進入 AI 幻覺預防"
+    click B3 "ai-application/" "點擊進入 AI 應用案例"
+    click P1 "tools-coding/" "點擊進入 🖥️ 程式開發"
+    click P2 "tools-image/" "點擊進入 🎨 影像生成"
+    click P3 "local-ai-privacy/" "點擊進入 🏠 本地模型與隱私"
+    click R1 "research-workflow/" "點擊進入 🔍 學術研究工作流"
+    click R2 "advanced-prompting/" "點擊進入 ⚡ 提示詞工程進階"
+    click R3 "agent/" "點擊進入 🧩 Agent 智能體"
+    click R4 "qmd/" "點擊進入 📂 QMD 本地知識引擎"
+    click T1 "academic-trends/" "點擊進入 🎓 跨領域學術研究"
+    click T2 "ai-news/" "點擊進入 最新 AI 新聞"
     
     style root fill:#f9f,stroke:#333,stroke-width:2px
     style Basics fill:#bbf,stroke:#333

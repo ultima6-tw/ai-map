@@ -13,6 +13,7 @@ flowchart LR
 
     Basics --- B1[What is LLM?]
     Basics --- B2[Hallucination Prevention]
+    Basics --- B3[AI Applications]
 
     Practical --- P1[🖥️ Coding Tools]
     Practical --- P2[🎨 Image Generation]
@@ -21,17 +22,23 @@ flowchart LR
     Research --- R1[🔍 AI-Assisted Workflow]
     Research --- R2[⚡ Advanced Prompting]
     Research --- R3[🧩 AI Agents]
+    Research --- R4[📂 QMD Local Knowledge]
 
     Trends --- T1[🎓 Cross-domain Research]
     Trends --- T2[Latest AI News]
 
-    click P1 "en/tools-coding/" "View 🖥️ Coding Tools"
-    click P2 "en/tools-image/" "View 🎨 Image Generation"
-    click P3 "en/local-ai-privacy/" "View 🏠 Local AI & Privacy"
-    click R1 "en/research-workflow/" "View 🔍 AI-Assisted Workflow"
-    click R2 "en/advanced-prompting/" "View ⚡ Advanced Prompting"
-    click R3 "en/agent/" "View 🧩 AI Agents"
-    click T1 "en/academic-trends/" "View 🎓 Cross-domain Research"
+    click B1 "what-is-ai-or-llm/" "View What is LLM?"
+    click B2 "ai-hallucination/" "View Hallucination Prevention"
+    click B3 "ai-application/" "View AI Applications"
+    click P1 "tools-coding/" "View 🖥️ Coding Tools"
+    click P2 "tools-image/" "View 🎨 Image Generation"
+    click P3 "local-ai-privacy/" "View 🏠 Local AI & Privacy"
+    click R1 "research-workflow/" "View 🔍 AI-Assisted Workflow"
+    click R2 "advanced-prompting/" "View ⚡ Advanced Prompting"
+    click R3 "agent/" "View 🧩 AI Agents"
+    click R4 "qmd/" "View 📂 QMD Local Knowledge"
+    click T1 "academic-trends/" "View 🎓 Cross-domain Research"
+    click T2 "ai-news/" "View Latest AI News"
     
     style root fill:#f9f,stroke:#333,stroke-width:2px
     style Basics fill:#bbf,stroke:#333
