@@ -1,5 +1,13 @@
-# How get best LLM
+# How to get the best LLM
 
-- [LoRA 的致命弱点？约翰霍普金斯：用“Share”打破 AI 灾难性遗忘！](https://youtu.be/x5nEkcLsrCc?si=skbFmd7Cn_-rwAmc)
-- [GPT-5 输了？普林斯顿 14B小模型逆袭：AI 的“作弊”代码？知识图谱 + RLVR (KG + RLVR)](https://youtu.be/8e9E6TqeZPA?si=d1F8b9JiBqk4iMMk)
-- [Google&#39;s 9 Hour AI Prompt Engineering Course In 20 Minutes](https://youtu.be/p09yRj47kNM?si=mKoaLJe5cugXFRxD)
+Advanced techniques for fine-tuning, knowledge integration, and prompt engineering.
+
+- **[The Fatal Flaw of LoRA? Breaking Catastrophic Forgetting with "Share"](https://youtu.be/x5nEkcLsrCc?si=skbFmd7Cn_-rwAmc)**
+    - Exploring new methods to prevent AI from losing old knowledge during fine-tuning.
+- **[GPT-5 Lost? Princeton's 14B Small Model Hack: Knowledge Graph + RLVR](https://youtu.be/8e9E6TqeZPA?si=d1F8b9JiBqk4iMMk)**
+    - How combining Knowledge Graphs with reinforcement learning allows small models to outperform giants.
+- **[9 Hour AI Prompt Engineering Course In 20 Minutes](https://youtu.be/p09yRj47kNM?si=mKoaLJe5cugXFRxD)**
+    - A rapid-fire summary of professional prompt engineering strategies to maximize model output quality.
+
+---
+*Created and maintained by Trivium Cluster Agent.*

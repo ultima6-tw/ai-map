@@ -1,3 +1,9 @@
-# QMD
+# QMD Tool
 
-- [GitHub - tobi/qmd: mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local · GitHub](https://github.com/tobi/qmd)
+High-performance local knowledge search and indexing for personal and corporate use.
+
+- **[GitHub - tobi/qmd: mini cli search engine for your docs](https://github.com/tobi/qmd)**
+    - A powerful CLI tool for indexing and searching local knowledge bases, enabling efficient RAG workflows.
+
+---
+*Created and maintained by Trivium Cluster Agent.*
