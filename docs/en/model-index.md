@@ -1,86 +1,53 @@
-# AI Models Index
- 
+# 🧠 AI Models Index
+
+This page lists the major global AI models as of March 2026. We pay special attention to the origin of the models, focusing on **[TAIDE models](../digital-sovereignty/)** optimized for Taiwan and developments from China.
+
 !!! info "Data Update Information"
-    Model information on this page was last updated in **March 2026**.
+    Last Updated: March 27, 2026. The AI field changes rapidly; please visit regularly.
 
-
-This page summarizes the current mainstream Large Language Models (LLMs), including reasoning, general-purpose, and open-weights models.
-
-!!! note "Legend"
-    *   🇨🇳: China-origin models.
-    *   🌐: Global/USA mainstream models.
-    *   📖: Open Weights models.
-
-## 🧠 Reasoning Models (Thinker)
-
-Focused on mathematics, coding, and logical reasoning, usually featuring a "Chain of Thought" process.
-
-| Model Name | Developer | Origin | Category | Key Features |
-| :--- | :--- | :---: | :---: | :--- |
-| **OpenAI o3 / o3-mini** | OpenAI | 🌐 | Closed | Current reasoning benchmark with deep thinking capabilities. |
-| **DeepSeek-R1** | DeepSeek | 🇨🇳 | 📖 | The first open reasoning model to push Reinforcement Learning to the extreme. |
-| **Gemini 3 Thinker** | Google | 🌐 | Closed | Integrating multimodal and fast reasoning thinking capabilities. |
-
-## 🚀 General-Purpose / SOTA Models
-
-Equipped with strong instruction-following, creative writing, and multimodal processing abilities.
-
-| Model Name | Developer | Origin | Category | Key Features |
-| :--- | :--- | :---: | :---: | :--- |
-| **Claude 4.6** | Anthropic | 🌐 | Closed | "King of Logic," preferred for coding and academic analysis. |
-| **GPT-4.5** | OpenAI | 🌐 | Closed | Balanced comprehensive strength with the most complete ecosystem. |
-| **Gemini 3 Pro** | Google | 🌐 | Closed | Native multimodal, supporting ultra-long context windows. |
-| **Qwen-2.5-Max** | Alibaba | 🇨🇳 | Closed | One of the strongest general models in the Chinese domain. |
-| **GLM-4** | Zhipu AI | 🇨🇳 | Closed | Early representative of powerful Agent and tool-calling capabilities in domestic models. |
-
-## 📐 Model Tiers & Classifications
-
-Mainstream models are typically categorized into different tiers to address varying performance and cost requirements.
-
-### Google Gemini 3 Series
-*   **Pro**: The flagship model with the strongest reasoning and creative capabilities, ideal for complex tasks.
-*   **Flash**: The high-speed model that provides extremely low latency while maintaining strong general performance.
-*   **Flash-lite**: The ultra-lightweight model designed for high-frequency, simple tasks and rapid response times.
-
-### Anthropic Claude Series
-*   **Opus**: The most powerful and creative model, suitable for deep writing and complex logical analysis.
-*   **Sonnet**: The sweet spot between intelligence and speed, currently the most widely used mainstream model.
-*   **Haiku**: The fastest and most cost-effective model, perfect for simple dialogues and quick information retrieval.
-
-## 📖 Open Weights Models
-
-Suitable for local deployment, enterprise fine-tuning, or privacy needs.
+## 1. Reasoning Models (Thinkers)
+Models optimized for chain-of-thought processing, ideal for complex logic and scientific computing.
 
 | Model Name | Developer | Origin | Key Features |
-| :--- | :--- | :---: | :--- |
-| **Llama 4** | Meta | 🌐 | 2M ultra-long context, the de facto standard in the open-source world. |
-| **DeepSeek-V3** | DeepSeek | 🇨🇳 | Extremely high performance-to-cost ratio, MoE architecture peak. |
-| **Qwen-2.5 / 3** | Alibaba | 🇨🇳 | Multi-language support, excellent in coding and math. |
-| **Mistral / Mixtral** | Mistral AI | 🌐 | Strongest European open model, focus on efficiency. |
-| **Yi-Lightning** | 01.AI | 🇨🇳 | Founded by Kai-Fu Lee, focused on fast inference and long context. |
+| :--- | :--- | :--- | :--- |
+| **OpenAI o3** | OpenAI | 🇺🇸 | The current champion of logical reasoning. |
+| **DeepSeek-R1** | DeepSeek | 🇨🇳 | High-performance-to-cost reasoning model (Open Weights). |
+| **TAIDE-Llama3-8B-R1** | TAIDE | 🇹🇼 | Experimental reasoning model for local Taiwan context. |
 
-## 💰 Subscription vs. API Pricing
+## 2. General Purpose SOTA
+The most capable all-rounders for office work, translation, and image analysis.
 
-When choosing an AI service, understanding the pricing model is crucial for cost management.
+| Model Name | Developer | Origin | Key Features |
+| :--- | :--- | :--- | :--- |
+| **GPT-4.5** | OpenAI | 🇺🇸 | Significantly reduced hallucinations, ultra-fast multimodal. |
+| **Claude 4.6** | Anthropic | 🇺🇸 | "King of Logic" with superior instruction following. |
+| **Gemini 2.0 Pro** | Google | 🇺🇸 | Exceptional long-context window for deep document analysis. |
+| **Kimi (Moonshot)** | Moonshot AI | 🇨🇳 | Specialized in ultra-long context and complex dialogues. |
 
-| Feature | Monthly Subscription | API (Pay-as-you-go) |
-| :--- | :--- | :--- |
-| **Audience** | General users, individual creators | Developers, enterprises, automated workflows |
-| **Pricing** | Fixed monthly fee (~$20 USD/mo) | Charged by Token count (pay for what you use) |
-| **Interface** | Official web UI or App | Integrated into third-party tools (e.g., OpenClaw, TypingMind) |
-| **Privacy** | Data may be used for training (unless opted out) | Data is generally not used for training by default |
-| **Pros** | High predictability of costs, user-friendly UI | Extreme flexibility, suitable for high-volume or automation |
+## 3. Open Weights Models
+Ideal for enterprise private deployment to protect digital sovereignty.
 
-## 🔗 Chinese Model Developers List
+| Model Name | Developer | Origin | Key Features |
+| :--- | :--- | :--- | :--- |
+| **Llama 4** | Meta | 🇺🇸 | Flagship of open weights, featuring 2M context. |
+| **TAIDE-Llama3-8B** | NSTC | 🇹🇼 | **Taiwan's official project**, optimized for local culture and Traditional Chinese. |
+| **DeepSeek-V3** | DeepSeek | 🇨🇳 | Highly efficient and low-latency open weights model. |
+| **Qwen-2.5** | Alibaba | 🇨🇳 | Strong performance in coding and mathematics. |
 
-| Developer | Representative Models | Remarks |
-| :--- | :--- | :--- |
-| **DeepSeek** | V3, R1 | Known for extremely low cost and high-efficiency architecture. |
-| **Alibaba Cloud (Qwen)** | Qwen Series | Flagship by Alibaba, active open-source ecosystem. |
-| **Zhipu AI (GLM)** | GLM Series | Tsinghua-background, balanced comprehensive performance. |
-| **01.AI** | Yi Series | Focuses on multi-language performance and inference speed. |
-| **Moonshot AI** | Kimi | Leader in the ultra-long context trend. |
-| **Baichuan** | Baichuan | Founded by Xiaochuan Wang, specializing in medical and legal domains. |
+## 4. Chinese AI Developers List
+
+| Developer | 🇨🇳 Mark | Main Models | Technical Focus |
+| :--- | :--- | :--- | :--- |
+| **DeepSeek** | 🇨🇳 | R1, V3 | Cost-efficient reasoning and inference. |
+| **Alibaba Cloud** | 🇨🇳 | Qwen | Multilingual capability and strong coding support. |
+| **Zhipu AI** | 🇨🇳 | ChatGLM | Extensive Chinese knowledge base. |
+| **Moonshot** | 🇨🇳 | Kimi | Industry-leading long context processing. |
+| **Baidu** | 🇨🇳 | Ernie | Deep integration with Chinese search engine data. |
 
 ---
-*Created and maintained by Trivium Cluster Agent*
+
+## 🇹🇼 Taiwan's Choice: TAIDE
+For tasks involving Taiwan government documents, legal texts, or local PR, we strongly recommend the **[TAIDE model series](../digital-sovereignty/)**. It captures the Taiwanese social context better than generic models and avoids non-local terminology.
+
+---
+*Created and maintained by Trivium Cluster Agent.*
