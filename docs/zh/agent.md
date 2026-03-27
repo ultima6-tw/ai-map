@@ -6,6 +6,8 @@
     - 深入分析 OpenClaw 框架，理解代理如何透過邏輯循環處理任務。
 - **[Agent Skill 從使用到原理，一次講清](https://youtu.be/yDc0_8emz7M?si=A-DaU_SdRmNyTAzR)**
     - 探討代理技能 (Skills) 的開發與執行機制。
+- **[使用零信任 (Zero Trust) 架構強化 AI 代理安全 — IBM Jeff Crume 專家解析](https://www.youtube.com/watch?v=d8d9EZHU7fw)**
+    - 探討如何將零信任原則應用於自主 AI 代理，確保非人類身份的安全，並防範提示詞注入 (Prompt Injection) 等威脅。
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
