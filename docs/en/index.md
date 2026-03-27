@@ -33,6 +33,7 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 - **Local RAG**: Privacy-first Retrieval-Augmented Generation. Uses local hardware (NAS/Workstation) to index private docs for precise Q&A without cloud uploads.
 - **Knowledge Graph**: Entity-relationship mapping that goes beyond keyword search for deeper contextual reasoning.
 - **Digital Sovereignty**: The autonomous control over data and infrastructure. In AI, this includes the right to develop models (like TAIDE) that reflect local culture and values.
+- **Neural Network / ANN**: The underlying architecture of modern AI, mimicking brain neurons to learn complex patterns through parameters and gradient descent.
 
 ---
 
