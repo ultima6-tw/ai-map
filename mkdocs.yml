@@ -1,10 +1,10 @@
 site_name: AI Resource Map
 site_url: https://ultima6-tw.github.io/ai-map/
 repo_url: https://github.com/ultima6-tw/ai-map
+
 theme:
-  edit_uri: edit/main/
-  custom_dir: docs/overrides
   name: material
+  edit_uri: edit/main/
   palette:
     - scheme: default
       primary: indigo
@@ -27,6 +27,8 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
+    - content.action.edit
+    - content.action.view
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -39,7 +41,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python:name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -61,7 +63,3 @@ nav:
     - AI Impact: ai-impact.md
     - QMD Tool: qmd.md
     - AI Hallucination: ai-hallucination.md
-theme:
-  features:
-    - content.action.edit
-    - content.action.view
