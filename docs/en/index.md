@@ -26,6 +26,13 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 
 ---
 
+## 🛠️ Core Technical Concepts
+
+- **Local RAG**: Privacy-first retrieval-augmented generation. Uses local hardware (NAS/Workstation) to index private documents for precise Q&A without cloud uploads.
+- **Knowledge Graph**: Entity-relationship mapping beyond keyword search. Builds logical connections between entities for deeper contextual understanding and reasoning.
+
+---
+
 ## 📂 Quick Navigation
 
 - **Core Recommendation**: [Research Workflow](research-workflow/)

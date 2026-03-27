@@ -15,7 +15,7 @@ AI does more than summarize—it helps "discover hidden patterns" and "validate 
 
 ## Advanced Apps: Agents
 - **Multi-step Agents**: Capable of searching 50 papers, converting findings into Excel, and summarizing pros/cons for each.
-- **Local Knowledge Base (RAG)**: Index your PDF library into [QMD](./qmd.md) or [Nexus Knowledge Graph](./agent.md) for full-repository search.
+- **Local Knowledge Base (RAG)**: Index your PDF library into [QMD](./qmd.md) or [Local Knowledge Graph](./agent.md) for full-repository search.
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
