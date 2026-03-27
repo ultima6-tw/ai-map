@@ -54,26 +54,24 @@ markdown_extensions:
 nav:
   - Home: index.md
   - 繁體中文 (ZH):
-    - 概念:
+    - 🧩 [科普] AI 基礎與生活:
       - 什麼是 AI/LLM?: zh/what-is-ai-or-llm.md
+      - AI 應用與案例: zh/ai-application.md
+      - AI 對我們的影響: zh/ai-impact.md
+      - 安全使用 (防幻覺): zh/ai-hallucination.md
+    - 🔬 [科研] 專業實戰與工具:
       - 如何獲得最佳 LLM: zh/how-get-best-llm.md
-      - Agent 基礎: zh/agent.md
-    - 資源:
-      - AI 應用: zh/ai-application.md
-      - AI 新聞: zh/ai-news.md
-    - 影響與工具:
-      - AI 影響: zh/ai-impact.md
-      - QMD 工具: zh/qmd.md
-      - AI 幻覺: zh/ai-hallucination.md
+      - Agent 智能體基礎: zh/agent.md
+      - QMD 本地知識引擎: zh/qmd.md
+    - 📢 最新新聞: zh/ai-news.md
   - English (EN):
-    - Concepts:
+    - 🧩 [General] AI Basics & Life:
       - What is AI/LLM?: en/what-is-ai-or-llm.md
+      - AI Applications: en/ai-application.md
+      - AI Impacts: en/ai-impact.md
+      - Safe Usage (Hallucination): en/ai-hallucination.md
+    - 🔬 [Scientific] Research & Tools:
       - How to get best LLM: en/how-get-best-llm.md
       - Agent Basics: en/agent.md
-    - Resources:
-      - AI Applications: en/ai-application.md
-      - AI News: en/ai-news.md
-    - Impact & Tools:
-      - AI Impact: en/ai-impact.md
-      - QMD Tool: en/qmd.md
-      - AI Hallucination: en/ai-hallucination.md
+      - QMD Local Knowledge: en/qmd.md
+    - 📢 AI News: en/ai-news.md
