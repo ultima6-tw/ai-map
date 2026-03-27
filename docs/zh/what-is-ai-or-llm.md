@@ -23,6 +23,10 @@ LLM 的本質是一個超級強大的「文字接龍」引擎：
 
 - **[李宏毅 Hung-yi Lee (YouTube 頻道)](https://www.youtube.com/@HungyiLeeNTU)**
     - **強烈推薦**：台大李宏毅教授的機器學習與深度學習課程，是全球華語圈公認最優質、最易懂的 AI 入門教材。
+- **[But what is a GPT? Visual intro to Transformers](https://youtu.be/wjZofJX0v4M?si=GzK16kE_65k7x_9e)**
+    - **視覺化神作**：3Blue1Brown 製作，利用強大的數學視覺化工具，講解 Transformer 如何運作、什麼是注意力機制 (Attention)。
+- **[A Visual Guide to How LLMs Work](https://youtu.be/XLN2x3bAMLQ?si=WpDqG4B9Xk6_6m7b)**
+    - **原理詳解**：同樣來自 3Blue1Brown，深入淺出地解釋了大型語言模型如何將「意義」轉化為向量空間，並進行機率預測。
 - **[A Visual Guide to How Llama 3 Works](https://youtu.be/OQ_EhCtNc2M?si=G0kS976G77x_M7N4)**
     - **視覺化詳解**：透過極其精美且直觀的動畫，手把手帶你拆解 Llama 3 的運作過程，從 Tokenization 到輸出。
 - **[【漫士科普】GPT 是如何工作的？為什麼要預測下一個詞？](https://youtu.be/j5N2j6Ydhao?si=awVsdfhlfcYgOsiL)**

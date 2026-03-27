@@ -23,6 +23,10 @@ For a deeper dive into the underlying principles, these resources provide excell
 
 - **[Hung-yi Lee (YouTube Channel)](https://www.youtube.com/@HungyiLeeNTU)**
     - **Highly Recommended**: Professor Hung-yi Lee from National Taiwan University provides some of the most accessible and high-quality machine learning courses globally.
+- **[But what is a GPT? Visual intro to Transformers](https://youtu.be/wjZofJX0v4M?si=GzK16kE_65k7x_9e)**
+    - **Visual Masterpiece**: By 3Blue1Brown, explaining how Transformers work and what Attention really is using advanced mathematical animations.
+- **[A Visual Guide to How LLMs Work](https://youtu.be/XLN2x3bAMLQ?si=WpDqG4B9Xk6_6m7b)**
+    - **Core Principles**: Also by 3Blue1Brown, explaining how LLMs represent "meaning" in vector space and use it for probability prediction.
 - **[A Visual Guide to How Llama 3 Works](https://youtu.be/OQ_EhCtNc2M?si=G0kS976G77x_M7N4)**
     - **Visualization**: A step-by-step visual breakdown of how Llama 3 works, from Tokenization to final output, with stunning animations.
 - **[How GPT Works: Why Predict the Next Word?](https://youtu.be/j5N2j6Ydhao?si=awVsdfhlfcYgOsiL)**
