@@ -1,13 +1,29 @@
-# 什麼是 AI 與 LLM? (Foundations)
+# 什麼是 AI 與大型語言模型 (LLM)?
 
-從底層原理出發，理解神經網路與大型語言模型的運作方式。
+大型語言模型 (Large Language Models, LLM) 是當前 AI 發展的核心。它們並非「理解」人類語言，而是透過極大規模的數據學習，預測下一個字出現的機率。
 
-- **[【漫士科普】GPT 是如何工作的？為什麼要預測下一個詞？](https://youtu.be/j5N2j6Ydhao?si=awVsdfhlfcYgOsiL)**
-    - 深入淺出地解釋 GPT 的核心邏輯：機率性地預測下一個 Token。
-- **[ChatGPT 原理揭密！背後的黑科技 Transformer](https://youtu.be/nIncwp0iAkw?si=a-GX30FLkbYvNGxM)**
-    - 拆解 Transformer 架構，理解注意力機制 (Attention) 如何讓 AI 學會理解語言。
-- **[But what is a neural network? | Deep learning chapter 1](https://youtu.be/aircAruvnKk?si=RCSHOuQ3Svu97AI9)**
-    - 3Blue1Brown 的經典系列，透過視覺化方式呈現神經網路底層的數學與結構。
+## 核心運作機制：機率預測
+
+LLM 的本質是一個超級強大的「文字接龍」引擎：
+1. **輸入 (Prompt)**：當你輸入一段話時，模型會將其轉化為數值向量 (Tokens)。
+2. **預測 (Prediction)**：模型會根據之前的訓練數據，計算出下一個最有可能出現的字 (或词組)。
+3. **循環 (Iteration)**：模型產出一個字後，會將其放回輸入中，繼續預測下一個字，直到生成完整的句子。
+
+## 為什麼稱為「大型」？
+
+- **數據量大**：訓練數據包含網路上數以兆計的文字、書籍、程式碼。
+- **參數多**：模型內部的「神經元」連結數量極多（如 GPT-4 擁有上兆個參數），這讓它具備處理複雜邏輯的能力。
+
+## LLM 的核心概念
+
+### 1. 湧現能力 (Emergent Abilities)
+當模型規模達到一定程度後，會突然展現出原先小規模模型所不具備的能力，例如多步驟推理、幽默感或是程式碼解釋。
+
+### 2. 微調與對齊 (Fine-tuning & Alignment)
+模型最初只是在「背誦」網路資訊，透過 **RLHF (人類回饋強化學習)**，AI 專家能引導模型學習如何更安全、更有禮貌且更精準地回答人類問題。
+
+### 3. Context Window (上下文視窗)
+這代表 AI 的「短暫記憶」。如果你提供的訊息超出了這個視窗，AI 就會忘記對話開頭提到的細節。
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
