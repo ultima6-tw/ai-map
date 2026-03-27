@@ -1,62 +1,36 @@
 # 🚀 AI Resource Map
 
-Welcome to the **AI Resource Map**. This is a curated knowledge base designed to help you navigate the rapidly evolving AI landscape.
+Welcome to the **AI Resource Map**. This is a curated knowledge base designed to help you navigate the rapidly evolving field of Artificial Intelligence.
 
-## 🗺️ Visual Roadmap
+## 🗺️ Map Overview
 
-```mermaid
-flowchart LR
-    root((AI Map)) --- Basics(Basics)
-    root --- Practical(Practical)
-    root --- Research(Research)
-    root --- Trends(Trends)
+### Basics
+- **[What is LLM?](what-is-ai-or-llm/)**: Fundamental concepts and principles of Large Language Models.
+- **[Preventing Hallucination](ai-hallucination/)**: Understanding why AI hallucinates and how to minimize errors.
+- **[AI Use Cases](ai-application/)**: Concrete examples of AI applications in various real-world scenarios.
 
-    Basics --- B1[What is LLM?]
-    Basics --- B2[Hallucination Prevention]
-    Basics --- B3[AI Applications]
+### Practical
+- **[🖥️ Coding & Dev](tools-coding/)**: Practices for Cursor, GitHub Copilot, and automated development agents.
+- **[🎨 Image Generation](tools-image/)**: Practical guides for Midjourney, Flux.1, and Stable Diffusion.
+- **[🏠 Local AI & Privacy](local-ai-privacy/)**: Ollama and local hardware configurations to ensure data privacy.
 
-    Practical --- P1[🖥️ Coding Tools]
-    Practical --- P2[🎨 Image Generation]
-    Practical --- P3[🏠 Local AI & Privacy]
+### Research
+- **[🔍 Research Workflow](research-workflow/)**: Using AI for efficient literature review, data analysis, and writing.
+- **[⚡ Advanced Prompting](advanced-prompting/)**: Structured prompting, Chain-of-Thought (CoT), and fine-tuning techniques.
+- **[🧩 Agents](agent/)**: Deep dive into OpenClaw architecture and AI agent skill development.
+- **[📂 QMD Local Knowledge](qmd/)**: Building and searching efficient local knowledge indexes with QMD.
 
-    Research --- R1[🔍 AI-Assisted Workflow]
-    Research --- R2[⚡ Advanced Prompting]
-    Research --- R3[🧩 AI Agents]
-    Research --- R4[📂 QMD Local Knowledge]
+### Trends
+- **[🎓 Interdisciplinary Research](academic-trends/)**: Tracking AI breakthroughs in science like GNoME and AlphaFold.
+- **[AI News](ai-news/)**: Real-time updates on AI industry trends and technical advancements.
 
-    Trends --- T1[🎓 Cross-domain Research]
-    Trends --- T2[Latest AI News]
+---
 
-    click B1 "what-is-ai-or-llm/" "View What is LLM?"
-    click B2 "ai-hallucination/" "View Hallucination Prevention"
-    click B3 "ai-application/" "View AI Applications"
-    click P1 "tools-coding/" "View 🖥️ Coding Tools"
-    click P2 "tools-image/" "View 🎨 Image Generation"
-    click P3 "local-ai-privacy/" "View 🏠 Local AI & Privacy"
-    click R1 "research-workflow/" "View 🔍 AI-Assisted Workflow"
-    click R2 "advanced-prompting/" "View ⚡ Advanced Prompting"
-    click R3 "agent/" "View 🧩 AI Agents"
-    click R4 "qmd/" "View 📂 QMD Local Knowledge"
-    click T1 "academic-trends/" "View 🎓 Cross-domain Research"
-    click T2 "ai-news/" "View Latest AI News"
-    
-    style root fill:#f9f,stroke:#333,stroke-width:2px
-    style Basics fill:#bbf,stroke:#333
-    style Practical fill:#bfb,stroke:#333
-    style Research fill:#fbb,stroke:#333
-    style Trends fill:#fdb,stroke:#333
-```
+## 📂 Quick Navigation
 
-## 📂 Explore Categories
-
-- **[🖥️ AI-Powered Coding](tools-coding.md)**: Cursor, GitHub Copilot, and autonomous dev agents.
-- **[🎨 Image Generation](tools-image.md)**: Midjourney, Flux.1, and Stable Diffusion techniques.
-- **[🏠 Local AI & Privacy](local-ai-privacy.md)**: Ollama and hardware guides for local inference.
-- **[🔍 Academic Workflow](research-workflow.md)**: **Primary Focus**. Using AI for literature review and data analysis.
-- **[⚡ Advanced Prompting](advanced-prompting.md)**: Structured prompts, fine-tuning (LoRA), and optimization.
-- **[🎓 Cross-domain Research](academic-trends.md)**: Tracking AI breakthroughs in science (GNoME, AlphaFold).
-- **[🧩 Agent Basics](agent.md)**: Principles of OpenClaw and agent skill development.
-- **[📂 QMD Local Knowledge](qmd.md)**: High-efficiency local knowledge base indexing.
+- **Core Recommendation**: [Research Workflow](research-workflow/)
+- **Local Deployment**: [Local AI & Privacy](local-ai-privacy/)
+- **Advanced Skills**: [Advanced Prompting](advanced-prompting/)
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
