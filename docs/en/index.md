@@ -30,6 +30,7 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 
 - **Local RAG**: Privacy-first retrieval-augmented generation. Uses local hardware (NAS/Workstation) to index private documents for precise Q&A without cloud uploads.
 - **Knowledge Graph**: Entity-relationship mapping beyond keyword search. Builds logical connections between entities for deeper contextual understanding and reasoning.
+- **Neural Network / ANN**: The architectural foundation of modern AI, mimicking brain structures. Through parameter adjustment and gradient descent, it enables deep learning tasks from simple classification to complex reasoning.
 
 ---
 
