@@ -8,6 +8,7 @@
 - **[Jan.ai](https://jan.ai/)**: 開源且注重隱私的本地 AI 對話工具，支援所有常見操作系統。
 
 ## 硬體建議 (2026 觀點)
+- **[Can I Run AI?](https://www.canirun.ai/)**: 快速檢測您的硬體是否具備運行主流 AI 模型（如 Llama 3/4, Stable Diffusion）的能力。
 - **顯存 (VRAM) 是關鍵**: 模型的大小取決於顯存。8GB 可跑 7B-8B 模型，16GB-24GB (如 RTX 3090/4090/5080) 可跑 70B 模型。
 - **Mac 用戶**: Apple Silicon (M2/M3/M4 Max) 的統一記憶體架構非常適合跑大參數模型。
 

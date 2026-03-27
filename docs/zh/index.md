@@ -12,7 +12,7 @@
 ### 實戰應用 (Practical)
 - **[🖥️ 程式開發](tools-coding/)**: Cursor, GitHub Copilot 與自動化開發代理實踐。
 - **[🎨 影像生成](tools-image/)**: Midjourney, Flux.1 與 Stable Diffusion 實戰指南。
-- **[🏠 本地模型與隱私](local-ai-privacy/)**: Ollama 與本地算力配置，確保數據不外流。
+- **[🏠 本地模型與隱私](local-ai-privacy/)**: Ollama 與本地算力配置，確保數據不外流。(推薦: [Can I Run AI?](https://www.canirun.ai/))
 
 ### 核心研究 (Research)
 - **[🔍 學術研究工作流](research-workflow/)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。

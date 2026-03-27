@@ -12,7 +12,7 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 ### Practical
 - **[🖥️ Coding & Dev](tools-coding/)**: Practices for Cursor, GitHub Copilot, and automated development agents.
 - **[🎨 Image Generation](tools-image/)**: Practical guides for Midjourney, Flux.1, and Stable Diffusion.
-- **[🏠 Local AI & Privacy](local-ai-privacy/)**: Ollama and local hardware configurations to ensure data privacy.
+- **[🏠 Local AI - **[🏠 Local AI & Privacy](local-ai-privacy/)**: Ollama and local hardware configurations to ensure data privacy. Privacy](local-ai-privacy/)**: Ollama and local hardware configurations to ensure data privacy. (Rec: [Can I Run AI?](https://www.canirun.ai/))
 
 ### Research
 - **[🔍 Research Workflow](research-workflow/)**: Using AI for efficient literature review, data analysis, and writing.
