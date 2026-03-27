@@ -1,6 +1,6 @@
 # 🚀 AI Resource Map
 
-Welcome to the **AI Resource Map**. This is a curated knowledge base for navigating the rapidly evolving AI landscape.
+Welcome to the **AI Resource Map**. This is a curated knowledge base designed to help you navigate the rapidly evolving landscape of Artificial Intelligence.
 
 ## 🗺️ Visual Roadmap
 
@@ -13,22 +13,26 @@ mindmap
       AI Agents
     Applications
       Productivity
-      Creativity
-      Developer Tools
+      Creative
+      Dev Tools
     Resources
       AI News
       Tools & SDKs
     Impact
       AI Ethics
-      Future of Work
+      Future Trends
 ```
 
 ## 📂 Explore Categories
 
-- **[What is AI/LLM?](what-is-ai-or-llm.md)**: Foundation of Artificial Intelligence.
-- **[How to get the best LLM](how-get-best-llm.md)**: Tips for selection and fine-tuning.
-- **[AI Applications](ai-application.md)**: Practical uses in daily life.
-- **[AI News](ai-news.md)**: Stay updated with the latest trends.
+- **[What is AI/LLM?](what-is-ai-or-llm.md)**: Fundamentals of AI and the mechanics of Large Language Models.
+- **[How to get best LLM](how-get-best-llm.md)**: LoRA fine-tuning, Knowledge Graph integration, and Prompt Engineering.
+- **[AI Agents](agent.md)**: Understanding the principles of OpenClaw and the development of Agent Skills.
+- **[AI Applications](ai-application.md)**: Case studies in scientific research, material synthesis, and biomedicine.
+- **[AI News](ai-news.md)**: Global progress in supercomputing and AI infrastructure.
+- **[AI Impact](ai-impact.md)**: Challenges to the video industry, personal value, and the job market.
+- **[QMD Tool](qmd.md)**: High-performance local knowledge search and indexing.
+- **[AI Hallucination](ai-hallucination.md)**: Identifying systematic fabrication in academic research and "Vibe Physics".
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
