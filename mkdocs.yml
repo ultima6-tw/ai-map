@@ -50,11 +50,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - tables
-  - i18n:
-      default_language: zh
-      languages:
-        zh: 繁體中文
-        en: English
 
 nav:
   - Home: index.md
