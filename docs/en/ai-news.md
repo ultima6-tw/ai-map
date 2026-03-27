@@ -2,6 +2,12 @@
 
 Tracking the global progress of supercomputing and next-generation AI infrastructure.
 
+- **[GPT-4.5: Universal Performance Upgrade | OpenAI](https://openai.com/blog/gpt-4-5-announcement/)**
+    - OpenAI officially launches GPT-4.5, specifically targeting the reduction of logical hallucinations and the enhancement of complex reasoning, while significantly improving real-time multimodal (Vision/Audio) response.
+
+- **[o3: Reinforcement Learning Reasoning Model | OpenAI](https://openai.com/blog/o3-release/)**
+    - OpenAI introduces o3, a reasoning model that leverages large-scale reinforcement learning to demonstrate superhuman logical depth in complex scientific and coding tasks.
+
 - **[FugakuNEXT | RIKEN Center for Computational Science](https://www.r-ccs.riken.jp/en/fugaku-next/)**
     - The RIKEN Center for Computational Science (R-CCS) is spearheading the development of "Fugaku-NEXT," the next-generation Japanese supercomputer. This project aims to build a world-class AI-integrated infrastructure to accelerate scientific discovery and industrial innovation.
 

@@ -2,6 +2,12 @@
 
 關注全球 AI 基礎設施與技術演進的最新進展。
 
+- **[GPT-4.5: 全方位性能提升 | OpenAI](https://openai.com/blog/gpt-4-5-announcement/)**
+    - OpenAI 正式推出 GPT-4.5，專注於解決邏輯幻覺與提升複雜推理能力，並顯著增強了多模態 (Vision/Audio) 的即時響應性能。
+
+- **[o3: 強化學習推理模型 | OpenAI](https://openai.com/blog/o3-release/)**
+    - OpenAI 推出 o3 推理模型，透過大規模強化學習，在科學研究與編程等複雜任務中展現出超越人類專家的邏輯推理能力。
+
 - **[FugakuNEXT | RIKEN Center for Computational Science](https://www.r-ccs.riken.jp/en/fugaku-next/)**
     - 日本理化學研究所 (RIKEN) 啟動的「富岳 (Fugaku)」超級電腦下一代計畫，旨在建立全球最強大的 AI 運算基礎設施。
 
