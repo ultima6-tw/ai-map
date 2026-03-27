@@ -23,6 +23,8 @@ LLM 的本質是一個超級強大的「文字接龍」引擎：
 
 - **[李宏毅 Hung-yi Lee (YouTube 頻道)](https://www.youtube.com/@HungyiLeeNTU)**
     - **強烈推薦**：台大李宏毅教授的機器學習與深度學習課程，是全球華語圈公認最優質、最易懂的 AI 入門教材。
+- **[A Visual Guide to How Llama 3 Works](https://youtu.be/OQ_EhCtNc2M?si=G0kS976G77x_M7N4)**
+    - **視覺化詳解**：透過極其精美且直觀的動畫，手把手帶你拆解 Llama 3 的運作過程，從 Tokenization 到輸出。
 - **[【漫士科普】GPT 是如何工作的？為什麼要預測下一個詞？](https://youtu.be/j5N2j6Ydhao?si=awVsdfhlfcYgOsiL)**
     - 深入淺出地解釋 GPT 的核心邏輯：機率性地預測下一個 Token。
 - **[ChatGPT 原理揭密！背後的黑科技 Transformer](https://youtu.be/nIncwp0iAkw?si=a-GX30FLkbYvNGxM)**
