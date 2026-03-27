@@ -13,5 +13,3 @@
 - **[NVIDIA Blackwell B300 系列正式發布 | NVIDIA](https://nvidianews.nvidia.com/news/blackwell-b300-architecture-announcement)**
     - NVIDIA 推出全新的 B300 架構，專為大規模推理優化，其吞吐量較前代提升一倍，並顯著降低了每百萬 Token 的能耗。
 
-- **[DeepSeek-V4：突破成本極限 | DeepSeek](https://www.deepseek.com/news/v4-launch)**
-    - DeepSeek 發表 V4 模型，透過創新的混合專家模型 (MoE) 架構，以僅為 GPT-4o 十分之一的訓練與推理成本，實現了同等級別的效能。

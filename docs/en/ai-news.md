@@ -13,5 +13,3 @@ Tracking the global progress of supercomputing and next-generation AI infrastruc
 - **[NVIDIA Blackwell B300 Series Announced | NVIDIA](https://nvidianews.nvidia.com/news/blackwell-b300-architecture-announcement)**
     - NVIDIA introduces the B300 architecture, specifically optimized for large-scale inference. It doubles the throughput of its predecessor while significantly reducing energy consumption per million tokens.
 
-- **[DeepSeek-V4: Breaking the Cost Barrier | DeepSeek](https://www.deepseek.com/news/v4-launch)**
-    - DeepSeek launches V4, utilizing an innovative Mixture-of-Experts (MoE) architecture to achieve GPT-4o level performance at 1/10th the training and inference cost.

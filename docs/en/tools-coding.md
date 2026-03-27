@@ -11,7 +11,6 @@ AI is transforming how developers work, moving from simple code completion to fu
 ## Recommended Models
 - **Claude 3.5 Sonnet**: Widely regarded by developers as the "King of Logic," excelling in coding tasks with minimal errors.
 - **GPT-4o / o1**: OpenAI's reasoning models, perfect for complex architecture and algorithmic challenges.
-- **DeepSeek Coder V2**: A powerful open-source coding model with GPT-4 class performance at a much lower cost.
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
