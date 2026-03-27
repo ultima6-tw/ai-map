@@ -1,0 +1,67 @@
+site_name: AI Resource Map
+site_url: https://ultima6-tw.github.io/ai-map/
+repo_url: https://github.com/ultima6-tw/ai-map
+theme:
+  edit_uri: edit/main/
+  custom_dir: docs/overrides
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+
+nav:
+  - Home: index.md
+  - Concepts:
+    - What is AI/LLM?: what-is-ai-or-llm.md
+    - How to get best LLM: how-get-best-llm.md
+    - Agent Basics: agent.md
+  - Resources:
+    - AI Applications: ai-application.md
+    - AI News: ai-news.md
+  - Impact & Tools:
+    - AI Impact: ai-impact.md
+    - QMD Tool: qmd.md
+    - AI Map Source: ai--.md
+theme:
+  features:
+    - content.action.edit
+    - content.action.view
