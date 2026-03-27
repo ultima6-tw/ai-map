@@ -4,7 +4,8 @@ repo_url: https://github.com/ultima6-tw/ai-map
 
 theme:
   name: material
-  edit_uri: edit/main/
+  language: en
+  edit_uri: edit/main/docs/
   palette:
     - scheme: default
       primary: indigo
@@ -49,17 +50,35 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - tables
+  - i18n:
+      default_language: zh
+      languages:
+        zh: 繁體中文
+        en: English
 
 nav:
   - Home: index.md
-  - Concepts:
-    - What is AI/LLM?: what-is-ai-or-llm.md
-    - How to get best LLM: how-get-best-llm.md
-    - Agent Basics: agent.md
-  - Resources:
-    - AI Applications: ai-application.md
-    - AI News: ai-news.md
-  - Impact & Tools:
-    - AI Impact: ai-impact.md
-    - QMD Tool: qmd.md
-    - AI Hallucination: ai-hallucination.md
+  - 繁體中文 (ZH):
+    - 概念:
+      - 什麼是 AI/LLM?: zh/what-is-ai-or-llm.md
+      - 如何獲得最佳 LLM: zh/how-get-best-llm.md
+      - Agent 基礎: zh/agent.md
+    - 資源:
+      - AI 應用: zh/ai-application.md
+      - AI 新聞: zh/ai-news.md
+    - 影響與工具:
+      - AI 影響: zh/ai-impact.md
+      - QMD 工具: zh/qmd.md
+      - AI 幻覺: zh/ai-hallucination.md
+  - English (EN):
+    - Concepts:
+      - What is AI/LLM?: en/what-is-ai-or-llm.md
+      - How to get best LLM: en/how-get-best-llm.md
+      - Agent Basics: en/agent.md
+    - Resources:
+      - AI Applications: en/ai-application.md
+      - AI News: en/ai-news.md
+    - Impact & Tools:
+      - AI Impact: en/ai-impact.md
+      - QMD Tool: en/qmd.md
+      - AI Hallucination: en/ai-hallucination.md
