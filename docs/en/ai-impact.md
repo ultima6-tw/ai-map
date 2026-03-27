@@ -7,7 +7,7 @@ The profound effects of AI on creative industries, the job market, human self-wo
 As AI tools become ubiquitous, the relationship between humans and AI is evolving from "tool usage" to "symbiotic dependency." This raises critical discussions about cognitive decline, the loss of critical thinking, and the control over technology.
 
 - **[The Brain Stolen by AI? Discussing AI Dependency](https://www.youtube.com/watch?v=23Azr7n2FnI)**
-    - **Recommended**: A discussion by **Mr & Mrs Gao**. It explores whether over-reliance on AI for thinking and decision-making will lead to the atrophy of human cognitive abilities, and how to maintain uniqueness in the "AI Era."
+    - Explores whether over-reliance on AI for thinking and decision-making will lead to the atrophy of human cognitive abilities, and how to maintain uniqueness in the "AI Era."
 - **[AI can replace me, so what is my purpose?](https://youtu.be/euvZ8Z_5zK0?si=GyqxEO9yn-X7zu8H)**
     - A deep dialogue on rethinking human creativity and the meaning of life amidst waves of technological automation.
 
