@@ -12,7 +12,8 @@
 ### 實戰應用 (Practical)
 - **[🖥️ 程式開發](tools-coding/)**: Cursor, GitHub Copilot 與自動化開發代理實踐。
 - **[🎨 影像生成](tools-image/)**: Midjourney, Flux.1 與 Stable Diffusion 實戰指南。
-- **[🏠 本地模型與隱私](local-ai-privacy/)**: Ollama 與本地算力配置，確保數據不外流。(推薦: [Can I Run AI?](https://www.canirun.ai/))
+- **[🏠 本地模型與隱私](local-ai-privacy/)**: Ollama 與本地算力配置，確保數據不外流。
+- **[🇹🇼 數位主權與 TAIDE](digital-sovereignty/)**: 了解台灣如何建立信任對話引擎並守護文化主體性。
 
 ### 核心研究 (Research)
 - **[🔍 學術研究工作流](research-workflow/)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
@@ -21,8 +22,9 @@
 - **[📂 QMD 本地知識](qmd/)**: 使用 QMD 建立與搜尋高效的本地知識索引。
 
 ### 前沿趨勢 (Trends)
+- **[🧠 AI 模型概覽](model-index/)**: 全球主流 AI 模型對比與標註。
+- **[📰 最新 AI 新聞](ai-news/)**: 即時更新的 AI 行業動態與技術進展。
 - **[🎓 跨領域學術研究](academic-trends/)**: 追蹤 GNoME, AlphaFold 等科學領域的 AI 重大突破。
-- **[最新 AI 新聞](ai-news/)**: 即時更新的 AI 行業動態與技術進展。
 
 ---
 
@@ -30,15 +32,15 @@
 
 - **本地 RAG (Local RAG)**: 隱私優先的檢索增強生成技術。利用 NAS 或工作站等本地硬體，對私有文檔進行索引，實現無需上傳雲端的精準問答。
 - **知識圖譜 (Knowledge Graph)**: 超越傳統關鍵字搜尋的實體關係映射技術。通過建立實體間的邏輯連接，提供更深層次的上下文理解與推理能力。
-- **神經網路 (Neural Network / ANN)**: 現代 AI 的基礎架構，模擬大腦神經元處理資訊的方式。通過參數 (Parameters) 的調整與梯度下降，實現從簡單分類到複雜推理的深度學習功能。
+- **數位主權 (Digital Sovereignty)**: 指個人或國家對數據與計算基礎設施的自主權。在 AI 時代，這包括了開發具備在地文化特徵模型 (如 TAIDE) 的權力。
 
 ---
 
 ## 📂 快速導航
 
+- **台灣特色**: [數位主權與 TAIDE](digital-sovereignty/)
 - **核心推薦**: [學術研究工作流](research-workflow/)
 - **本地部署**: [本地模型與隱私](local-ai-privacy/)
-- **進階技巧**: [提示詞工程進階](advanced-prompting/)
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
