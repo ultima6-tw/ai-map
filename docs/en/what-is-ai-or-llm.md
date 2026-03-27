@@ -2,6 +2,14 @@
 
 Large Language Models (LLM) are the core of modern AI development. They learn to predict the probability of the next word based on massive datasets.
 
+## Biological Neural Networks vs. Artificial Neural Networks (LLM)
+
+The key to understanding LLMs lies in their underlying structure: **Artificial Neural Networks (ANN)**.
+
+- **Biological Neural Network**: The human brain consists of billions of neurons that learn and react by passing electrical signals through synapses.
+- **Artificial Neural Network (Basis of LLM)**: Scientists mimic this structure using mathematical formulas to simulate neuronal behavior. In LLMs, these "simulated neurons" are called **Parameters**.
+- **The Relationship**: An LLM is essentially a digitized brain. When a model has "175 billion parameters," think of it as having 175 billion digital neural connections. Through these connections, the model learns grammar, logic, and common sense from vast amounts of text.
+
 ## Core Mechanism: Probability Prediction
 
 At its heart, an LLM is a powerful "text completion" engine:
