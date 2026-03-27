@@ -6,7 +6,7 @@ AI technology has expanded from generating images to understanding them in real-
 Modern Multimodal LLMs allow for complex vision tasks:
 - **[GPT-4o (Omni)](https://openai.com/gpt-4o)**: Near-instant visual perception, capable of "seeing" and discussing objects, facial expressions, and complex charts in real-time.
 - **[Gemini 1.5 Pro](https://deepmind.google/technologies/gemini/)**: Features a 1M+ token context window, allowing it to analyze massive video files or thousands of images at once.
-- **[Claude 3.5 Sonnet](https://www.anthropic.com/claude/sonnet)**: Superior at spatial reasoning and technical diagram extraction (OCR/Table Parsing).
+- **[Claude 4.6](https://www.anthropic.com/claude/sonnet)**: Superior at spatial reasoning and technical diagram extraction (OCR/Table Parsing).
 
 ## 🎨 Image Generation (旗艦工具)
 - **[Midjourney](https://www.midjourney.com/)**: The king of artistic aesthetics, excelling in composition and color grading.
