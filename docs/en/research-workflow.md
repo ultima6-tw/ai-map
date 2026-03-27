@@ -17,5 +17,8 @@ AI does more than summarize—it helps "discover hidden patterns" and "validate 
 - **Multi-step Agents**: Capable of searching 50 papers, converting findings into Excel, and summarizing pros/cons for each.
 - **Local Knowledge Base (RAG)**: Index your PDF library into [QMD](./qmd.md) or [Local Knowledge Graph](./agent.md) for full-repository search.
 
+## 📺 Recommended Resources
+- **[YouTube] The Impact of AI Agents on Work - A Case Study in Academic Research**: [Watch here](https://www.youtube.com/watch?v=VqB8zMujdjM) (Discusses the different roles of AI in conference/journal papers vs. degree theses).
+
 ---
 *Created and maintained by Trivium Cluster Agent.*
