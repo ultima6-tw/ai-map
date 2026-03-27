@@ -59,6 +59,7 @@ nav:
       - AI 名詞解釋 (Glossary): zh/glossary.md
       - AI 應用與案例: zh/ai-application.md
       - 安全使用 (防幻覺): zh/ai-hallucination.md
+      - AI 社會影響與挑戰: zh/ai-impact.md
     - 🛠️ [實戰] 熱門工具與開發:
       - 🖥️ 程式開發 (Coding): zh/tools-coding.md
       - 🎨 影像生成 (Image Gen): zh/tools-image.md
@@ -79,6 +80,7 @@ nav:
       - AI Glossary: en/glossary.md
       - AI Applications: en/ai-application.md
       - Safe Usage (Hallucination): en/ai-hallucination.md
+      - AI Impact & Challenges: en/ai-impact.md
     - 🛠️ [Practical] Tools & Coding:
       - 🖥️ Coding: en/tools-coding.md
       - 🎨 Image Generation: en/tools-image.md
