@@ -1,11 +1,14 @@
 # 🏠 本地模型與隱私 (Local AI & Privacy)
 
-為什麼要在本地運行 AI？為了**數據安全**、**無審查**以及**零訂閱費**。
+為什麼要在本地運行 AI？為了**數據安全**、**無審查**以及**零訂閱費**。這也是實現 **[數位主權 (Digital Sovereignty)](../digital-sovereignty/)** 的第一步。
 
 ## 核心工具
 - **[Ollama](https://ollama.com/)**: 在本地運行 Llama 3, Mistral, Gemma 等模型的最簡單方式。
 - **[LM Studio](https://lmstudio.ai/)**: 提供圖形化界面，支援搜尋與下載 Hugging Face 上的 GGUF 格式模型。
 - **[Jan.ai](https://jan.ai/)**: 開源且注重隱私的本地 AI 對話工具，支援所有常見操作系統。
+
+## 在地模型推薦
+- **TAIDE-Llama3-8B**: 專為台灣在地語言習慣優化的 Llama 3 微調版模型，適合處理繁體中文文書任務。
 
 ## 硬體建議 (2026 觀點)
 - **[Can I Run AI?](https://www.canirun.ai/)**: 快速檢測您的硬體是否具備運行主流 AI 模型（如 Llama 3/4, Stable Diffusion）的能力。
