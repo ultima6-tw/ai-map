@@ -63,6 +63,7 @@ nav:
       - 🖥️ 程式開發 (Coding): zh/tools-coding.md
       - 🎨 影像生成 (Image Gen): zh/tools-image.md
       - 🏠 本地模型與隱私 (Local AI): zh/local-ai-privacy.md
+      - 🇹🇼 數位主權 (Digital Sovereignty): zh/digital-sovereignty.md
     - 🔬 [科研] AI 輔助研究:
       - ⚡ 提示詞工程進階: zh/advanced-prompting.md
       - 🔍 學術研究工作流: zh/research-workflow.md
@@ -82,6 +83,7 @@ nav:
       - 🖥️ Coding: en/tools-coding.md
       - 🎨 Image Generation: en/tools-image.md
       - 🏠 Local AI & Privacy: en/local-ai-privacy.md
+      - 🇹🇼 Digital Sovereignty: en/digital-sovereignty.md
     - 🔬 [Research] AI-Assisted Study:
       - ⚡ Advanced Prompting: en/advanced-prompting.md
       - 🔍 Academic Workflow: en/research-workflow.md
