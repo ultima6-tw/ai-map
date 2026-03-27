@@ -1,6 +1,6 @@
 # 🔍 Academic Workflow (AI-Assisted Research)
 
-AI does more than summarize—it helps "discover hidden patterns" and "validate research hypotheses."
+AI does more than summarize—it helps "discover hidden patterns" and "validate research hypotheses." Choosing the right technical path (RAG or Long Context) is crucial when dealing with vast academic resources.
 
 ## Core AI Research Workflow
 
@@ -18,9 +18,28 @@ AI does more than summarize—it helps "discover hidden patterns" and "validate 
 - **Goal**: Speed up the transformation from raw data to visualization and descriptive text.
 
 ### 4. Writing & Proofreading
-- **How-to**: Paste your draft into Claude 3.5 Sonnet.
+- **How-to**: Paste your draft into Claude 4.6 (King of Logic).
 - **Prompt Example**: "This is the Methods section of my paper. Refine it for academic tone and clarity. Ensure terminology is accurate, fix grammar, and check logical transitions between sentences. Keep my data intact, focusing only on phrasing and structure."
 - **Goal**: Elevate the linguistic professionalism to meet journal submission standards.
+
+---
+
+## 🔬 Tech Debate: RAG or Long Context?
+
+With the expansion of model Context Windows (like Gemini's 1M+ or Llama 4's 2M+), researchers face a critical choice: Should I use **RAG (Retrieval-Augmented Generation)** or feed everything into a **Long Context model**?
+
+| Dimension | RAG | Long Context |
+| :--- | :--- | :--- |
+| **Use Case** | Massive databases (1,000s of papers). | Deep analysis of 10-50 core papers. |
+| **Cost (Tokens)** | Low (only relevant snippets). | High (requires reading full text each turn). |
+| **Accuracy** | Depends on retrieval quality but precise. | Stronger cross-paragraph reasoning; beware of "Lost in the Middle." |
+| **Latency** | Faster. | TTFT increases as the input grows. |
+
+### 🎬 Recommended Resource
+- **[YouTube] RAG vs. Long Context - Which one do you actually need?**: [Watch here](https://youtu.be/UabBYexBD4k)
+    - A deep dive into the pros and cons to help you build an efficient knowledge retrieval strategy.
+
+---
 
 ## Advanced Apps: Agents
 
@@ -31,10 +50,10 @@ AI does more than summarize—it helps "discover hidden patterns" and "validate 
     2. **Filter**: Drop irrelevant papers based on your criteria.
     3. **Summarize**: Extract the core innovation from each paper.
     4. **Report**: Send results to your Discord or Notion page automatically.
-- **Goal**: Build an automated "Intelligence Monitoring System" to stay updated on preprints without manual effort.
+- **Goal**: Build an automated "Intelligence Monitoring System."
 
-## 📺 Recommended Resources
-- **[YouTube] The Impact of AI Agents on Work - A Case Study in Academic Research**: [Watch here](https://www.youtube.com/watch?v=VqB8zMujdjM) (Discusses the different roles of AI in conference/journal papers vs. degree theses).
+## 📺 More Resources
+- **[YouTube] The Impact of AI Agents on Work - A Case Study in Academic Research**: [Watch here](https://www.youtube.com/watch?v=VqB8zMujdjM)
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
