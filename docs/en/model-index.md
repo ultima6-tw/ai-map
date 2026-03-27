@@ -1,4 +1,8 @@
 # AI Models Index
+ 
+!!! info "Data Update Information"
+    Model information on this page was last updated in **March 2026**.
+
 
 This page summarizes the current mainstream Large Language Models (LLMs), including reasoning, general-purpose, and open-weights models.
 
