@@ -4,27 +4,29 @@
 
 ## 🗺️ 知識地圖概覽
 
-### 基礎知識 (Basics)
-- **[什麼是 LLM?](what-is-ai-or-llm/)**: 大語言模型的運作原理與基礎概念。
-- **[AI 幻覺預防](ai-hallucination/)**: 了解為何 AI 會胡說八道以及如何減少錯誤。
-- **[AI 應用案例](ai-application/)**: AI 在不同生活場景中的具體應用範例。
+### 🧩 基礎知識 (Basics)
+- **[什麼是 LLM?](what-is-ai-or-llm.md)**: 大語言模型的運作原理與基礎概念。
+- **[AI 名詞解釋 (Glossary)](glossary.md)**: 快速查詢 AI 專業術語。
+- **[AI 應用案例](ai-application.md)**: AI 在不同生活場景與科學研究中的具體應用範例。
+- **[AI 幻覺預防](ai-hallucination.md)**: 了解為何 AI 會胡說八道以及如何減少錯誤。
+- **[社會影響與挑戰](ai-impact.md)**: 探討 AI 對就業、創意與人類認知的深遠影響。
 
-### 實戰應用 (Practical)
-- **[🖥️ 程式開發](tools-coding/)**: Cursor, GitHub Copilot 與自動化開發代理實踐。
-- **[🎨 影像生成](tools-image/)**: Midjourney, Flux.1 與 Stable Diffusion 實戰指南。
-- **[🏠 本地模型與隱私](local-ai-privacy/)**: Ollama 與本地算力配置，確保數據不外流。
-- **[🇹🇼 數位主權與 TAIDE](digital-sovereignty/)**: 了解台灣如何建立信任對話引擎並守護文化主體性。
+### 🛠️ 實戰應用 (Practical)
+- **[🖥️ 程式開發](tools-coding.md)**: Cursor, Claude Code 與自動化開發代理實踐。
+- **[🎨 影像生成](tools-image.md)**: Midjourney, Flux.1 與多模態即時視覺分析。
+- **[🏠 本地模型與隱私](local-ai-privacy.md)**: Ollama 與本地算力配置，實現私有化 AI。
+- **[🇹🇼 數位主權與 TAIDE](digital-sovereignty.md)**: 台灣如何建立信任對話引擎並守護文化主體性。
 
-### 核心研究 (Research)
-- **[🔍 學術研究工作流](research-workflow/)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
-- **[⚡ 提示詞工程進階](advanced-prompting/)**: 結構化提示詞、思維鏈 (CoT) 與模型微調技巧。
-- **[🧩 Agent 智能體](agent/)**: 深入了解 OpenClaw 的架構與智能代理的技能開發。
-- **[📂 QMD 本地知識](qmd/)**: 使用 QMD 建立與搜尋高效的本地知識索引。
+### 🔬 核心研究 (Research)
+- **[🔍 學術研究工作流](research-workflow.md)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
+- **[⚡ 提示詞工程進階](advanced-prompting.md)**: 結構化提示詞、思維鏈 (CoT) 與模型微調技巧。
+- **[🧩 Agent 智能體](agent.md)**: OpenClaw 架構解析與自主代理 (Agentic Workflow) 實踐。
+- **[📂 QMD 本地知識](qmd.md)**: 使用 QMD 建立與搜尋高效的本地文件索引。
 
-### 前沿趨勢 (Trends)
-- **[🧠 AI 模型概覽](model-index/)**: 全球主流 AI 模型對比與標註。
-- **[📰 最新 AI 新聞](ai-news/)**: 即時更新的 AI 行業動態與技術進展。
-- **[🎓 跨領域學術研究](academic-trends/)**: 追蹤 GNoME, AlphaFold 等科學領域的 AI 重大突破。
+### 📢 前沿趨勢 (Trends)
+- **[🧠 AI 模型概覽](model-index.md)**: 全球主流與在地 (TAIDE, DeepSeek) AI 模型對比。
+- **[📰 最新 AI 新聞](ai-news.md)**: 即時更新的行業動態與技術突破。
+- **[🎓 跨領域學術動態](academic-trends.md)**: 追蹤 AI 在科學發現領域的重大進展。
 
 ---
 
@@ -39,9 +41,9 @@
 
 ## 📂 快速導航
 
-- **台灣特色**: [數位主權與 TAIDE](digital-sovereignty/)
-- **核心推薦**: [學術研究工作流](research-workflow/)
-- **本地部署**: [本地模型與隱私](local-ai-privacy/)
+- **台灣特色**: [數位主權與 TAIDE](digital-sovereignty.md)
+- **核心推薦**: [學術研究工作流](research-workflow.md)
+- **本地部署**: [本地模型與隱私](local-ai-privacy.md)
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
