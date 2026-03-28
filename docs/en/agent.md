@@ -3,7 +3,7 @@
 Moving beyond simple chatbots to autonomous "Agents" capable of tool use and strategic planning.
 
 - **[AI LLM Practice Guide: Deploying Your Own AI Assistant (OpenClaw)](https://www.youtube.com/watch?v=Vt-yMk3cie4)**
-    - A step-by-step guide to deploying OpenClaw, ideal for beginners to get started quickly.
+    - *Featured at NVIDIA GTC 2026 by Jensen Huang.* A step-by-step guide to deploying OpenClaw, ideal for beginners to get started quickly.
 - **[Anatomy of a Lobster — AI Agent Principles via OpenClaw](https://youtu.be/2rcJdFuNbZQ?si=G-D7tPtyOctUkl43)**
     - A detailed analysis of the OpenClaw framework and how it orchestrates complex agentic workflows.
 - **[Agent Skill: From Usage to Principles](https://youtu.be/yDc0_8emz7M?si=A-DaU_SdRmNyTAzR)**
