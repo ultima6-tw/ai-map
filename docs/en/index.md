@@ -4,27 +4,29 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 
 ## 🗺️ Knowledge Map Overview
 
-### Basics
-- **[What is AI/LLM?](what-is-ai-or-llm/)**: Principles and fundamental concepts of Large Language Models.
-- **[AI Hallucination](ai-hallucination/)**: Why AI makes things up and how to reduce errors.
-- **[AI Applications](ai-application/)**: Specific examples of AI in various life scenarios.
+### 🧩 Basics
+- **[What is AI/LLM?](what-is-ai-or-llm.md)**: Principles and fundamental concepts of Large Language Models.
+- **[AI Glossary](glossary.md)**: Quick reference for AI professional terminology.
+- **[AI Applications](ai-application.md)**: Specific examples of AI in scientific research and daily life.
+- **[AI Hallucination](ai-hallucination.md)**: Why AI makes things up and how to reduce errors.
+- **[Social Impact & Challenges](ai-impact.md)**: Exploring the effects on jobs, creativity, and human cognition.
 
-### Practical
-- **[🖥️ Coding](tools-coding/)**: Best practices for Cursor, GitHub Copilot, and AI coding agents.
-- **[🎨 Image Generation](tools-image/)**: Guides for Midjourney, Flux.1, and Stable Diffusion.
-- **[🏠 Local AI & Privacy](local-ai-privacy/)**: Ollama and local hardware configurations to keep your data private.
-- **[🇹🇼 Digital Sovereignty & TAIDE](digital-sovereignty/)**: How Taiwan builds trustworthy AI to safeguard cultural identity.
+### 🛠️ Practical
+- **[🖥️ Coding](tools-coding.md)**: Best practices for Cursor, Claude Code, and autonomous coding agents.
+- **[🎨 Image Generation](tools-image.md)**: Midjourney, Flux.1, and real-time multimodal vision analysis.
+- **[🏠 Local AI & Privacy](local-ai-privacy.md)**: Ollama and local hardware configurations to keep your data private.
+- **[🇹🇼 Digital Sovereignty & TAIDE](digital-sovereignty.md)**: How Taiwan builds trustworthy AI to safeguard cultural identity.
 
-### Research
-- **[🔍 Academic Workflow](research-workflow/)**: Using AI for literature review, data analysis, and scientific writing.
-- **[⚡ Advanced Prompting](advanced-prompting/)**: Structured prompts, Chain of Thought (CoT), and fine-tuning.
-- **[🧩 Agent Basics](agent/)**: Deep dive into OpenClaw architecture and agent skill development.
-- **[📂 QMD Local Knowledge](qmd/)**: Using QMD for efficient local knowledge indexing and retrieval.
+### 🔬 Research
+- **[🔍 Academic Workflow](research-workflow.md)**: Using AI for literature review, data analysis, and scientific writing.
+- **[⚡ Advanced Prompting](advanced-prompting.md)**: Structured prompts, Chain of Thought (CoT), and fine-tuning.
+- **[🧩 Agent Basics](agent.md)**: Deep dive into OpenClaw architecture and agentic workflows.
+- **[📂 QMD Local Knowledge](qmd.md)**: Efficient local document indexing and retrieval using QMD.
 
-### Trends
-- **[🧠 AI Models Index](model-index/)**: Global AI model comparison and developer labeling.
-- **[📰 AI News](ai-news/)**: Real-time updates on AI industry dynamics and technical progress.
-- **[🎓 Cross-domain Research](academic-trends/)**: Tracking breakthroughs in science like GNoME and AlphaFold.
+### 📢 Trends
+- **[🧠 AI Models Index](model-index.md)**: Global AI model comparison (OpenAI, Anthropic, TAIDE, DeepSeek).
+- **[📰 AI News](ai-news.md)**: Real-time updates on industry dynamics and technical progress.
+- **[🎓 Cross-domain Research](academic-trends.md)**: Tracking breakthroughs in science like GNoME and AlphaFold.
 
 ---
 
@@ -39,9 +41,9 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 
 ## 📂 Quick Navigation
 
-- **Taiwan Focus**: [Digital Sovereignty & TAIDE](digital-sovereignty/)
-- **Core Recommendation**: [Academic Workflow](research-workflow/)
-- **Local Deployment**: [Local AI & Privacy](local-ai-privacy/)
+- **Taiwan Focus**: [Digital Sovereignty & TAIDE](digital-sovereignty.md)
+- **Core Recommendation**: [Academic Workflow](research-workflow.md)
+- **Local Deployment**: [Local AI & Privacy](local-ai-privacy.md)
 
 ---
 *Created and maintained by Trivium Cluster Agent.*
