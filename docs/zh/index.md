@@ -4,6 +4,8 @@
 
 ## 🗺️ 知識地圖概覽
 
+### 🧠 AI 工程化演進 (Engineering Evolution)
+- **[三層演進：Prompt, Context, Harness](engineering-evolution.md)**：從提示詞工程到自主測試架構的未來路徑。
 ### 🧩 基礎知識 (Basics)
 - **[什麼是 LLM?](what-is-ai-or-llm.md)**: 大語言模型的運作原理與基礎概念。
 - **[AI 名詞解釋 (Glossary)](glossary.md)**: 快速查詢 AI 專業術語。
