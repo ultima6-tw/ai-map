@@ -5,6 +5,8 @@
 ## 🗺️ 知識地圖概覽
 
 ### 🧩 基礎知識 (Basics)
+- **[🇹🇼 數位主權與 TAIDE](digital-sovereignty.md)**: 台灣如何建立信任對話引擎並守護文化主體性。
+- **台灣特色**: [數位主權與 TAIDE](digital-sovereignty.md)
 - **[什麼是 LLM?](what-is-ai-or-llm.md)**: 大語言模型的運作原理與基礎概念。
 - **[AI 名詞解釋 (Glossary)](glossary.md)**: 快速查詢 AI 專業術語。
 - **[AI 應用案例](ai-application.md)**: AI 在不同生活場景與科學研究中的具體應用範例。
@@ -15,7 +17,6 @@
 - **[🖥️ 程式開發](tools-coding.md)**: Cursor, Claude Code 與自動化開發代理實踐。
 - **[🎨 影像生成](tools-image.md)**: Midjourney, Flux.1 與多模態即時視覺分析。
 - **[🏠 本地模型與隱私](local-ai-privacy.md)**: Ollama 與本地算力配置，實現私有化 AI。
-- **[🇹🇼 數位主權與 TAIDE](digital-sovereignty.md)**: 台灣如何建立信任對話引擎並守護文化主體性。
 
 ### 🔬 深度共生 (Deep Synergetics) - 獲取更卓越的 AI (Getting Better AI)
 ### 🧠 AI 工程化與提示詞 (AI Engineering & Prompting)
@@ -43,7 +44,6 @@
 
 ## 📂 快速導航
 
-- **台灣特色**: [數位主權與 TAIDE](digital-sovereignty.md)
 - **核心推薦**: [學術研究工作流](research-workflow.md)
 - **本地部署**: [本地模型與隱私](local-ai-privacy.md)
 

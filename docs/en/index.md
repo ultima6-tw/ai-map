@@ -5,6 +5,8 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 ## 🗺️ Knowledge Map Overview
 
 ### 🧩 Basics
+- **[🇹🇼 Digital Sovereignty & TAIDE](digital-sovereignty.md)**: How Taiwan builds trustworthy AI to safeguard cultural identity.
+- **Taiwan Focus**: [Digital Sovereignty & TAIDE](digital-sovereignty.md)
 - **[What is AI/LLM?](what-is-ai-or-llm.md)**: Principles and fundamental concepts of Large Language Models.
 - **[AI Glossary](glossary.md)**: Quick reference for AI professional terminology.
 - **[AI Applications](ai-application.md)**: Specific examples of AI in scientific research and daily life.
@@ -15,7 +17,6 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 - **[🖥️ Coding](tools-coding.md)**: Best practices for Cursor, Claude Code, and autonomous coding agents.
 - **[🎨 Image Generation](tools-image.md)**: Midjourney, Flux.1, and real-time multimodal vision analysis.
 - **[🏠 Local AI & Privacy](local-ai-privacy.md)**: Ollama and local hardware configurations to keep your data private.
-- **[🇹🇼 Digital Sovereignty & TAIDE](digital-sovereignty.md)**: How Taiwan builds trustworthy AI to safeguard cultural identity.
 
 ### 🔬 Deep Synergetics - Getting Better AI
 ### 🧠 AI Engineering & Prompting
@@ -43,7 +44,6 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 
 ## 📂 Quick Navigation
 
-- **Taiwan Focus**: [Digital Sovereignty & TAIDE](digital-sovereignty.md)
 - **Core Recommendation**: [Academic Workflow](research-workflow.md)
 - **Local Deployment**: [Local AI & Privacy](local-ai-privacy.md)
 
