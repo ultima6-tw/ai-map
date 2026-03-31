@@ -2,6 +2,9 @@
 
 這裡收集了 AI 在科學研究、材料開發及企業應用中的關鍵案例與影片。
 
+- **[How AI Supercomputing Is Transforming Product Design and Manufacturing](https://www.youtube.com/watch?v=bVnyDU8RyGk)**
+    - NVIDIA Omniverse 展示 AI 超級運算如何徹底改變產品設計與數位製造流程。
+
 - **[The Physics of A.I.](https://youtu.be/dRkehLL19Wo?si=fJiNJHbg07fLR9HO)**
     - 探討 AI 背後的物理原理，以及這項技術如何從物理模型演進而來。
 - **[AlphaFold - The Most Useful Thing AI Has Ever Done](https://youtu.be/P_fHJIYENdI?si=1kE9U63qbdUabNEP)**
