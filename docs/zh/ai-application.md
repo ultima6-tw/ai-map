@@ -5,6 +5,9 @@
 - **[How AI Supercomputing Is Transforming Product Design and Manufacturing](https://www.youtube.com/watch?v=bVnyDU8RyGk)**
     - NVIDIA Omniverse 展示 AI 超級運算如何徹底改變產品設計與數位製造流程。
 
+- **[How Open World Models are Powering the Next Breakthroughs in Physical AI](https://www.youtube.com/watch?v=3Errq-0T9w0)**
+    - NVIDIA Omniverse 解析「開放世界模型」如何驅動實體 AI (Physical AI) 與機器人技術的突破與應用。
+
 - **[The Physics of A.I.](https://youtu.be/dRkehLL19Wo?si=fJiNJHbg07fLR9HO)**
     - 探討 AI 背後的物理原理，以及這項技術如何從物理模型演進而來。
 - **[AlphaFold - The Most Useful Thing AI Has Ever Done](https://youtu.be/P_fHJIYENdI?si=1kE9U63qbdUabNEP)**

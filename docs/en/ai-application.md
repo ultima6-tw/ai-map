@@ -5,6 +5,9 @@ A curated list of AI impact in scientific research, material science, and corpor
 - **[How AI Supercomputing Is Transforming Product Design and Manufacturing](https://www.youtube.com/watch?v=bVnyDU8RyGk)**
     - NVIDIA Omniverse showcases how AI supercomputing is revolutionizing product design and digital manufacturing pipelines.
 
+- **[How Open World Models are Powering the Next Breakthroughs in Physical AI](https://www.youtube.com/watch?v=3Errq-0T9w0)**
+    - NVIDIA Omniverse explains how open world models drive breakthroughs in Physical AI and robotics applications.
+
 - **[The Physics of A.I.](https://youtu.be/dRkehLL19Wo?si=fJiNJHbg07fLR9HO)**
     - An exploration of the physical principles underlying AI and how physical models inspired modern neural networks.
 - **[AlphaFold - The Most Useful Thing AI Has Ever Done](https://youtu.be/P_fHJIYENdI?si=1kE9U63qbdUabNEP)**
