@@ -55,53 +55,51 @@ nav:
   - Home: index.md
   - 繁體中文 (ZH):
     - 🏠 中文首頁: zh/index.md
-    - 🧩 [科普] AI 基礎與生活:
-      - 什麼是 AI/LLM?: zh/what-is-ai-or-llm.md
+    - 🧩 基礎知識 (Basics):
+      - 什麼是 LLM?: zh/what-is-ai-or-llm.md
       - AI 名詞解釋 (Glossary): zh/glossary.md
+      - AI 模型概覽: zh/model-index.md
       - AI 應用與案例: zh/ai-application.md
-      - 安全使用 (防幻覺): zh/ai-hallucination.md
-      - AI 社會影響與挑戰: zh/ai-impact.md
-    - 🛠️ [實戰] 熱門工具與開發:
-      - 🖥️ 程式開發 (Coding): zh/tools-coding.md
-      - 🎨 影像生成 (Image Gen): zh/tools-image.md
-      - 🏠 本地模型與隱私 (Local AI): zh/local-ai-privacy.md
-      - 🇹🇼 數位主權 (Digital Sovereignty): zh/digital-sovereignty.md
-    - 🔬 [科研] AI 輔助研究:
-      - 🗣️ 提示詞工程 (Prompt Engineering): zh/prompt-engineering.md
-      - ⚡ 提示詞工程進階: zh/advanced-prompting.md
-      - 🧠 上下文工程 (Context Engineering): zh/context-engineering.md
-      - 📂 QMD 本地知識引擎: zh/qmd.md
-      - 🕸️ 知識圖譜 (Knowledge Graph): zh/knowledge-graph.md
-      - ⚙️ 測試架構工程 (Harness Engineering): zh/harness-engineering.md
+      - AI 幻覺與預防: zh/ai-hallucination.md
+      - 社會影響與挑戰: zh/ai-impact.md
+      - 🇹🇼 數位主權與 TAIDE: zh/digital-sovereignty.md
+    - 🛠️ 實戰應用 (Practical):
+      - 🏠 本地模型與隱私: zh/local-ai-privacy.md
+      - 🖥️ 程式開發: zh/tools-coding.md
+      - 🎨 影像生成: zh/tools-image.md
+      - 🧠 Agent 智能體: zh/agent.md
       - 🔍 學術研究工作流: zh/research-workflow.md
-      - 🧩 Agent 智能體基礎: zh/agent.md
-    - 📢 [趨勢] 新聞與學術動態:
-      - 🧠 AI 模型概覽: zh/model-index.md
+    - 🧠 深入技術與優化 (Optimization):
+      - 🗣️ 提示詞工程: zh/prompt-engineering.md
+      - ⚡ 提示詞進階: zh/advanced-prompting.md
+      - 🧠 上下文工程: zh/context-engineering.md
+      - 📂 QMD 知識引擎: zh/qmd.md
+      - ⚙️ 測試架構工程: zh/harness-engineering.md
+    - 📈 趨勢與未來 (Trends):
       - 📰 最新 AI 新聞: zh/ai-news.md
-      - 🎓 跨領域學術研究: zh/academic-trends.md
+      - 🎓 跨領域學術動態: zh/academic-trends.md
   - English (EN):
     - 🏠 English Home: en/index.md
-    - 🧩 [General] AI Basics & Life:
+    - 🧩 Basics:
       - What is AI/LLM?: en/what-is-ai-or-llm.md
       - AI Glossary: en/glossary.md
+      - AI Models Index: en/model-index.md
       - AI Applications: en/ai-application.md
       - Safe Usage (Hallucination): en/ai-hallucination.md
       - AI Impact & Challenges: en/ai-impact.md
-    - 🛠️ [Practical] Tools & Coding:
+      - 🇹🇼 Digital Sovereignty: en/digital-sovereignty.md
+    - 🛠️ Practical:
+      - 🏠 Local AI & Privacy: en/local-ai-privacy.md
       - 🖥️ Coding: en/tools-coding.md
       - 🎨 Image Generation: en/tools-image.md
-      - 🏠 Local AI & Privacy: en/local-ai-privacy.md
-      - 🇹🇼 Digital Sovereignty: en/digital-sovereignty.md
-    - 🔬 [Research] AI-Assisted Study:
+      - 🧠 Agent Basics: en/agent.md
+      - 🔍 Academic Workflow: en/research-workflow.md
+    - 🧠 Optimization & Research:
       - 🗣️ Prompt Engineering: en/prompt-engineering.md
       - ⚡ Advanced Prompting: en/advanced-prompting.md
       - 🧠 Context Engineering: en/context-engineering.md
       - 📂 QMD Local Knowledge: en/qmd.md
-      - 🕸️ Knowledge Graph: en/knowledge-graph.md
       - ⚙️ Harness Engineering: en/harness-engineering.md
-      - 🔍 Academic Workflow: en/research-workflow.md
-      - 🧩 Agent Basics: en/agent.md
-    - 📢 [Trends] News & Academic:
-      - 🧠 AI Models Index: en/model-index.md
+    - 📈 Trends & Future:
       - 📰 AI News: en/ai-news.md
-      - 🎓 Cross-domain Research: en/academic-trends.md
+      - 🎓 Academic Trends: en/academic-trends.md
