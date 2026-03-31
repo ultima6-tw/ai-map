@@ -5,12 +5,12 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 ## 🗺️ Knowledge Map Overview
 
 ### 🧩 Basics - Essential Knowledge
-- **[🇹🇼 Digital Sovereignty & TAIDE](digital-sovereignty.md)**: How Taiwan builds a Trustworthy AI Dialogue Engine.
 - **[What is an LLM?](what-is-ai-or-llm.md)**: Fundamentals and operation principles of Large Language Models.
 - **[AI Glossary](glossary.md)**: Quick reference for AI terminology.
 - **[AI Use Cases](ai-application.md)**: Specific application examples of AI in daily life and scientific research.
 - **[AI Hallucination Prevention](ai-hallucination.md)**: Why AI makes things up and how to reduce errors.
 - **[Social Impact & Challenges](ai-impact.md)**: Far-reaching impacts of AI on employment, creativity, and human cognition.
+- **[🇹🇼 Digital Sovereignty & TAIDE](digital-sovereignty.md)**: How Taiwan builds a Trustworthy AI Dialogue Engine and guards cultural identity.
 
 ### 🛠️ Practical - Environment Setup
 - **[🏠 Local Models & Privacy](local-ai-privacy.md)**: Ollama and local compute configuration for private AI.
