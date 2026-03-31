@@ -21,6 +21,7 @@
 
 ### 🧠 深入技術與優化 (Optimization & Research)
 AI 工程化正在經歷從單純對話到自動化架構的範式轉移，包含以下 🤖 三層核心演進：
+
 - **[🗣️ 第一層：提示詞工程 (Prompt Engineering)](prompt-engineering.md)**: 專注於結構化指令、思維鏈 (CoT) 與模型微調技巧，優化與 AI 的溝通。
 - **[🧠 第二層：上下文工程 (Context Engineering)](context-engineering.md)**: 重點在於提供 AI 正確的背景資料，結合 RAG 與知識圖譜。
 - **[⚙️ 第三層：測試架構工程 (Harness Engineering)](harness-engineering.md)**: 建立自動化的回饋閉環與自主工作流。

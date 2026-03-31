@@ -21,6 +21,7 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 
 ### 🧠 Optimization & Deep Tech
 AI engineering is undergoing a paradigm shift from simple chats to automated architectures, consisting of 🤖 Three Core Layers:
+
 - **[🗣️ Layer 1: Prompt Engineering](prompt-engineering.md)**: Focusing on structured instructions, Chain of Thought (CoT), and fine-tuning to optimize communication.
 - **[🧠 Layer 2: Context Engineering](context-engineering.md)**: Providing AI with correct background data, integrating RAG and Knowledge Graphs.
 - **[⚙️ Layer 3: Harness Engineering](harness-engineering.md)**: Establishing automated feedback loops and autonomous workflows.
