@@ -16,7 +16,7 @@ The second layer of AI collaboration, focusing on **"providing the right backgro
 - **Core Technologies**: RAG (Retrieval-Augmented Generation), Vector Databases, Long-term Memory Management, Context Window Optimization, and Knowledge Graph (KG) integration.
 - **Advanced Resources**:
     - [GPT-5 Lost? Princeton's 14B Small Model Hack: Knowledge Graph + RLVR](https://youtu.be/8e9E6TqeZPA?si=d1F8b9JiBqk4iMMk): Techniques to improve factual accuracy through Knowledge Graphs.
-- **Practice**: OpenClaw's Knowledge Graph (KG) integration, QMD local document search.
+- **Practice**: [OpenClaw's Knowledge Graph (KG) integration](agent.md), [QMD local document search](qmd.md).
 
 ### 3. Harness Engineering
 The third and most advanced layer, focusing on **"building automated feedback loops."**
