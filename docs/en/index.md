@@ -4,7 +4,7 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 
 ## 🗺️ Knowledge Map Overview
 
-### 🧠 AI Engineering Evolution
+### 🧠 AI Engineering & Prompting
 - **[The 3 Layers: Prompt, Context, Harness](engineering-evolution.md)**: The future path from prompt engineering to autonomous testing frameworks.
 ### 🧩 Basics
 - **[What is AI/LLM?](what-is-ai-or-llm.md)**: Principles and fundamental concepts of Large Language Models.
@@ -21,7 +21,6 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 
 ### 🔬 Research
 - **[🔍 Academic Workflow](research-workflow.md)**: Using AI for literature review, data analysis, and scientific writing.
-- **[⚡ Advanced Prompting](advanced-prompting.md)**: Structured prompts, Chain of Thought (CoT), and fine-tuning.
 - **[🧩 Agent Basics](agent.md)**: Deep dive into OpenClaw architecture and agentic workflows.
 - **[📂 QMD Local Knowledge](qmd.md)**: Efficient local document indexing and retrieval using QMD.
 
