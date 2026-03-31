@@ -6,6 +6,7 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 
 ### 🧠 AI Engineering & Prompting
 - **[The 3 Layers: Prompt, Context, Harness](engineering-evolution.md)**: The future path from prompt engineering to autonomous testing frameworks.
+- **[⚡ Advanced Prompting](advanced-prompting.md)**: Structured instructions, Chain-of-Thought (CoT), and fine-tuning techniques.
 ### 🧩 Basics
 - **[What is AI/LLM?](what-is-ai-or-llm.md)**: Principles and fundamental concepts of Large Language Models.
 - **[AI Glossary](glossary.md)**: Quick reference for AI professional terminology.
