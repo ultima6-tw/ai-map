@@ -54,6 +54,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - 繁體中文 (ZH):
+    - 🏠 中文首頁: zh/index.md
     - 🧩 [科普] AI 基礎與生活:
       - 什麼是 AI/LLM?: zh/what-is-ai-or-llm.md
       - AI 名詞解釋 (Glossary): zh/glossary.md
@@ -70,11 +71,14 @@ nav:
       - 🔍 學術研究工作流: zh/research-workflow.md
       - 🧩 Agent 智能體基礎: zh/agent.md
       - 📂 QMD 本地知識引擎: zh/qmd.md
+      - 🕸️ 知識圖譜 (Knowledge Graph): zh/knowledge-graph.md
+      - 🏗️ AI 工程化演進: zh/engineering-evolution.md
     - 📢 [趨勢] 新聞與學術動態:
       - 🧠 AI 模型概覽: zh/model-index.md
       - 📰 最新 AI 新聞: zh/ai-news.md
       - 🎓 跨領域學術研究: zh/academic-trends.md
   - English (EN):
+    - 🏠 English Home: en/index.md
     - 🧩 [General] AI Basics & Life:
       - What is AI/LLM?: en/what-is-ai-or-llm.md
       - AI Glossary: en/glossary.md
@@ -91,6 +95,8 @@ nav:
       - 🔍 Academic Workflow: en/research-workflow.md
       - 🧩 Agent Basics: en/agent.md
       - 📂 QMD Local Knowledge: en/qmd.md
+      - 🕸️ Knowledge Graph: en/knowledge-graph.md
+      - 🏗️ AI Engineering Evolution: en/engineering-evolution.md
     - 📢 [Trends] News & Academic:
       - 🧠 AI Models Index: en/model-index.md
       - 📰 AI News: en/ai-news.md
