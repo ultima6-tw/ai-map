@@ -71,9 +71,7 @@ nav:
       - 🔍 學術研究工作流: zh/research-workflow.md
     - 🧠 深入技術與優化 (Optimization):
       - 🗣️ 提示詞工程: zh/prompt-engineering.md
-      - ⚡ 提示詞進階: zh/advanced-prompting.md
       - 🧠 上下文工程: zh/context-engineering.md
-      - 📂 QMD 知識引擎: zh/qmd.md
       - ⚙️ 測試架構工程: zh/harness-engineering.md
     - 📈 趨勢與未來 (Trends):
       - 📰 最新 AI 新聞: zh/ai-news.md
@@ -96,9 +94,7 @@ nav:
       - 🔍 Academic Workflow: en/research-workflow.md
     - 🧠 Optimization & Research:
       - 🗣️ Prompt Engineering: en/prompt-engineering.md
-      - ⚡ Advanced Prompting: en/advanced-prompting.md
       - 🧠 Context Engineering: en/context-engineering.md
-      - 📂 QMD Local Knowledge: en/qmd.md
       - ⚙️ Harness Engineering: en/harness-engineering.md
     - 📈 Trends & Future:
       - 📰 AI News: en/ai-news.md
