@@ -7,6 +7,7 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 ### 🧩 Basics - Essential Knowledge
 - **[What is an LLM?](what-is-ai-or-llm.md)**: Fundamentals and operation principles of Large Language Models.
 - **[AI Glossary](glossary.md)**: Quick reference for AI terminology.
+- **[🧠 AI Model Index](model-index.md)**: Comparison of global and local (TAIDE, DeepSeek) models.
 - **[AI Use Cases](ai-application.md)**: Specific application examples of AI.
 - **[AI Hallucination Prevention](ai-hallucination.md)**: Why AI makes things up and how to reduce errors.
 - **[Social Impact & Challenges](ai-impact.md)**: Impacts of AI on employment, creativity, and cognition.
@@ -17,7 +18,6 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 - **[🖥️ Development & Coding](tools-coding.md)**: Cursor, Claude Code, and automated developer agents.
 - **[🎨 Image Generation](tools-image.md)**: Midjourney, Flux.1, and multi-modal analysis.
 - **[🧩 Agents](agent.md)**: OpenClaw architecture and Agentic Workflow implementation.
-- **[🧠 AI Model Index](model-index.md)**: Comparison of global and local (TAIDE, DeepSeek) models.
 
 ### 🧠 Optimization & Deep Tech
 AI engineering is undergoing a paradigm shift from simple chats to automated architectures, consisting of 🤖 Three Core Layers:

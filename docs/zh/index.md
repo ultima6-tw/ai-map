@@ -7,6 +7,7 @@
 ### 🧩 基礎知識 (Basics) - 必要知道的事情 (Essential Knowledge)
 - **[什麼是 LLM?](what-is-ai-or-llm.md)**: 大語言模型的運作原理與基礎概念。
 - **[AI 名詞解釋 (Glossary)](glossary.md)**: 快速查詢 AI 專業術語。
+- **[🧠 AI 模型概覽](model-index.md)**: 全球主流與在地 (TAIDE, DeepSeek) AI 模型對比。
 - **[AI 應用案例](ai-application.md)**: AI 在不同生活場景與科學研究中的具體應用範例。
 - **[AI 幻覺預防](ai-hallucination.md)**: 了解為何 AI 會胡說八道以及如何減少錯誤。
 - **[社會影響與挑戰](ai-impact.md)**: 探討 AI 對就業、創意與人類認知的深遠影響。
@@ -17,7 +18,6 @@
 - **[🖥️ 程式開發](tools-coding.md)**: Cursor, Claude Code 與自動化開發代理實踐。
 - **[🎨 影像生成](tools-image.md)**: Midjourney, Flux.1 與多模態即時視覺分析。
 - **[🧠 Agent 智能體](agent.md)**: OpenClaw 架構解析與自主代理 (Agentic Workflow) 實踐。
-- **[🧠 AI 模型概覽](model-index.md)**: 全球主流與在地 (TAIDE, DeepSeek) AI 模型對比。
 
 ### 🧠 深入技術與優化 (Optimization & Research)
 AI 工程化正在經歷從單純對話到自動化架構的範式轉移，包含以下 🤖 三層核心演進：
