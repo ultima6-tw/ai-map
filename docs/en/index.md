@@ -24,7 +24,6 @@ AI engineering is undergoing a paradigm shift from simple chats to automated arc
 
 - **[🗣️ Layer 1: Prompt Engineering](prompt-engineering.md)**: Focusing on structured instructions, Chain of Thought (CoT), and fine-tuning to optimize communication.
 - **[🧠 Layer 2: Context Engineering](context-engineering.md)**: Providing AI with correct background data, integrating RAG and Knowledge Graphs.
-    - **[🌐 Knowledge Graph](knowledge-graph.md)**: Entity-relationship mapping for deeper context.
 - **[⚙️ Layer 3: Harness Engineering](harness-engineering.md)**: Establishing automated feedback loops and autonomous workflows.
 
 ### 📈 Trends & Future - Latest Developments
