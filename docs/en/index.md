@@ -33,7 +33,7 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 ## 🛠️ Core Concepts
 
 - **Local RAG (Retrieval-Augmented Generation)**: Privacy-first tech indexing private docs.
-- **Knowledge Graph**: Entity-relationship mapping for deeper context.
+- **[Knowledge Graph](https://www.youtube.com/watch?v=C7QSMxoVdOc)**: Entity-relationship mapping for deeper context.
 - **Digital Sovereignty**: Autonomy over data and compute.
 - **Neural Networks (ANN)**: The foundation of modern AI.
 

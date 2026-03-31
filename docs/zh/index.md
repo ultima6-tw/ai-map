@@ -33,7 +33,7 @@
 ## 🛠️ 核心技術概念 (Core Concepts)
 
 - **本地 RAG (Local RAG)**: 隱私優先的檢索增強生成技術。
-- **知識圖譜 (Knowledge Graph)**: 超越傳統關鍵字搜尋的實體關係映射技術。
+- **[知識圖譜 (Knowledge Graph)](https://www.youtube.com/watch?v=C7QSMxoVdOc)**: 超越傳統關鍵字搜尋的實體關係映射技術。
 - **數位主權 (Digital Sovereignty)**: 指個人或國家對數據與計算基礎設施的自主權。
 - **神經網路 (Neural Network / ANN)**: 現代 AI 的基礎架構。
 
