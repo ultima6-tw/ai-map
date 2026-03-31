@@ -19,11 +19,10 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 - **[🧠 AI Model Index](model-index.md)**: Comparison of global mainstream and local (TAIDE, DeepSeek) AI models.
 
 ### 🧠 Deep Symbiosis - Optimization & Beyond
-- **[Engineering Evolution: Prompt, Context, Harness](engineering-evolution.md)**: The future path from prompt engineering to autonomous testing frameworks.
-- **[⚡ Advanced Prompt Engineering](advanced-prompting.md)**: Structured prompting, Chain-of-Thought (CoT), and fine-tuning techniques.
+- **[🤖 The 3 Layers of AI Engineering Evolution](engineering-evolution.md)**: The future path from Prompt and Context Engineering to autonomous testing frameworks (Harness).
+- **[🔍 Research Workflow](research-workflow.md)**: Efficient literature review, data analysis, and writing with AI.
 - **[🧩 Agents](agent.md)**: OpenClaw architecture and Agentic Workflow implementation.
 - **[📂 QMD Local Knowledge](qmd.md)**: Building and searching efficient local document indices with QMD.
-- **[🔍 Research Workflow](research-workflow.md)**: Efficient literature review, data analysis, and writing with AI.
 - **[📰 Latest AI News](ai-news.md)**: Real-time industry updates and technical breakthroughs.
 - **[🎓 Academic Trends](academic-trends.md)**: Major progress of AI in scientific discovery.
 

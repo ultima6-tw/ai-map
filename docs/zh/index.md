@@ -19,11 +19,10 @@
 - **[🧠 AI 模型概覽](model-index.md)**: 全球主流與在地 (TAIDE, DeepSeek) AI 模型對比。
 
 ### 🧠 深度共生 (Deep Symbiosis) - 架設完後，要如何更好 (Optimization & Beyond)
-- **[三層演進：Prompt, Context, Harness](engineering-evolution.md)**: 從提示詞工程到自主測試架構的未來路徑。
-- **[⚡ 提示詞工程進階](advanced-prompting.md)**: 結構化提示詞、思維鏈 (CoT) 與模型微調技巧。
+- **[🤖 AI 工程化的三層演進](engineering-evolution.md)**: 從提示詞工程、上下文工程到自主測試架構 (Harness) 的未來路徑，整合模型微調與 CoT 技巧。
+- **[🔍 學術研究工作流](research-workflow.md)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
 - **[🧩 Agent 智能體](agent.md)**: OpenClaw 架構解析與自主代理 (Agentic Workflow) 實踐。
 - **[📂 QMD 本地知識](qmd.md)**: 使用 QMD 建立與搜尋高效的本地文件索引。
-- **[🔍 學術研究工作流](research-workflow.md)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
 - **[📰 最新 AI 新聞](ai-news.md)**: 即時更新的行業動態與技術突破。
 - **[🎓 跨領域學術動態](academic-trends.md)**: 追蹤 AI 在科學發現領域的重大進展。
 

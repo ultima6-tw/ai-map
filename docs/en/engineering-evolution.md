@@ -6,14 +6,16 @@ From simple chat interactions to autonomous maintenance of million-line codebase
 
 ### 1. Prompt Engineering
 The first layer of AI interaction, focusing on **"how to ask."**
-- **Core Techniques**: Structured instructions, Chain-of-Thought (CoT), Few-shot learning.
-- **Goal**: Optimize single-turn output quality and ensure the model accurately understands human intent.
-- **Recommended Resource**: [Google 9-Hour Prompt Engineering Essentials](https://youtu.be/p09yRj47kNM?si=mKoaLJe5cugXFRxD)
+- **Core Techniques**: Structured instructions, Chain-of-Thought (CoT), Few-shot learning, and Fine-tuning strategies.
+- **Advanced Resources**:
+    - [9 Hour AI Prompt Engineering Course In 20 Minutes](https://youtu.be/p09yRj47kNM?si=mKoaLJe5cugXFRxD)
+    - [The Fatal Flaw of LoRA? Breaking Catastrophic Forgetting with "Share"](https://youtu.be/x5nEkcLsrCc?si=skbFmd7Cn_-rwAmc): Exploring methods to enhance model expertise via fine-tuning.
 
 ### 2. Context Engineering
 The second layer of AI collaboration, focusing on **"providing the right background."**
-- **Core Technologies**: RAG (Retrieval-Augmented Generation), Vector Databases, Long-term Memory Management, Context Window Optimization.
-- **Goal**: Solve hallucinations and enable models to reason based on private knowledge or real-time data.
+- **Core Technologies**: RAG (Retrieval-Augmented Generation), Vector Databases, Long-term Memory Management, Context Window Optimization, and Knowledge Graph (KG) integration.
+- **Advanced Resources**:
+    - [GPT-5 Lost? Princeton's 14B Small Model Hack: Knowledge Graph + RLVR](https://youtu.be/8e9E6TqeZPA?si=d1F8b9JiBqk4iMMk): Techniques to improve factual accuracy through Knowledge Graphs.
 - **Practice**: OpenClaw's Knowledge Graph (KG) integration, QMD local document search.
 
 ### 3. Harness Engineering
