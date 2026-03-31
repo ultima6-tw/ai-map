@@ -4,9 +4,6 @@
 
 ## 🗺️ 知識地圖概覽
 
-### 🧠 AI 工程化與提示詞 (AI Engineering & Prompting)
-- **[三層演進：Prompt, Context, Harness](engineering-evolution.md)**：從提示詞工程到自主測試架構的未來路徑。
-- **[⚡ 提示詞工程進階](advanced-prompting.md)**：結構化提示詞、思維鏈 (CoT) 與模型微調技巧。
 ### 🧩 基礎知識 (Basics)
 - **[什麼是 LLM?](what-is-ai-or-llm.md)**: 大語言模型的運作原理與基礎概念。
 - **[AI 名詞解釋 (Glossary)](glossary.md)**: 快速查詢 AI 專業術語。
@@ -21,6 +18,9 @@
 - **[🇹🇼 數位主權與 TAIDE](digital-sovereignty.md)**: 台灣如何建立信任對話引擎並守護文化主體性。
 
 ### 🔬 深度共生 (Deep Synergetics) - 獲取更卓越的 AI (Getting Better AI)
+### 🧠 AI 工程化與提示詞 (AI Engineering & Prompting)
+- **[三層演進：Prompt, Context, Harness](engineering-evolution.md)**：從提示詞工程到自主測試架構的未來路徑。
+- **[⚡ 提示詞工程進階](advanced-prompting.md)**：結構化提示詞、思維鏈 (CoT) 與模型微調技巧。
 - **[🔍 學術研究工作流](research-workflow.md)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
 - **[🧩 Agent 智能體](agent.md)**: OpenClaw 架構解析與自主代理 (Agentic Workflow) 實踐。
 - **[📂 QMD 本地知識](qmd.md)**: 使用 QMD 建立與搜尋高效的本地文件索引。
