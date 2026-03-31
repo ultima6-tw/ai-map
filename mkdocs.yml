@@ -67,12 +67,14 @@ nav:
       - 🏠 本地模型與隱私 (Local AI): zh/local-ai-privacy.md
       - 🇹🇼 數位主權 (Digital Sovereignty): zh/digital-sovereignty.md
     - 🔬 [科研] AI 輔助研究:
+      - 🗣️ 提示詞工程 (Prompt Engineering): zh/prompt-engineering.md
       - ⚡ 提示詞工程進階: zh/advanced-prompting.md
-      - 🔍 學術研究工作流: zh/research-workflow.md
-      - 🧩 Agent 智能體基礎: zh/agent.md
+      - 🧠 上下文工程 (Context Engineering): zh/context-engineering.md
       - 📂 QMD 本地知識引擎: zh/qmd.md
       - 🕸️ 知識圖譜 (Knowledge Graph): zh/knowledge-graph.md
-      - 🏗️ AI 工程化演進: zh/engineering-evolution.md
+      - ⚙️ 測試架構工程 (Harness Engineering): zh/harness-engineering.md
+      - 🔍 學術研究工作流: zh/research-workflow.md
+      - 🧩 Agent 智能體基礎: zh/agent.md
     - 📢 [趨勢] 新聞與學術動態:
       - 🧠 AI 模型概覽: zh/model-index.md
       - 📰 最新 AI 新聞: zh/ai-news.md
@@ -91,12 +93,14 @@ nav:
       - 🏠 Local AI & Privacy: en/local-ai-privacy.md
       - 🇹🇼 Digital Sovereignty: en/digital-sovereignty.md
     - 🔬 [Research] AI-Assisted Study:
+      - 🗣️ Prompt Engineering: en/prompt-engineering.md
       - ⚡ Advanced Prompting: en/advanced-prompting.md
-      - 🔍 Academic Workflow: en/research-workflow.md
-      - 🧩 Agent Basics: en/agent.md
+      - 🧠 Context Engineering: en/context-engineering.md
       - 📂 QMD Local Knowledge: en/qmd.md
       - 🕸️ Knowledge Graph: en/knowledge-graph.md
-      - 🏗️ AI Engineering Evolution: en/engineering-evolution.md
+      - ⚙️ Harness Engineering: en/harness-engineering.md
+      - 🔍 Academic Workflow: en/research-workflow.md
+      - 🧩 Agent Basics: en/agent.md
     - 📢 [Trends] News & Academic:
       - 🧠 AI Models Index: en/model-index.md
       - 📰 AI News: en/ai-news.md
