@@ -24,20 +24,12 @@ AI engineering is undergoing a paradigm shift from simple chats to automated arc
 
 - **[🗣️ Layer 1: Prompt Engineering](prompt-engineering.md)**: Focusing on structured instructions, Chain of Thought (CoT), and fine-tuning to optimize communication.
 - **[🧠 Layer 2: Context Engineering](context-engineering.md)**: Providing AI with correct background data, integrating RAG and Knowledge Graphs.
+    - **[🌐 Knowledge Graph](knowledge-graph.md)**: Entity-relationship mapping for deeper context.
 - **[⚙️ Layer 3: Harness Engineering](harness-engineering.md)**: Establishing automated feedback loops and autonomous workflows.
 
 ### 📈 Trends & Future - Latest Developments
 - **[📰 Latest AI News](ai-news.md)**: Real-time industry updates and technical breakthroughs.
 - **[🎓 Academic Trends](academic-trends.md)**: Major progress of AI in scientific discovery.
-
----
-
-## 🛠️ Core Concepts
-
-- **Local RAG (Retrieval-Augmented Generation)**: Privacy-first tech indexing private docs.
-- **[Knowledge Graph](knowledge-graph.md)**: Entity-relationship mapping for deeper context.
-- **Digital Sovereignty**: Autonomy over data and compute.
-- **Neural Networks (ANN)**: The foundation of modern AI.
 
 ---
 
