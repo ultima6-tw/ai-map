@@ -1,30 +1,30 @@
-# Digital Sovereignty
+# 🇹🇼 Digital Sovereignty & TAIDE
 
-Digital sovereignty refers to the autonomous control that individuals, organizations, or nations have over their digital assets, data flows, and computing infrastructure. In the era of AI, this is not just about privacy—it's about cultural identity and technological independence.
+In the era of Large Language Models (LLMs), **Digital Sovereignty** has become a core issue for nations and individuals. Taiwan, through the **TAIDE (Trustworthy AI Dialogue Engine)** project, demonstrates how to build a "Trustworthy AI Dialogue Engine" with local cultural identity.
 
-## Why Digital Sovereignty Matters in Taiwan
+## 📍 Why Do We Need Digital Sovereignty?
 
-- **Cultural Identity**: Mainstream LLMs (like GPT-4, Claude) are predominantly trained on Western data, which can lead to cultural bias and a lack of understanding regarding Taiwan's unique local terminology and values.
-- **Data Privacy & Regulation**: Sensitive government, medical, or corporate data should not be easily uploaded to offshore servers.
-- **Technological Resilience**: In extreme scenarios (such as network outages), locally deployed AI can maintain basic operational capabilities.
+When mainstream AI models (such as GPT, Claude, Llama) are mostly developed by US or Chinese corporations, the knowledge and values absorbed by these models often carry strong cultural biases.
 
-## Taiwan's Initiative: Project TAIDE
+- **Cultural Identity**: Avoid marginalization or misunderstanding of local culture and linguistic habits (e.g., Traditional Chinese, Taiwanese idioms).
+- **Data Privacy & Security**: Relying entirely on external models for core government, medical, or confidential data poses leakage risks.
+- **Technological Autonomy**: Ensure that Taiwan maintains independent AI reasoning and service capabilities under extreme geopolitical situations.
 
-**TAIDE (Trustworthy AI Dialogue Engine)** is an initiative led by Taiwan's National Science and Technology Council (NSTC).
-- **Core Objective**: To build a trustworthy dialogue engine with Taiwanese characteristics that understands local culture, terminology, and legal frameworks.
-- **Local Data**: Trained on vast amounts of Taiwanese government gazettes, news, books, and academic papers to reduce common "hallucinations" or linguistic confusion found in foreign models.
-- **Featured Resources**:
-    - **[TAIDE Official Website](https://taide.tw/)**
-    - **[Why Taiwan Needs Its Own LLM: Digital Sovereignty](https://youtu.be/u13MUp1WwS4?si=023Y5f4y_O_v99Gj)**
-        - Detailed explanation of how TAIDE safeguards Taiwan's digital sovereignty and local values.
-    - **[Intro to Generative AI & Machine Learning 2025](https://www.youtube.com/playlist?list=PLJV_el3uVTsMMGi5kbnKP5DrDHZpTX0jT)**
-        - Professor Hung-yi Lee's latest course, empowering Taiwan's technical autonomy through accessible local education.
+## 🚀 TAIDE: Taiwan's Trustworthy AI Dialogue Engine
 
-## How to Practice Digital Sovereignty
+**TAIDE** is a Traditional Chinese large language model led by the National Science and Technology Council (NSTC) and developed in collaboration with domestic academic and research institutions.
 
-1. **Local Model Deployment**: Run models (such as TAIDE-Llama3-8B) on private hardware using tools like [Ollama](https://ollama.com/) or [LM Studio](https://lmstudio.ai/).
-2. **Private RAG Systems**: Build local knowledge retrieval systems that do not rely on cloud services to protect confidential documents.
-3. **Support Local Open Source**: Participate in and test models developed by the Taiwanese tech community.
+### Core Features
+1. **Traditional Chinese Optimization**: Deep fine-tuning for linguistic habits, legal provisions, and official document formats commonly used in Taiwan.
+2. **Trustworthy Training Sets**: Uses copyrighted local Taiwanese texts, news, and public government data to reduce hallucinations and improve accuracy.
+3. **Commercially Viable & Open Source**: Provides models of different parameter scales (e.g., 7B, 13B), allowing Taiwanese enterprises to deploy them in local environments (such as NAS or workstations) to ensure data privacy.
+
+## 🛡️ Protecting Cultural Identity
+
+Protecting cultural identity is not just about developing a model; it is an ongoing engineering process:
+- **Knowledge Graph Integration**: Structuring Taiwan-specific historical, legal, and geographical information to feed back into AI learning.
+- **Local Collaboration**: Refining the model's understanding of Taiwanese issues through open-source communities and academic units.
+- **Digital Resilience**: Deploying AI capabilities locally (Local AI) ensures basic productivity even during network instability.
 
 ---
-*Created and maintained by Trivium Cluster Agent.*
+*Created and maintained by Trivium Cluster Agent (Nexus Node).*
