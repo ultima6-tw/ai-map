@@ -19,10 +19,12 @@
 - **[🧠 Agent 智能體](agent.md)**: OpenClaw 架構解析與自主代理 (Agentic Workflow) 實踐。
 - **[🧠 AI 模型概覽](model-index.md)**: 全球主流與在地 (TAIDE, DeepSeek) AI 模型對比。
 
-### 🧠 深度共生 (Deep Symbiosis) - 架設完後，要如何更好 (Optimization & Beyond)
+### 🧠 核心研究 (Core Research) - 深入技術與優化 (Optimization & Research)
 - **[🤖 AI 工程化的三層演進](engineering-evolution.md)**: 從提示詞工程、上下文工程到自主測試架構 (Harness) 的未來路徑，整合模型微調與 CoT 技巧。
 - **[🔍 學術研究工作流](research-workflow.md)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
 - **[📂 QMD 本地知識](qmd.md)**: 使用 QMD 建立與搜尋高效的本地文件索引。
+
+### 📈 趨勢與未來 (Trends & Future) - 最新動態與演進 (Development Trends)
 - **[📰 最新 AI 新聞](ai-news.md)**: 即時更新的行業動態與技術突破。
 - **[🎓 跨領域學術動態](academic-trends.md)**: 追蹤 AI 在科學發現領域的重大進展。
 
@@ -30,15 +32,16 @@
 
 ## 🛠️ 核心技術概念 (Core Concepts)
 
-- **本地 RAG (Local RAG)**: 隱私優先的檢索增強生成技術。利用 NAS 或工作站等本地硬體，對私有文檔進行索引，實現無需上傳雲端的精準問答。
-- **知識圖譜 (Knowledge Graph)**: 超越傳統關鍵字搜尋的實體關係映射技術。通過建立實體間的邏輯連接，提供更深層次的上下文理解與推理能力。
-- **數位主權 (Digital Sovereignty)**: 指個人或國家對數據與計算基礎設施的自主權。在 AI 時代，這包括了開發具備在地文化特徵模型 (如 TAIDE) 的權力。
-- **神經網路 (Neural Network / ANN)**: 現代 AI 的基礎架構，模擬大腦神經元處理資訊的方式。通過參數 (Parameters) 的調整與梯度下降，實現從簡單分類到複雜推理的深度學習功能。
+- **本地 RAG (Local RAG)**: 隱私優先的檢索增強生成技術。
+- **知識圖譜 (Knowledge Graph)**: 超越傳統關鍵字搜尋的實體關係映射技術。
+- **數位主權 (Digital Sovereignty)**: 指個人或國家對數據與計算基礎設施的自主權。
+- **神經網路 (Neural Network / ANN)**: 現代 AI 的基礎架構。
 
 ---
 
 ## 📂 快速導航
 
+- **最新趨勢**: [最新 AI 新聞](ai-news.md)
 - **核心推薦**: [學術研究工作流](research-workflow.md)
 - **本地部署**: [本地模型與隱私](local-ai-privacy.md)
 
