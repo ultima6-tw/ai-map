@@ -18,6 +18,7 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 - **[🖥️ Development & Coding](tools-coding.md)**: Cursor, Claude Code, and automated developer agents.
 - **[🎨 Image Generation](tools-image.md)**: Midjourney, Flux.1, and multi-modal analysis.
 - **[🧩 Agents](agent.md)**: OpenClaw architecture and Agentic Workflow implementation.
+- **[🔍 Academic Workflow](research-workflow.md)**: AI application framework for paper reading, literature review, and writing.
 
 ### 🧠 Optimization & Deep Tech
 AI engineering is undergoing a paradigm shift from simple chats to automated architectures, consisting of 🤖 Three Core Layers:

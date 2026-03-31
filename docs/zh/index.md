@@ -18,6 +18,7 @@
 - **[🖥️ 程式開發](tools-coding.md)**: Cursor, Claude Code 與自動化開發代理實踐。
 - **[🎨 影像生成](tools-image.md)**: Midjourney, Flux.1 與多模態即時視覺分析。
 - **[🧠 Agent 智能體](agent.md)**: OpenClaw 架構解析與自主代理 (Agentic Workflow) 實踐。
+- **[🔍 學術研究工作流](research-workflow.md)**: 針對論文閱讀、文獻回顧與寫作的 AI 應用框架。
 
 ### 🧠 深入技術與優化 (Optimization & Research)
 AI 工程化正在經歷從單純對話到自動化架構的範式轉移，包含以下 🤖 三層核心演進：
