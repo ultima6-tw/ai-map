@@ -16,12 +16,12 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 - **[🏠 Local Models & Privacy](local-ai-privacy.md)**: Ollama and local compute configuration for private AI.
 - **[🖥️ Development & Coding](tools-coding.md)**: Cursor, Claude Code, and automated developer agents.
 - **[🎨 Image Generation](tools-image.md)**: Midjourney, Flux.1, and multi-modal real-time visual analysis.
+- **[🧩 Agents](agent.md)**: OpenClaw architecture and Agentic Workflow implementation.
 - **[🧠 AI Model Index](model-index.md)**: Comparison of global mainstream and local (TAIDE, DeepSeek) AI models.
 
 ### 🧠 Deep Symbiosis - Optimization & Beyond
 - **[🤖 The 3 Layers of AI Engineering Evolution](engineering-evolution.md)**: The future path from Prompt and Context Engineering to autonomous testing frameworks (Harness).
 - **[🔍 Research Workflow](research-workflow.md)**: Efficient literature review, data analysis, and writing with AI.
-- **[🧩 Agents](agent.md)**: OpenClaw architecture and Agentic Workflow implementation.
 - **[📂 QMD Local Knowledge](qmd.md)**: Building and searching efficient local document indices with QMD.
 - **[📰 Latest AI News](ai-news.md)**: Real-time industry updates and technical breakthroughs.
 - **[🎓 Academic Trends](academic-trends.md)**: Major progress of AI in scientific discovery.
