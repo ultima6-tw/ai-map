@@ -20,9 +20,12 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 - **[🧠 AI Model Index](model-index.md)**: Comparison of global and local (TAIDE, DeepSeek) models.
 
 ### 🧠 Optimization & Deep Tech
-- **[🤖 The 3 Layers of AI Engineering Evolution](engineering-evolution.md)**: The future path from Prompt Engineering to autonomous testing.
-- **[🔍 Research Workflow](research-workflow.md)**: Efficient literature review and data analysis.
-- **[📂 QMD Local Knowledge](qmd.md)**: Building and searching local document indices.
+AI engineering is undergoing a paradigm shift from simple chats to automated architectures, consisting of **[🤖 The 3 Layers of AI Engineering Evolution](engineering-evolution.md)**:
+- **Layer 1: Prompt Engineering**: Focusing on structured instructions, Chain of Thought (CoT), and model fine-tuning to optimize communication.
+- **Layer 2: Context Engineering**: Providing AI with correct background data, integrating RAG and Knowledge Graphs.
+  - **[📂 QMD Local Knowledge](qmd.md)**: Building and searching efficient local document indices.
+- **Layer 3: Harness Engineering**: Establishing automated feedback loops and autonomous workflows.
+  - **[🔍 Research Workflow](research-workflow.md)**: Utilizing AI for efficient literature review, data analysis, and writing cycles.
 
 ### 📈 Trends & Future - Latest Developments
 - **[📰 Latest AI News](ai-news.md)**: Real-time industry updates and technical breakthroughs.
