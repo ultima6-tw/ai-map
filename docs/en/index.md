@@ -20,7 +20,7 @@ Welcome to the **AI Resource Map**, a curated knowledge base designed to help yo
 - **[🏠 Local AI & Privacy](local-ai-privacy.md)**: Ollama and local hardware configurations to keep your data private.
 - **[🇹🇼 Digital Sovereignty & TAIDE](digital-sovereignty.md)**: How Taiwan builds trustworthy AI to safeguard cultural identity.
 
-### 🔬 Research
+### 🔬 Deep Synergetics - Getting Better AI
 - **[🔍 Academic Workflow](research-workflow.md)**: Using AI for literature review, data analysis, and scientific writing.
 - **[🧩 Agent Basics](agent.md)**: Deep dive into OpenClaw architecture and agentic workflows.
 - **[📂 QMD Local Knowledge](qmd.md)**: Efficient local document indexing and retrieval using QMD.
