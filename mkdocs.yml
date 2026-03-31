@@ -4,6 +4,7 @@ repo_url: https://github.com/ultima6-tw/ai-map
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   edit_uri: edit/main/docs/
   palette:
