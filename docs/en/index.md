@@ -19,7 +19,7 @@ Welcome to the **AI Resource Map**. This is a curated knowledge base designed to
 - **[🧩 Agents](agent.md)**: OpenClaw architecture and Agentic Workflow implementation.
 - **[🧠 AI Model Index](model-index.md)**: Comparison of global and local (TAIDE, DeepSeek) models.
 
-### 🧠 Core Research - Optimization & Deep Tech
+### 🧠 Optimization & Deep Tech
 - **[🤖 The 3 Layers of AI Engineering Evolution](engineering-evolution.md)**: The future path from Prompt Engineering to autonomous testing.
 - **[🔍 Research Workflow](research-workflow.md)**: Efficient literature review and data analysis.
 - **[📂 QMD Local Knowledge](qmd.md)**: Building and searching local document indices.

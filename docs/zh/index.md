@@ -19,7 +19,7 @@
 - **[🧠 Agent 智能體](agent.md)**: OpenClaw 架構解析與自主代理 (Agentic Workflow) 實踐。
 - **[🧠 AI 模型概覽](model-index.md)**: 全球主流與在地 (TAIDE, DeepSeek) AI 模型對比。
 
-### 🧠 核心研究 (Core Research) - 深入技術與優化 (Optimization & Research)
+### 🧠 深入技術與優化 (Optimization & Research)
 - **[🤖 AI 工程化的三層演進](engineering-evolution.md)**: 從提示詞工程、上下文工程到自主測試架構 (Harness) 的未來路徑，整合模型微調與 CoT 技巧。
 - **[🔍 學術研究工作流](research-workflow.md)**: 利用 AI 進行高效的文獻審查、數據分析與寫作。
 - **[📂 QMD 本地知識](qmd.md)**: 使用 QMD 建立與搜尋高效的本地文件索引。
