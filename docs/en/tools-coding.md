@@ -11,6 +11,7 @@ AI is transforming how developers work, moving from simple code completion to fu
     - **[Claude Code Tutorial (YouTube Video)](https://www.youtube.com/watch?v=2pM-7fBXc_M)**: A comprehensive guide on how to set up and build anything with Claude Code.
     - **[Build Your First App with Claude Code (YouTube Video)](https://www.youtube.com/watch?v=XFmYkJJxsr8)**: A beginner-friendly guide showing how to build your first app using Claude Code with zero prior experience.
     - **[Claude Code x OpenAI Codex Plugin: Automated Review & Bug Patching (YouTube Video)](https://www.youtube.com/watch?v=Kv0NHxIS33o)**: Learn how to combine Claude Code with the official OpenAI Codex Plugin for automated code reviews, vulnerability interception (Review Gate), and self-healing bug fixes within your terminal.
+    - **[Claude Code Core Architecture Deep Dive (YouTube Video)](https://www.youtube.com/watch?v=I2iNEzhqQdI)**: A deep dive into the internal architecture of Claude Code, exploring its plugin system, tool protocol, and automated engineering loop (Plan-Action-Verify), revealing how AI agents achieve efficient codebase control.
 - **[Replit Agent](https://replit.com/ai)**: Ideal for rapid prototyping; describe your app in plain English, and it builds and deploys it for you.
 
 ## Recommended Models
