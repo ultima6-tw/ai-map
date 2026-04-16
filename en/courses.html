@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    /* ── Workshop & Chapter Layout ── */
+    .workshop {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 40px;
+      overflow: hidden;
+    }
+
+    .workshop-header {
+      background: linear-gradient(135deg, var(--navy), var(--teal));
+      color: var(--white);
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .workshop-num {
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.5);
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+
+    .workshop-title { font-size: 1.2rem; font-weight: 700; }
+    .workshop-desc  { font-size: 0.9rem; opacity: 0.85; margin-top: 4px; }
+
+    .chapter-list {
+      padding: 24px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .chapter {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: start;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .chapter:last-child { border-bottom: none; padding-bottom: 0; }
+
+    .chapter-info {}
+    .chapter-num-tag {
+      display: inline-block;
+      background: var(--teal-pale);
+      color: var(--teal);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      letter-spacing: 0.04em;
+    }
+    .chapter-info h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    .chapter-info p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    .chapter-video {}
+
+    /* ── Responsive ── */
+    @media (max-width: 720px) {
+      .chapter { grid-template-columns: 1fr; }
+      .chapter-list { padding: 16px; }
+      .workshop-header { padding: 20px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html" class="active">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../courses.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Page Header ── -->
+<div class="hero" style="padding:48px 24px 40px;">
+  <h1 style="font-size:2rem;">Courses</h1>
+  <p class="subtitle" style="margin-bottom:0;">Each workshop is divided into chapters — watch at your own pace.</p>
+</div>
+
+<!-- ── Course Content ── -->
+<section>
+  <div class="section-inner">
+
+    <!-- ══ Workshop 1 ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="workshop-num">1</div>
+        <div>
+          <div class="workshop-title">LLM Fundamentals: How Does AI Actually Work?</div>
+          <div class="workshop-desc">From the relationship between AI / ML / LLM, to hallucinations, context windows, and the stateless nature of models — after this, you'll understand the root cause of all the strange behaviors.</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- Chapter 1-1 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 1</span>
+            <h4>What Is the Relationship Between AI, ML, and LLM?</h4>
+            <p>Using a Russian nesting doll analogy to clarify the nested relationship: AI → Machine Learning → Deep Learning → LLM. When you use ChatGPT, you're actually using all four layers simultaneously.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-2 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 2</span>
+            <h4>How Does an LLM Generate Text?</h4>
+            <p>The four-step loop of predicting the next token — every article, every answer is built one token at a time through this loop.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-3 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 3</span>
+            <h4>Tokens and Temperature</h4>
+            <p>LLMs don't see "words" — they see tokens. How are tokens billed? Why does Chinese cost more than English? And how does temperature control the randomness of AI outputs?</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-4 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 4</span>
+            <h4>The Hallucination Problem: Why Does AI Fabricate Papers?</h4>
+            <p>AI picks the "statistically most likely token," not the "most correct one." These are completely different things — this is the root of hallucinations, and why all outputs must be verified.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-5 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 5</span>
+            <h4>Context Windows and Memory Limits</h4>
+            <p>AI has a limited "working memory" called the context window. When the window is full, old content gets pushed out — which is why AI "forgets" things in long conversations.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-6 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 6</span>
+            <h4>The Truth About AI: It Is Stateless</h4>
+            <p>The moment you press send, AI is "born" for that request and disappears after replying. The "conversation memory" you experience is an illusion created by the app re-packaging your chat history — this understanding explains the root of all strange behaviors.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+      </div><!-- /chapter-list -->
+    </div><!-- /workshop 1 -->
+
+    <!-- ══ Workshop 2 ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="workshop-num">2</div>
+        <div>
+          <div class="workshop-title">Prompting Techniques and AI Limitations</div>
+          <div class="workshop-desc">How do you talk to AI so it truly helps? And what are the things AI will never do well?</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- Chapter 2-1 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 1</span>
+            <h4>Five Prompting Techniques</h4>
+            <p>Assign a role, give examples, ask it to think, specify format, put the key point first — five techniques grounded in how LLMs work, each with a principled reason.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 2-2 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 2</span>
+            <h4>AI Limitations and the Sycophancy Problem</h4>
+            <p>AI struggles with real-time information, precise calculation, and genuine novelty. More dangerously: it's trained to please you — the angrier you get, the more its answers drift from the truth.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /workshop 2 -->
+
+    <!-- ══ Workshop 3 ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="workshop-num">3</div>
+        <div>
+          <div class="workshop-title">Tool Selection and Data Security</div>
+          <div class="workshop-desc">For the same task, which AI service and which tier you use completely changes where your data goes and the risks involved.</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- Chapter 3-1 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 1</span>
+            <h4>Who Makes LLMs? A Comparison of Major Models</h4>
+            <p>US-based (ChatGPT / Claude / Gemini), Chinese (DeepSeek / Qwen), Taiwanese (TAIDE) — models from different origins have different training data, policy constraints, and cultural biases.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 3-2 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 2</span>
+            <h4>The Samsung Incident: Where Did the Data Go?</h4>
+            <p>In 2023, Samsung engineers pasted confidential source code into ChatGPT, and the data was uploaded directly to OpenAI's servers. This isn't an isolated case — any time you use an online AI, your data leaves your computer. Samsung subsequently banned all external AI use.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+        <!-- Chapter 3-3 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Chapter 3</span>
+            <h4>Local Models and Digital Sovereignty</h4>
+            <p>Local models (such as Ollama) run entirely on your own machine — data never leaves. TAIDE is a model trained in Taiwan, optimized for Traditional Chinese and local legal formats.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 Video Coming Soon</div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /workshop 3 -->
+
+    <div class="alert">
+      Videos are being recorded and will be embedded here as YouTube links once complete. Have a specific chapter you'd like to see first? Let us know.
+    </div>
+
+  </div><!-- /section-inner -->
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+</body>
+</html>

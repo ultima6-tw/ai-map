@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knowledge & Reasoning — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .scenario {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    .scenario h3 { font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .scenario > p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+    .example-accordion {
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--bg);
+    }
+    .example-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+    .example-accordion summary::-webkit-details-marker { display: none; }
+    .toggle-icon { font-size: 0.75rem; transition: transform 0.2s; color: var(--teal-light); }
+    .example-accordion[open] .toggle-icon { transform: rotate(180deg); }
+    .example-body { padding: 0 16px 16px; }
+    .example-header { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+    .copy-btn {
+      background: var(--teal); color: #fff; border: none; border-radius: 6px;
+      padding: 5px 14px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: var(--teal-light); }
+    .copy-btn.copied { background: #27AE60; }
+    .example-prompt {
+      font-family: "Helvetica Neue", sans-serif;
+      font-size: 0.88rem; color: var(--text); line-height: 1.8;
+      white-space: pre-wrap; background: var(--white);
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+    }
+    .example-note { margin-top: 10px; font-size: 0.82rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../llm-knowledge.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">LLM Applications</div>
+  <h1 style="font-size:2rem;">🧠 Knowledge &amp; Reasoning</h1>
+  <p class="subtitle" style="margin-bottom:0;">Code, brainstorming, concept explanation — your 24-hour research partner.</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <div class="scenario">
+      <h3>Code Debugging</h3>
+      <p>Paste the error message and code together, and ask AI to analyze the cause and provide a corrected version.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">The following Python code is producing an error. Please help me debug it.
+
+Code:
+[Paste code here]
+
+Error message:
+[Paste error message here]
+
+Please explain step by step:
+1. The cause of the error
+2. How to fix it
+3. The complete corrected code</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Experimental Design Brainstorming</h3>
+      <p>Describe your research problem and ask AI to propose possible experimental directions or methods, then evaluate feasibility yourself.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">I am researching [research topic], and my current challenge is [describe problem].
+
+Please propose 3–5 possible experimental directions or methods, each including:
+- Core concept
+- Potential advantages
+- Potential challenges
+
+Please answer from the perspective of experimental design in physics/chemistry, without considering instrument or budget constraints.</div>
+          <div class="example-note">⚠️ AI suggestions need to be evaluated by you for feasibility — it knows nothing about your lab conditions.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Explaining Cross-Disciplinary Concepts</h3>
+      <p>When venturing into unfamiliar fields, ask AI to explain new concepts using analogies from your existing background knowledge.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">I am a researcher with a physics background, reading a biophysics paper. Please use physics language and analogies to explain the concept of "protein folding free energy landscape" to me.
+
+Assume I am familiar with statistical mechanics and phase transitions, but not with biological molecular systems.</div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Further Viewing ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Further Viewing</h2>
+    <p class="section-subtitle">How AI serves as a knowledge and reasoning partner in scientific research.</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/dRkehLL19Wo" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">The Physics of A.I.</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Physics behind AI · English</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/P_fHJIYENdI" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">AlphaFold — AI's Most Impactful Scientific Achievement</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Protein folding · English</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=FPOIL0W-w1M" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Harvard Professor Finds Systematic AI Fabrication in Physics Papers</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Hallucination &amp; verification · Chinese</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+<script>
+  function copyPrompt(btn) {
+    const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
+    navigator.clipboard.writeText(prompt).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+</script>
+</body>
+</html>

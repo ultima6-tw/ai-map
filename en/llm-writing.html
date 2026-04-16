@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing & Text Processing — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .scenario {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    .scenario h3 { font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .scenario > p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+    .example-accordion {
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--bg);
+    }
+    .example-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+    .example-accordion summary::-webkit-details-marker { display: none; }
+    .toggle-icon { font-size: 0.75rem; transition: transform 0.2s; color: var(--teal-light); }
+    .example-accordion[open] .toggle-icon { transform: rotate(180deg); }
+    .example-body { padding: 0 16px 16px; }
+    .example-header { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+    .copy-btn {
+      background: var(--teal); color: #fff; border: none; border-radius: 6px;
+      padding: 5px 14px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: var(--teal-light); }
+    .copy-btn.copied { background: #27AE60; }
+    .example-prompt {
+      font-family: "Helvetica Neue", sans-serif;
+      font-size: 0.88rem; color: var(--text); line-height: 1.8;
+      white-space: pre-wrap; background: var(--white);
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+    }
+    .example-note { margin-top: 10px; font-size: 0.82rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../llm-writing.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">LLM Applications</div>
+  <h1 style="font-size:2rem;">📄 Writing &amp; Text Processing</h1>
+  <p class="subtitle" style="margin-bottom:0;">Save enormous amounts of time on reading, translation, and writing.</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <div class="scenario">
+      <h3>Manuscript Editing</h3>
+      <p>Hand your draft to AI for editing, specify the journal style, preserve your data and terminology, and only adjust grammar and fluency.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">You are a senior editor specializing in physics and chemistry journals. Please edit the following paragraph to match the academic style of Physical Review Letters.
+
+Requirements:
+- Preserve all data, formulas, and technical terms — do not alter them
+- Only adjust grammar, word choice, and sentence flow
+- Do not add or remove any arguments
+
+[Paste paragraph here]</div>
+          <div class="example-note">⚠️ After editing, verify technical terms yourself — AI occasionally mistranslates or changes specialized terminology.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Rapid Literature Summary</h3>
+      <p>Give AI a paper abstract (or full text) to extract key information and quickly judge whether the paper is worth reading in full.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please read the following abstract and extract:
+1. Research question (one sentence)
+2. Methods used
+3. Key findings
+4. Study limitations
+
+Present as bullet points, each no longer than 40 words.
+
+[Paste abstract here]</div>
+          <div class="example-note">⚠️ If citing, always return to the original text — AI occasionally "supplements" information not present in the source.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Academic Translation</h3>
+      <p>Chinese-to-English or English-to-Chinese translation — specifying the field improves accuracy; always proofread terminology yourself.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please translate the following paragraph into English. This is academic content in the field of physics (condensed matter physics). Use correct technical terminology and match the writing conventions of Nature Physics.
+
+[Paste Chinese paragraph here]</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Response to Reviewers Draft</h3>
+      <p>Give AI the reviewer comments and your intended response directions, and have it generate a formal Response to Reviewers draft.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please help me write a formal response to the following reviewer comment.
+
+Reviewer's comment:
+[Paste reviewer comment here]
+
+My intended response:
+[Describe how you plan to respond, e.g.: We have added experimental details in Chapter 3 of the revised manuscript]
+
+Please write in the formal, courteous tone of an academic journal response letter, beginning with "We thank the reviewer for..."</div>
+          <div class="example-note">⚠️ The draft must still be revised to reflect your actual revisions — do not submit directly.</div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Further Viewing ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Further Viewing</h2>
+    <p class="section-subtitle">How to use AI more effectively to assist research writing and workflows.</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/p09yRj47kNM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Advanced Prompting: Structured Prompts &amp; Communication Techniques</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Chinese</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/UabBYexBD4k" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">RAG vs Long Context: Which Is Better for Literature Management?</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">English</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=VqB8zMujdjM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">The Impact of AI Agents on Academic Research</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Chinese</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+<script>
+  function copyPrompt(btn) {
+    const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
+    navigator.clipboard.writeText(prompt).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+</script>
+</body>
+</html>

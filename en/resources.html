@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html" class="active">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../resources.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Page Header ── -->
+<div class="hero" style="padding:48px 24px 40px;">
+  <h1 style="font-size:2rem;">Resources</h1>
+  <p class="subtitle" style="margin-bottom:0;">Tool selection guide, journal policies, and AI regulations you need to know.</p>
+</div>
+
+<!-- ── Tool Selection ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">How to Choose an AI Tool?</h2>
+    <p class="section-subtitle">The same service at different tiers can carry completely different risks. Use these principles to decide quickly.</p>
+
+    <div class="card-grid">
+      <div class="card" style="border-top:4px solid #27AE60;">
+        <div class="card-icon">✅</div>
+        <h3 style="color:#1E8449;">Relatively Safe</h3>
+        <p>ChatGPT Team / Enterprise, Google Workspace (Gemini) — explicit commitment not to use your inputs for model training. Suitable for general work content.</p>
+        <p style="margin-top:12px;font-size:0.85rem;color:#7F8C8D;">⚠️ Commitments cannot be verified; sensitive data should still not be entered.</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E67E22;">
+        <div class="card-icon">⚠️</div>
+        <h3 style="color:#CA6F1E;">Use with Caution</h3>
+        <p>ChatGPT Free, Gemini Personal — your data may be used for training. Avoid entering any unpublished research content or personal information.</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E74C3C;">
+        <div class="card-icon">🚫</div>
+        <h3 style="color:#C0392B;">Recommended to Avoid</h3>
+        <p>DeepSeek, Qwen, Kimi, Ernie Bot — subject to China's National Intelligence Law, which grants the government authority to access your data. Responses may be censored or biased.</p>
+      </div>
+    </div>
+
+    <div class="alert" style="margin-top:32px;">
+      <strong>Rule: Sensitive data (unpublished experimental results, personal information) should never be entered into any online service, regardless of tier.</strong><br>
+      Contact ACE if you need a local model solution.
+    </div>
+  </div>
+</section>
+
+<!-- ── Journal AI Policies ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Academic Journal AI Policies</h2>
+    <p class="section-subtitle">Check each journal's policy before submitting. Below is a key comparison of APS and ACS policies.</p>
+
+    <div class="card-grid" style="grid-template-columns:1fr 1fr;">
+      <div class="card">
+        <h3>APS (American Physical Society)</h3>
+        <ul style="margin-top:8px;padding-left:18px;font-size:0.92rem;color:var(--text-muted);line-height:2;">
+          <li>Must disclose AI use in the Cover Letter</li>
+          <li><strong>Completely prohibits</strong> AI-generated images</li>
+          <li>AI cannot be listed as an author; authors bear full responsibility</li>
+          <li>Reviewers may not upload manuscripts to external AI services</li>
+        </ul>
+        <div style="margin-top:16px;">
+          <a href="https://journals.aps.org/authors/ai-based-writing-tools" target="_blank" class="resource-link" style="font-size:0.85rem;">
+            <span class="icon">🔗</span> APS Official Policy Page
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>ACS (American Chemical Society)</h3>
+        <ul style="margin-top:8px;padding-left:18px;font-size:0.92rem;color:var(--text-muted);line-height:2;">
+          <li>Must disclose AI use in the Acknowledgments</li>
+          <li>AI-generated images allowed but must be noted in the caption</li>
+          <li>AI cannot be listed as an author; authors bear full responsibility</li>
+          <li>Editors may reject manuscripts for "excessive" AI use</li>
+        </ul>
+        <div style="margin-top:16px;">
+          <a href="https://researcher-resources.acs.org/publish/aipolicy" target="_blank" class="resource-link" style="font-size:0.85rem;">
+            <span class="icon">🔗</span> ACS Official Policy Page
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert" style="margin-top:24px;">
+      Policies vary by journal. Always check the latest policy of your target journal before submission.
+    </div>
+  </div>
+</section>
+
+<!-- ── External Links ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Useful Links</h2>
+    <p class="section-subtitle">Tools, learning resources, and AI news to follow.</p>
+    <div class="resource-grid">
+      <a href="https://chatgpt.com" target="_blank" class="resource-link">
+        <span class="icon">🤖</span> ChatGPT
+      </a>
+      <a href="https://gemini.google.com" target="_blank" class="resource-link">
+        <span class="icon">✨</span> Google Gemini
+      </a>
+      <a href="https://claude.ai" target="_blank" class="resource-link">
+        <span class="icon">🌊</span> Claude (Anthropic)
+      </a>
+      <a href="https://github.com/features/copilot" target="_blank" class="resource-link">
+        <span class="icon">💻</span> GitHub Copilot
+      </a>
+      <a href="https://journals.aps.org/authors/ai-based-writing-tools" target="_blank" class="resource-link">
+        <span class="icon">📋</span> APS AI Policy
+      </a>
+      <a href="https://researcher-resources.acs.org/publish/aipolicy" target="_blank" class="resource-link">
+        <span class="icon">📋</span> ACS AI Policy
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+</body>
+</html>

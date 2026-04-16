@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>自動化流程 — ACE</title>
-  <link rel="icon" href="assets/img/ace-logo.png">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Workflow Automation — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
   <style>
     .scenario {
       background: var(--white);
@@ -50,7 +50,7 @@
     .copy-btn:hover { background: var(--teal-light); }
     .copy-btn.copied { background: #27AE60; }
     .example-prompt {
-      font-family: "Noto Sans TC", "Helvetica Neue", sans-serif;
+      font-family: "Helvetica Neue", sans-serif;
       font-size: 0.88rem; color: var(--text); line-height: 1.8;
       white-space: pre-wrap; background: var(--white);
       border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
@@ -63,76 +63,76 @@
 <nav>
   <div class="nav-inner">
     <a class="nav-brand" href="index.html">
-      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
       ACE
     </a>
     <ul class="nav-links">
-      <li><a href="index.html">首頁</a></li>
-      <li><a href="courses.html">課程</a></li>
-      <li><a href="resources.html">資源</a></li>
-      <li><a href="about.html">關於</a></li>
-      <li><a href="en/llm-automation.html" style="color:var(--teal);font-weight:700;">EN</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../llm-automation.html" style="color:var(--teal);font-weight:700;">中文</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="hero" style="padding:48px 24px 40px;">
-  <div class="hero-badge">LLM 應用</div>
-  <h1 style="font-size:2rem;">⚙️ 自動化流程</h1>
-  <p class="subtitle" style="margin-bottom:0;">讓 AI 幫你執行，不只是給建議。</p>
+  <div class="hero-badge">LLM Applications</div>
+  <h1 style="font-size:2rem;">⚙️ Workflow Automation</h1>
+  <p class="subtitle" style="margin-bottom:0;">Let AI execute tasks for you — not just give advice.</p>
 </div>
 
 <section>
   <div class="section-inner">
 
     <div class="scenario">
-      <h3>批次整理文獻資料</h3>
-      <p>把多篇論文的摘要一次貼入，請 AI 整理成比較表格，節省手動整理的時間。</p>
+      <h3>Batch Literature Organization</h3>
+      <p>Paste multiple paper abstracts at once and ask AI to organize them into a comparison table, saving hours of manual work.</p>
       <details class="example-accordion">
-        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
-          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">以下是五篇論文的摘要。請整理成一個比較表格，欄位為：論文標題、研究方法、樣本數、主要發現、適用條件。
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Below are the abstracts of five papers. Please organize them into a comparison table with the following columns: Paper Title, Research Method, Sample Size, Key Findings, Applicable Conditions.
 
-論文一：[摘要]
-論文二：[摘要]
-論文三：[摘要]
+Paper 1: [Abstract]
+Paper 2: [Abstract]
+Paper 3: [Abstract]
 …
 
-請用 Markdown 表格格式輸出。</div>
+Please output in Markdown table format.</div>
         </div>
       </details>
     </div>
 
     <div class="scenario">
-      <h3>格式轉換與整理</h3>
-      <p>把雜亂的數據或文字轉換成你需要的格式，例如從段落提取表格。</p>
+      <h3>Format Conversion and Data Extraction</h3>
+      <p>Convert messy data or text into the format you need — for example, extracting tabular data from paragraphs.</p>
       <details class="example-accordion">
-        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
-          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">以下是一段實驗紀錄的文字描述，請提取所有的數值資料，整理成 CSV 格式，欄位為：樣品編號、測量溫度（K）、電阻值（Ω）、備註。
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">The following is a text description of experimental records. Please extract all numerical data and organize it into CSV format with columns: Sample ID, Measurement Temperature (K), Resistance (Ω), Notes.
 
-[貼入實驗紀錄文字]</div>
+[Paste experimental record text here]</div>
         </div>
       </details>
     </div>
 
     <div class="scenario">
-      <h3>撰寫資料處理腳本</h3>
-      <p>描述你想做的事，讓 AI 幫你寫 Python 腳本，再由你修改和執行。</p>
+      <h3>Writing Data Processing Scripts</h3>
+      <p>Describe what you want to do and let AI write a Python script — then review and run it yourself.</p>
       <details class="example-accordion">
-        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
-          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">請幫我寫一個 Python 腳本，功能如下：
-1. 讀取一個 CSV 檔（欄位：time, voltage, current）
-2. 計算每個時間點的功率（P = V × I）
-3. 畫出 time vs. power 的折線圖，並標注最大功率點
-4. 將圖片存成 PNG
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please write a Python script with the following functionality:
+1. Read a CSV file (columns: time, voltage, current)
+2. Calculate power at each time point (P = V × I)
+3. Plot a line graph of time vs. power, with the maximum power point labeled
+4. Save the figure as a PNG
 
-請使用 pandas 和 matplotlib，並加上必要的中文註解。</div>
-          <div class="example-note">⚠️ 執行前請先閱讀腳本內容，確認邏輯正確再跑，避免覆蓋原始數據。</div>
+Please use pandas and matplotlib, and include clear comments.</div>
+          <div class="example-note">⚠️ Before running, read through the script to verify the logic is correct — avoid overwriting raw data.</div>
         </div>
       </details>
     </div>
@@ -140,31 +140,31 @@
   </div>
 </section>
 
-<!-- ── 延伸觀看 ── -->
+<!-- ── Further Viewing ── -->
 <section class="bg-gray">
   <div class="section-inner">
-    <h2 class="section-title">延伸觀看</h2>
-    <p class="section-subtitle">AI 如何在實驗室與研究機構中加速自動化流程。</p>
+    <h2 class="section-title">Further Viewing</h2>
+    <p class="section-subtitle">How AI accelerates automation in labs and research institutions.</p>
     <div class="resource-grid">
       <a href="https://youtu.be/Sp2r2ankib0" target="_blank" class="resource-link">
         <span class="icon">▶️</span>
         <div>
           <div style="font-weight:600;font-size:0.9rem;">Accelerating Discovery with AI — Berkeley Lab</div>
-          <div style="font-size:0.8rem;color:var(--text-muted);">實驗室 AI 自動化 · 英文</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Lab AI automation · English</div>
         </div>
       </a>
       <a href="https://www.youtube.com/watch?v=bVnyDU8RyGk" target="_blank" class="resource-link">
         <span class="icon">▶️</span>
         <div>
           <div style="font-weight:600;font-size:0.9rem;">How AI Supercomputing Is Transforming Product Design</div>
-          <div style="font-size:0.8rem;color:var(--text-muted);">NVIDIA Omniverse · 英文</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">NVIDIA Omniverse · English</div>
         </div>
       </a>
       <a href="https://www.youtube.com/watch?v=3Errq-0T9w0" target="_blank" class="resource-link">
         <span class="icon">▶️</span>
         <div>
           <div style="font-weight:600;font-size:0.9rem;">How Open World Models are Powering Physical AI</div>
-          <div style="font-size:0.8rem;color:var(--text-muted);">NVIDIA · 英文</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">NVIDIA · English</div>
         </div>
       </a>
     </div>
@@ -173,16 +173,16 @@
 
 <footer>
   <p><strong>ACE — AI Competency Excellence</strong></p>
-  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
 </footer>
 
 <script>
   function copyPrompt(btn) {
     const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
     navigator.clipboard.writeText(prompt).then(() => {
-      btn.textContent = '已複製！';
+      btn.textContent = 'Copied!';
       btn.classList.add('copied');
-      setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 2000);
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
     });
   }
 </script>

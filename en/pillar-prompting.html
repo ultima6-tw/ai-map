@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effective AI Interaction — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../pillar-prompting.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">Pillar Three</div>
+  <h1 style="font-size:2rem;">Effective AI Interaction</h1>
+  <p class="subtitle" style="margin-bottom:0;">How to communicate with AI so it truly helps — from research questions to manuscript writing.</p>
+</div>
+
+<!-- ── Five Techniques ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Five Prompting Techniques</h2>
+    <p class="section-subtitle">Each technique is grounded in how LLMs work — there's a principled reason for all of them.</p>
+
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">1</div>
+        <div>
+          <h3 style="margin-bottom:6px;">Assign a Role</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">Instead of simply asking "how do I edit this?", say "You are a senior editor specializing in physics journals. Please edit the following paragraph." A role causes the model to sample from a specific region of its training data — the quality difference is significant.</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">2</div>
+        <div>
+          <h3 style="margin-bottom:6px;">Show, Don't Tell</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">Rather than saying "use a concise academic tone," paste a paragraph you consider exemplary and say "rewrite in this style." Demonstration is far more effective than description.</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">3</div>
+        <div>
+          <h3 style="margin-bottom:6px;">Ask It to Think Before Answering</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">Add "think step by step" at the end of your question. AI is significantly more accurate when it writes out its reasoning process than when it answers directly — especially for logic and analysis tasks.</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">4</div>
+        <div>
+          <h3 style="margin-bottom:6px;">Specify Output Format</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">If you want a table, say "present this as a table." If you want bullet points, say "use bullet points, each no longer than two lines." AI follows format instructions well — but you need to be explicit.</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">5</div>
+        <div>
+          <h3 style="margin-bottom:6px;">Put the Key Point First</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">AI weights the beginning of prompts most heavily. If your core constraint or task description is buried in the middle, it may not register. Put the most important instruction in the very first sentence.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Research Workflow ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Research Workflow: Where Can AI Help?</h2>
+    <p class="section-subtitle">Four stages, each with practical approaches you can use today.</p>
+
+    <div class="card-grid">
+      <div class="card pillar">
+        <div class="card-icon">🔍</div>
+        <h3>Problem Exploration</h3>
+        <p>Use Perplexity AI's Academic mode to quickly identify important papers in your field from the past three years and locate research gaps.</p>
+        <p style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);">⚠️ Always verify results independently in PubMed or Web of Science.</p>
+      </div>
+
+      <div class="card pillar">
+        <div class="card-icon">📚</div>
+        <h3>Literature Review</h3>
+        <p>Upload PDFs to Claude or Elicit and ask it to extract sample sizes, key findings, and study limitations — turning dozens of papers into a comparable table.</p>
+      </div>
+
+      <div class="card pillar">
+        <div class="card-icon">📊</div>
+        <h3>Data Analysis</h3>
+        <p>Upload a CSV to ChatGPT's Advanced Data Analysis, ask it to plot correlation heatmaps, identify outliers, and generate a draft Results section.</p>
+        <p style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);">⚠️ Use a local model for sensitive data.</p>
+      </div>
+
+      <div class="card pillar">
+        <div class="card-icon">✍️</div>
+        <h3>Writing &amp; Proofreading</h3>
+        <p>Paste your draft and specify "edit for academic journal style, preserve all original data, only adjust grammar and logical flow." This works far better than asking AI to write from scratch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Prompt Examples ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Common Research Task Templates</h2>
+    <p class="section-subtitle">Copy and adapt these for your own use.</p>
+
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      <div style="background:var(--bg);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:0 var(--radius) var(--radius) 0;padding:20px 24px;">
+        <div style="font-size:0.8rem;font-weight:700;color:var(--teal);margin-bottom:8px;letter-spacing:0.05em;">MANUSCRIPT EDITING</div>
+        <p style="font-family:monospace;font-size:0.9rem;color:var(--text);">You are a senior editor of a physics journal. Please edit the following paragraph to match the academic style of Physical Review Letters. Preserve all data and technical terms; only adjust grammar and sentence flow.<br>[Paste paragraph here]</p>
+      </div>
+
+      <div style="background:var(--bg);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:0 var(--radius) var(--radius) 0;padding:20px 24px;">
+        <div style="font-size:0.8rem;font-weight:700;color:var(--teal);margin-bottom:8px;letter-spacing:0.05em;">LITERATURE SUMMARY</div>
+        <p style="font-family:monospace;font-size:0.9rem;color:var(--text);">Please read the following abstract and extract: (1) research question, (2) methods, (3) key findings, (4) limitations. Present as a table, each cell no longer than 50 words.<br>[Paste abstract here]</p>
+      </div>
+
+      <div style="background:var(--bg);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:0 var(--radius) var(--radius) 0;padding:20px 24px;">
+        <div style="font-size:0.8rem;font-weight:700;color:var(--teal);margin-bottom:8px;letter-spacing:0.05em;">CODE DEBUGGING</div>
+        <p style="font-family:monospace;font-size:0.9rem;color:var(--text);">The following Python code is producing an error. Please analyze step by step: (1) cause of the error, (2) how to fix it, (3) complete corrected code.<br>[Paste code and error message here]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Further Viewing ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Further Viewing</h2>
+    <p class="section-subtitle">Prompting techniques, research workflows, and real AI applications in scientific research.</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/p09yRj47kNM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Advanced Prompting: Structured Prompts &amp; Communication Techniques</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Chinese</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/UabBYexBD4k" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">RAG vs Long Context: Which Do You Actually Need?</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Literature management strategy · English</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=VqB8zMujdjM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">The Impact of AI Agents on Academic Research</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Chinese</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/P_fHJIYENdI" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">AlphaFold — AI's Most Impactful Scientific Achievement</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Biology applications · English</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/Sp2r2ankib0" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Accelerating Discovery with AI — Berkeley Lab</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Lab AI applications · English</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Continue ── -->
+<section class="bg-gray">
+  <div class="section-inner" style="text-align:center;">
+    <h2 class="section-title">Keep Learning</h2>
+    <p class="section-subtitle">The courses page has detailed videos on each topic — watch at your own pace.</p>
+    <a href="courses.html" class="btn btn-white" style="background:var(--teal);color:#fff;box-shadow:var(--shadow);">Go to Courses →</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+</body>
+</html>

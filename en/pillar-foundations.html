@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Foundations & Risk Management — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../pillar-foundations.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">Pillar One</div>
+  <h1 style="font-size:2rem;">AI Foundations &amp; Risk Management</h1>
+  <p class="subtitle" style="margin-bottom:0;">Understand what LLMs are, how they work, and why you can't fully trust their answers.</p>
+</div>
+
+<!-- ── What Is an LLM ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">What Is an LLM?</h2>
+    <p class="section-subtitle">It's different from the AI you use in your lab.</p>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🔬</div>
+        <h3>AI in Your Lab</h3>
+        <p>Trained for a single task — image recognition, data classification. It can't switch tasks; it only recognizes the specific problem it was trained on.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <h3>LLM (Large Language Model)</h3>
+        <p>Trained on vast amounts of human-generated text, so you can interact with it through natural language. The underlying architecture is similar, but the training objective is completely different.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>How Does It Generate Text?</h3>
+        <p>Each step predicts "what the most likely next token is," building up output one token at a time. This is its core mechanism — and the source of all its limitations.</p>
+      </div>
+    </div>
+
+    <div class="alert" style="margin-top:32px;">
+      ChatGPT, Claude, and Gemini are all LLMs. So are DeepSeek and Qwen — but they carry additional data security risks. See "Smart Choice of AI" for details.
+    </div>
+  </div>
+</section>
+
+<!-- ── Hallucinations ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">The Hallucination Problem</h2>
+    <p class="section-subtitle">AI doesn't know when it's wrong — but you're the one signing the paper.</p>
+
+    <div class="card-grid">
+      <div class="card" style="border-top:4px solid #E74C3C;">
+        <div class="card-icon">📄</div>
+        <h3>Fabricated Papers</h3>
+        <p>LLMs generate citations that look completely plausible — author names, journal names, years, page numbers, all present. But the paper doesn't exist.</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E67E22;">
+        <div class="card-icon">🔢</div>
+        <h3>Wrong Numbers</h3>
+        <p>AI isn't calculating — it's predicting "what numbers statistically should look like here." Computed results and statistics always need independent verification.</p>
+      </div>
+      <div class="card" style="border-top:4px solid #F1C40F;">
+        <div class="card-icon">😊</div>
+        <h3>Sycophancy</h3>
+        <p>AI is trained to please users. The more you push back, the more likely it is to capitulate and agree with you — even when you're wrong.</p>
+      </div>
+    </div>
+
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:24px 28px;margin-top:32px;box-shadow:var(--shadow);">
+      <h3 style="color:var(--navy);margin-bottom:12px;">Verification Principles</h3>
+      <ul style="padding-left:20px;color:var(--text-muted);font-size:0.92rem;line-height:2.2;">
+        <li>All cited papers must be independently confirmed to exist via Google Scholar or PubMed</li>
+        <li>Numbers, statistics, and formulas may not be directly quoted from AI output — verify independently</li>
+        <li>When in doubt about an important conclusion, start a fresh conversation and ask again — if the two answers differ, that's a weak point</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── Context Window ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Why Does AI "Forget" Things?</h2>
+    <p class="section-subtitle">This isn't a bug — it's a fundamental design characteristic.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🪟</div>
+        <h3>Context Window</h3>
+        <p>AI has a "working memory" limit called the context window. When a conversation grows too long, the oldest content gets pushed out — which is why AI forgets earlier parts of long conversations.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <h3>It Is Stateless</h3>
+        <p>Every time you press send, AI reads the entire conversation from the beginning and "disappears" after replying. The app creates the illusion of memory by re-packaging your chat history — not the AI itself.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💡</div>
+        <h3>Practical Tips</h3>
+        <p>For long tasks, put critical instructions at the very beginning of the conversation and mark them IMPORTANT. When AI starts going off track, start a fresh conversation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Further Viewing ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Further Viewing</h2>
+    <p class="section-subtitle">Recommended videos for a deeper understanding of LLM mechanics and the hallucination problem.</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/XLN2x3bAMLQ" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">A Visual Guide to How LLMs Work</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">3Blue1Brown · English</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/wjZofJX0v4M" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">But what is a GPT? Visual intro to Transformers</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">3Blue1Brown · English</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/j5N2j6Ydhao" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">How GPT Works: Why Predict the Next Word?</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">漫士科普 · Chinese</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=FPOIL0W-w1M" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Harvard Professor Finds Systematic AI Fabrication in Physics Papers</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">Hallucination case study · Chinese</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Next Step ── -->
+<section class="bg-gray">
+  <div class="section-inner" style="text-align:center;">
+    <h2 class="section-title">Next</h2>
+    <p class="section-subtitle">Once you understand the foundations, the next step is choosing the right tools.</p>
+    <a href="pillar-tools.html" class="btn btn-white" style="background:var(--teal);color:#fff;box-shadow:var(--shadow);">Smart Choice of AI Tools →</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+</body>
+</html>

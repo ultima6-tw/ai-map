@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Choice of AI Tools — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../pillar-tools.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">Pillar Two</div>
+  <h1 style="font-size:2rem;">Smart Choice of AI Tools</h1>
+  <p class="subtitle" style="margin-bottom:0;">For the same task, which service and which tier you use completely changes where your data goes and the risks involved.</p>
+</div>
+
+<!-- ── Where Does Data Go ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Where Does Your Input Go?</h2>
+    <p class="section-subtitle">This is the most important question to ask before choosing a tool.</p>
+
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 32px;box-shadow:var(--shadow);margin-bottom:32px;">
+      <p style="font-size:1rem;line-height:1.9;color:var(--text);">
+        In 2023, Samsung engineers pasted confidential source code into ChatGPT, and the data was uploaded directly to OpenAI's servers. The problem wasn't hackers — it was that they didn't realize any content entered into an online AI service leaves their computer. Samsung subsequently banned all external AI use.
+      </p>
+      <p style="font-size:0.9rem;color:var(--text-muted);margin-top:12px;">
+        For researchers, this risk is especially relevant: <strong>unpublished experimental data, research ideas, and collaboration agreement drafts</strong> — once submitted, you've lost control over them.
+      </p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card" style="border-top:4px solid #27AE60;">
+        <div class="card-icon">✅</div>
+        <h3 style="color:#1E8449;">Relatively Safe</h3>
+        <p><strong>ChatGPT Team / Enterprise<br>Google Workspace (Gemini)</strong></p>
+        <p style="margin-top:8px;">Explicit commitment not to use inputs for model training. Suitable for general everyday work.</p>
+        <p style="margin-top:8px;font-size:0.85rem;color:#7F8C8D;">⚠️ Commitments cannot be verified; sensitive data should still not be entered.</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E67E22;">
+        <div class="card-icon">⚠️</div>
+        <h3 style="color:#CA6F1E;">Use with Caution</h3>
+        <p><strong>ChatGPT Free<br>Gemini Personal</strong></p>
+        <p style="margin-top:8px;">Data may be used for training. Avoid entering any unpublished research content or personal information.</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E74C3C;">
+        <div class="card-icon">🚫</div>
+        <h3 style="color:#C0392B;">Recommended to Avoid</h3>
+        <p><strong>DeepSeek, Qwen<br>Kimi, Ernie Bot</strong></p>
+        <p style="margin-top:8px;">Subject to China's National Intelligence Law, which grants the government authority to access server data. Responses may be censored or contain systematic biases.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Decision Principles ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Decision Principles</h2>
+    <p class="section-subtitle">Three questions to help you quickly decide whether a service is appropriate.</p>
+
+    <div style="display:flex;flex-direction:column;gap:16px;max-width:680px;">
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0;">1</div>
+        <div>
+          <h3 style="margin-bottom:4px;">Is the data sensitive?</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">Unpublished data, collaboration agreements, personal information — regardless of tier, no online service should receive this. Consider a local model.</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0;">2</div>
+        <div>
+          <h3 style="margin-bottom:4px;">Which country is this service from?</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">Chinese services are subject to local law, which grants the government access rights. Even for general content, this risk must be evaluated.</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0;">3</div>
+        <div>
+          <h3 style="margin-bottom:4px;">Does it have a clear data usage commitment?</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">At minimum, confirm the provider explicitly states how data is used and whether it's used for training. Free tiers typically offer no such guarantee.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert" style="margin-top:24px;max-width:680px;">
+      <strong>Bottom line: Sensitive data should not be entered into any online service, regardless of tier.</strong> Commitments cannot be verified — this is the fundamental limitation of online AI.
+    </div>
+  </div>
+</section>
+
+<!-- ── Model Overview ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">Major Model Overview</h2>
+    <p class="section-subtitle">Each provider has a different focus — choosing the right tool makes all the difference.</p>
+
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:0.92rem;">
+        <thead>
+          <tr style="background:var(--teal);color:#fff;">
+            <th style="padding:12px 16px;text-align:left;">Model</th>
+            <th style="padding:12px 16px;text-align:left;">Developer</th>
+            <th style="padding:12px 16px;text-align:left;">Best For</th>
+            <th style="padding:12px 16px;text-align:left;">Risk Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 16px;font-weight:600;">ChatGPT</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">OpenAI (🇺🇸)</td>
+            <td style="padding:12px 16px;">Everyday writing, Q&amp;A, code</td>
+            <td style="padding:12px 16px;"><span style="color:#E67E22;">Free ⚠️</span> / <span style="color:#27AE60;">Enterprise ✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);background:var(--bg);">
+            <td style="padding:12px 16px;font-weight:600;">Claude</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">Anthropic (🇺🇸)</td>
+            <td style="padding:12px 16px;">Long document analysis, academic writing, logical reasoning</td>
+            <td style="padding:12px 16px;"><span style="color:#E67E22;">Free ⚠️</span> / <span style="color:#27AE60;">Enterprise ✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 16px;font-weight:600;">Gemini</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">Google (🇺🇸)</td>
+            <td style="padding:12px 16px;">Google Workspace integration, long documents</td>
+            <td style="padding:12px 16px;"><span style="color:#E67E22;">Personal ⚠️</span> / <span style="color:#27AE60;">Workspace ✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);background:var(--bg);">
+            <td style="padding:12px 16px;font-weight:600;">TAIDE</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">NSTC (🇹🇼)</td>
+            <td style="padding:12px 16px;">Traditional Chinese, Taiwan legal formats, local context</td>
+            <td style="padding:12px 16px;"><span style="color:#27AE60;">Taiwan Official ✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 16px;font-weight:600;">DeepSeek / Qwen / Kimi / Ernie</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">Various Chinese companies (🇨🇳)</td>
+            <td style="padding:12px 16px;">—</td>
+            <td style="padding:12px 16px;"><span style="color:#E74C3C;">Avoid 🚫</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── Next Step ── -->
+<section class="bg-gray">
+  <div class="section-inner" style="text-align:center;">
+    <h2 class="section-title">Next</h2>
+    <p class="section-subtitle">Once you've chosen your tool, learn how to talk to it effectively.</p>
+    <a href="pillar-prompting.html" class="btn btn-white" style="background:var(--teal);color:#fff;box-shadow:var(--shadow);">Effective AI Interaction →</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+</body>
+</html>

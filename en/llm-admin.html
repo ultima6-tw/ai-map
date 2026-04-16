@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrative Tasks — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .scenario {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    .scenario h3 { font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .scenario > p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+    .example-accordion {
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--bg);
+    }
+    .example-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+    .example-accordion summary::-webkit-details-marker { display: none; }
+    .toggle-icon { font-size: 0.75rem; transition: transform 0.2s; color: var(--teal-light); }
+    .example-accordion[open] .toggle-icon { transform: rotate(180deg); }
+    .example-body { padding: 0 16px 16px; }
+    .example-header { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+    .copy-btn {
+      background: var(--teal); color: #fff; border: none; border-radius: 6px;
+      padding: 5px 14px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: var(--teal-light); }
+    .copy-btn.copied { background: #27AE60; }
+    .example-prompt {
+      font-family: "Helvetica Neue", sans-serif;
+      font-size: 0.88rem; color: var(--text); line-height: 1.8;
+      white-space: pre-wrap; background: var(--white);
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+    }
+    .example-note { margin-top: 10px; font-size: 0.82rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="../llm-admin.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">LLM Applications</div>
+  <h1 style="font-size:2rem;">🗂️ Administrative Tasks</h1>
+  <p class="subtitle" style="margin-bottom:0;">Official documents, correspondence, meeting minutes, reports — make everyday admin easier and more efficient.</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <div class="scenario">
+      <h3>Official Document Drafting</h3>
+      <p>Describe the purpose and key content of the document, let AI generate a properly formatted draft, then review and finalize.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please help me draft a formal official document.
+
+Issuing unit: Institute of Atomic and Molecular Sciences, Academia Sinica
+Recipient: [Fill in]
+Subject: [One sentence describing the purpose, e.g.: Invitation to the 2026 Annual Symposium]
+Key content: [Bullet points, e.g.: date, venue, registration method, deadline]
+
+Please use standard formal document format, maintain a formal tone, and keep clear logical structure between paragraphs.</div>
+          <div class="example-note">⚠️ After drafting, please have a supervisor review it to confirm the content and format meet institutional requirements before sending.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Meeting Minutes Organization</h3>
+      <p>Give AI your rough meeting notes or transcript and have it organize them into clear, structured meeting minutes.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please organize the following meeting notes into formal meeting minutes.
+
+Format requirements:
+- Meeting name, date, attendees (preserve the information I provide)
+- Discussion items: organized by topic, summarizing key discussion points for each
+- Resolutions: bullet points, noting responsible persons and deadlines (if applicable)
+- Action items: bullet points
+
+Notes content:
+[Paste notes or transcript here]</div>
+          <div class="example-note">⚠️ After organizing, verify that the resolutions match the actual discussion — avoid transcription errors.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Correspondence Drafting</h3>
+      <p>Describe the purpose and tone of the letter, and let AI generate an appropriate draft in Chinese or English.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please help me write an email.
+
+Recipient: [e.g.: International collaboration partner]
+Purpose: [e.g.: Confirm details of an upcoming visit, including schedule, venue, and reception arrangements]
+Tone: Formal but friendly
+Our institution: Institute of Atomic and Molecular Sciences, Academia Sinica
+
+Please begin with "Dear [Name]," and close with "Best regards."</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Event Announcement</h3>
+      <p>Provide basic event information and let AI generate a ready-to-use announcement suitable for bulletin boards or email distribution.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please write an event announcement in a formal but welcoming tone, suitable for sending to all institute members.
+
+Event details:
+- Event name: [Fill in]
+- Date and time: [Fill in]
+- Venue: [Fill in]
+- Audience: All IAMS members
+- Registration: [Fill in, or state no registration required]
+- Contact: [Fill in]
+- Other notes: [Fill in or leave blank]
+
+Please include a title, body, and closing, with contact information at the end.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Academic Conference Registration Website</h3>
+      <p>Provide event details and let AI generate a complete static registration page (HTML) that can be hosted on GitHub Pages or an institutional website — no coding required.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Please create a conference registration webpage (single HTML file with embedded CSS).
+
+Conference details:
+- Conference name: [e.g.: 2026 IAMS Annual Symposium]
+- Date: [Fill in]
+- Venue: [Fill in]
+- Organizer: Institute of Atomic and Molecular Sciences, Academia Sinica
+- Registration deadline: [Fill in]
+
+Registration form fields:
+- Name (required)
+- Department / Lab affiliation (required)
+- Position (Researcher / Postdoc / Graduate student / Administrative staff / Other)
+- Email (required)
+- Vegetarian meal required (Yes / No)
+- Notes (optional)
+
+Design requirements:
+- Clean and professional, white and navy color scheme
+- Mobile-responsive
+- After form submission, display "Thank you for registering — we will confirm by email" (no backend needed; simulate with JavaScript)</div>
+          <div class="example-note">⚠️ This is a static form; data will not be automatically collected. For real registrations, pair with Google Forms or Formspree.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>Report Narrative Summary</h3>
+      <p>Give AI numerical data or a table and have it generate a clear written explanation suitable for reports or presentations.</p>
+      <details class="example-accordion">
+        <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
+          <div class="example-prompt">Below is a set of statistical data. Please write a 100–150 word narrative summary suitable for an annual report.
+
+Requirements:
+- Objectively present the main trends in the data
+- Highlight the most noteworthy changes
+- Formal tone; do not draw inferences beyond the data
+
+Data:
+[Paste table or numbers here]</div>
+          <div class="example-note">⚠️ Verify that the AI's narrative is consistent with the raw data — do not allow it to infer or supplement figures.</div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Reminders ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Usage Reminders</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">✅</div>
+        <h3>Drafts Only</h3>
+        <p>All AI-generated documents and letters are drafts. Before sending, always have the responsible person review the content, format, and accountability.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔒</div>
+        <h3>No Personal Data</h3>
+        <p>When drafting letters or documents, avoid entering others' personal information (e.g., ID numbers, contact details) into online AI services.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📋</div>
+        <h3>Institutional Rules Take Priority</h3>
+        <p>Document format and language should follow your institution's current regulations. AI output is for reference only — adjust according to actual requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+<script>
+  function copyPrompt(btn) {
+    const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
+    navigator.clipboard.writeText(prompt).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+</script>
+</body>
+</html>
