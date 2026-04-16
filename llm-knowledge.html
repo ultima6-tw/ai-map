@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>知識與邏輯 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .scenario {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    .scenario h3 { font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .scenario > p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+    .example-accordion {
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--bg);
+    }
+    .example-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+    .example-accordion summary::-webkit-details-marker { display: none; }
+    .toggle-icon { font-size: 0.75rem; transition: transform 0.2s; color: var(--teal-light); }
+    .example-accordion[open] .toggle-icon { transform: rotate(180deg); }
+    .example-body { padding: 0 16px 16px; }
+    .example-header { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+    .copy-btn {
+      background: var(--teal); color: #fff; border: none; border-radius: 6px;
+      padding: 5px 14px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: var(--teal-light); }
+    .copy-btn.copied { background: #27AE60; }
+    .example-prompt {
+      font-family: "Noto Sans TC", "Helvetica Neue", sans-serif;
+      font-size: 0.88rem; color: var(--text); line-height: 1.8;
+      white-space: pre-wrap; background: var(--white);
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+    }
+    .example-note { margin-top: 10px; font-size: 0.82rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">LLM 應用</div>
+  <h1 style="font-size:2rem;">🧠 知識與邏輯</h1>
+  <p class="subtitle" style="margin-bottom:0;">程式碼、腦力激盪、解釋概念——你的 24 小時研究夥伴。</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <div class="scenario">
+      <h3>程式碼除錯</h3>
+      <p>把錯誤訊息和程式碼一起貼給 AI，請它分析原因並提供修正版本。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">以下 Python 程式碼出現錯誤，請幫我除錯。
+
+程式碼：
+[貼入程式碼]
+
+錯誤訊息：
+[貼入 error message]
+
+請逐步說明：
+1. 錯誤原因
+2. 修正方式
+3. 修正後的完整程式碼</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>實驗設計腦力激盪</h3>
+      <p>描述你的研究問題，請 AI 提出可能的實驗方向或方法，再由你判斷可行性。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">我正在研究 [研究主題]，目前的挑戰是 [描述問題]。
+
+請提出 3–5 個可能的實驗方向或方法，每個方向包含：
+- 核心概念
+- 可能的優點
+- 潛在的挑戰
+
+請以物理/化學領域的實驗設計思維來回答，不需要考慮儀器或經費限制。</div>
+          <div class="example-note">⚠️ AI 的建議需由你評估可行性，它對你的實驗室條件一無所知。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>解釋跨領域概念</h3>
+      <p>跨入不熟悉的領域時，請 AI 用你熟悉的背景知識來解釋陌生概念。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">我是一位物理背景的研究人員，正在閱讀一篇生物物理的論文。請用物理的語言和類比，向我解釋「蛋白質摺疊的自由能景觀（Free Energy Landscape）」這個概念。
+
+請假設我熟悉統計力學和相變，但對生物分子系統不熟悉。</div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 延伸觀看 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">延伸觀看</h2>
+    <p class="section-subtitle">了解 AI 如何在科學研究中扮演知識與邏輯夥伴的角色。</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/dRkehLL19Wo" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">The Physics of A.I.</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">AI 背後的物理原理 · 英文</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/P_fHJIYENdI" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">AlphaFold — AI 在科學研究中最有用的成果</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">蛋白質摺疊 · 英文</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=FPOIL0W-w1M" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">哈佛教授讓 AI 寫物理論文，發現系統性造假</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">幻覺與驗證的重要性 · 中文</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+<script>
+  function copyPrompt(btn) {
+    const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
+    navigator.clipboard.writeText(prompt).then(() => {
+      btn.textContent = '已複製！';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+</script>
+</body>
+</html>

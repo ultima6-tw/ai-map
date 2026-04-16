@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>課程 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* ── Workshop & Chapter Layout ── */
+    .workshop {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 40px;
+      overflow: hidden;
+    }
+
+    .workshop-header {
+      background: linear-gradient(135deg, var(--navy), var(--teal));
+      color: var(--white);
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .workshop-num {
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.5);
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+
+    .workshop-title { font-size: 1.2rem; font-weight: 700; }
+    .workshop-desc  { font-size: 0.9rem; opacity: 0.85; margin-top: 4px; }
+
+    .chapter-list {
+      padding: 24px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .chapter {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: start;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .chapter:last-child { border-bottom: none; padding-bottom: 0; }
+
+    .chapter-info {}
+    .chapter-num-tag {
+      display: inline-block;
+      background: var(--teal-pale);
+      color: var(--teal);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      letter-spacing: 0.04em;
+    }
+    .chapter-info h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    .chapter-info p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    .chapter-video {}
+
+    /* ── Responsive ── */
+    @media (max-width: 720px) {
+      .chapter { grid-template-columns: 1fr; }
+      .chapter-list { padding: 16px; }
+      .workshop-header { padding: 20px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html" class="active">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Page Header ── -->
+<div class="hero" style="padding:48px 24px 40px;">
+  <h1 style="font-size:2rem;">課程</h1>
+  <p class="subtitle" style="margin-bottom:0;">每個工作坊拆分為多個章節，可依自己的進度觀看。</p>
+</div>
+
+<!-- ── Course Content ── -->
+<section>
+  <div class="section-inner">
+
+    <!-- ══ Workshop 1 ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="workshop-num">1</div>
+        <div>
+          <div class="workshop-title">LLM 基礎原理：AI 到底怎麼運作？</div>
+          <div class="workshop-desc">從 AI / ML / LLM 的關係，到幻覺、情境窗口、無狀態本質——讀完這個，你會理解所有怪異行為的根源。</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- Chapter 1-1 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 1 章</span>
+            <h4>AI、ML、LLM 是什麼關係？</h4>
+            <p>用俄羅斯套娃說清楚 AI → 機器學習 → 深度學習 → LLM 的巢狀關係。你用 ChatGPT 時，其實同時在用這四層。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-2 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 2 章</span>
+            <h4>LLM 如何生成文字？</h4>
+            <p>預測下一個字的四步迴圈——每一篇文章、每一個回答，都是靠這個迴圈一個字一個字疊出來的。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-3 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 3 章</span>
+            <h4>Token 與溫度</h4>
+            <p>LLM 看到的不是「字」，是 token。Token 怎麼計費、中文為什麼比英文貴？溫度又怎麼控制 AI 的隨機程度？</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-4 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 4 章</span>
+            <h4>幻覺問題：AI 為什麼會捏造論文？</h4>
+            <p>AI 選的是「統計上最可能的字」，不是「最正確的字」。這兩件事完全不同——這就是幻覺的根源，也是為什麼所有輸出都要驗證。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-5 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 5 章</span>
+            <h4>情境窗口與記憶限制</h4>
+            <p>AI 的「工作記憶」是有限的。窗口滿了舊內容就被推出去，這就是為什麼長對話中 AI 會「忘事」。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 1-6 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 6 章</span>
+            <h4>AI 的真相：它其實是無狀態的</h4>
+            <p>你按下送出的那一刻，AI 才「誕生」，回覆完就消失了。所謂的「對話記憶」是 App 幫你重新打包歷史記錄的假象——這個認知解釋了所有怪異行為的根源。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+      </div><!-- /chapter-list -->
+    </div><!-- /workshop 1 -->
+
+    <!-- ══ Workshop 2 ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="workshop-num">2</div>
+        <div>
+          <div class="workshop-title">提示技巧與 AI 的限制</div>
+          <div class="workshop-desc">怎麼說話讓 AI 真正幫上忙？以及哪些事 AI 永遠做不好？</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- Chapter 2-1 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 1 章</span>
+            <h4>五個提示技巧</h4>
+            <p>給角色、給例子、叫它思考、規定格式、把重點放最前面——五個技巧，對應 AI 的底層原理，每一個都有其原因。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 2-2 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 2 章</span>
+            <h4>AI 的限制與奉承問題</h4>
+            <p>AI 不擅長即時資訊、精確計算、真正的創新。更危險的是：它被訓練成「取悅你」——你越生氣，它的答案越偏離真相。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /workshop 2 -->
+
+    <!-- ══ Workshop 3 ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="workshop-num">3</div>
+        <div>
+          <div class="workshop-title">工具選擇與資料安全</div>
+          <div class="workshop-desc">同一件任務，用哪個 AI、用哪個版本，資料的去向和風險完全不同。</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- Chapter 3-1 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 1 章</span>
+            <h4>誰在做 LLM？各家模型比較</h4>
+            <p>美國（ChatGPT / Claude / Gemini）、中國（DeepSeek / Qwen）、台灣（TAIDE）——不同來源的模型，背後有不同的訓練資料、政策規範和文化偏差。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 3-2 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 2 章</span>
+            <h4>Samsung 事件：資料去哪了？</h4>
+            <p>2023 年三星員工把機密程式碼貼進 ChatGPT，資料直接上傳到 OpenAI 伺服器。這不是特例——只要你用線上 AI，資料就離開了你的電腦。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+        <!-- Chapter 3-3 -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">第 3 章</span>
+            <h4>本地模型與數位主權</h4>
+            <p>本地模型（如 Ollama）完全在你自己的機器上運行，資料不出去。TAIDE 是台灣自己訓練的模型，針對繁體中文與本地法律格式最佳化。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-placeholder">🎬 影片製作中</div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /workshop 3 -->
+
+    <div class="alert">
+      影片錄製中，完成後將在此嵌入 YouTube 連結。有特定章節想優先上線？歡迎告訴我們。
+    </div>
+
+  </div><!-- /section-inner -->
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+</body>
+</html>

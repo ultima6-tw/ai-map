@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行政工作 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .scenario {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    .scenario h3 { font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .scenario > p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+    .example-accordion {
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--bg);
+    }
+    .example-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+    .example-accordion summary::-webkit-details-marker { display: none; }
+    .toggle-icon { font-size: 0.75rem; transition: transform 0.2s; color: var(--teal-light); }
+    .example-accordion[open] .toggle-icon { transform: rotate(180deg); }
+    .example-body { padding: 0 16px 16px; }
+    .example-header { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+    .copy-btn {
+      background: var(--teal); color: #fff; border: none; border-radius: 6px;
+      padding: 5px 14px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: var(--teal-light); }
+    .copy-btn.copied { background: #27AE60; }
+    .example-prompt {
+      font-family: "Noto Sans TC", "Helvetica Neue", sans-serif;
+      font-size: 0.88rem; color: var(--text); line-height: 1.8;
+      white-space: pre-wrap; background: var(--white);
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+    }
+    .example-note { margin-top: 10px; font-size: 0.82rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">LLM 應用</div>
+  <h1 style="font-size:2rem;">🗂️ 行政工作</h1>
+  <p class="subtitle" style="margin-bottom:0;">公文、信件、會議記錄、報表——讓日常行政更輕鬆有效率。</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <div class="scenario">
+      <h3>公文草擬</h3>
+      <p>描述公文目的與主要內容，讓 AI 生成符合公文格式的草稿，再自行修改確認。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請幫我草擬一份正式公文。
+
+發文單位：中央研究院原子與分子科學研究所
+受文單位：[填入]
+主旨：[一句話說明公文目的，例如：邀請參加 2026 年度研討會]
+內容重點：[條列說明，例如：時間、地點、報名方式、截止日期]
+
+請使用標準公文格式，語氣正式，並在段落間保持清楚的邏輯結構。</div>
+          <div class="example-note">⚠️ 草稿完成後請由主管審閱，確認內容與格式符合機關規定再送出。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>會議記錄整理</h3>
+      <p>把會議中的粗略筆記或逐字稿交給 AI，整理成結構清楚的會議記錄。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請將以下會議筆記整理成正式的會議記錄。
+
+格式要求：
+- 會議名稱、日期、出席人員（請保留我提供的資訊）
+- 討論事項：依議題分段，每段說明討論重點
+- 決議事項：條列，標明負責人與完成時間（若有）
+- 待辦事項：條列
+
+筆記內容：
+[貼入筆記或逐字稿]</div>
+          <div class="example-note">⚠️ 整理後請核對決議內容是否與實際討論一致，避免誤植。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>中英文信件撰寫</h3>
+      <p>說明信件目的與語氣，讓 AI 生成合適的中文或英文信件草稿。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請幫我撰寫一封英文信件。
+
+收件人：[填入，例如：國際合作機構的聯絡人]
+目的：[例如：確認訪問行程的細節，包括時間、地點與接待安排]
+語氣：正式但友善
+我方資訊：中央研究院原子與分子科學研究所
+
+請以 "Dear [Name]," 開頭，結尾使用 "Best regards"。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>活動公告撰寫</h3>
+      <p>提供活動基本資訊，讓 AI 生成可直接使用的公告文字，適合張貼佈告欄或發送 Email。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請幫我撰寫一則活動公告，語氣正式但親切，適合寄送給所內全體人員。
+
+活動資訊：
+- 活動名稱：[填入]
+- 日期時間：[填入]
+- 地點：[填入]
+- 對象：IAMS 全體成員
+- 報名方式：[填入，或說明不需報名]
+- 聯絡窗口：[填入]
+- 其他注意事項：[填入或留空]
+
+請包含標題、正文與結語，並在結尾附上聯絡資訊。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>學術會議報名網站製作</h3>
+      <p>提供會議基本資訊，讓 AI 生成一個完整的靜態報名頁面（HTML），可直接放上 GitHub Pages 或機構網站，不需要會寫程式。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請幫我製作一個學術會議報名網頁（單一 HTML 檔案，內嵌 CSS）。
+
+會議資訊：
+- 會議名稱：[填入，例如：2026 IAMS 年度研討會]
+- 日期：[填入]
+- 地點：[填入]
+- 主辦單位：中央研究院原子與分子科學研究所
+- 截止報名：[填入]
+
+報名表單欄位：
+- 姓名（必填）
+- 單位／所屬實驗室（必填）
+- 職稱（研究員 / 博士後 / 研究生 / 行政人員 / 其他）
+- 電子郵件（必填）
+- 是否需要素食餐點（是 / 否）
+- 備註（選填）
+
+設計要求：
+- 簡潔專業，配色以白色和深藍色為主
+- 手機版也能正常顯示
+- 表單送出後顯示「感謝報名，我們將以 Email 確認」的訊息（不需要後端，用 JavaScript 模擬即可）</div>
+          <div class="example-note">⚠️ 此頁面為靜態表單，資料不會自動傳送。若需真正收集報名資料，建議搭配 Google Forms 或 Formspree 等服務。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>摘要與報表文字說明</h3>
+      <p>把數字或表格資料交給 AI，生成一段清楚的文字說明，適合放在報告或簡報中。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">以下是一份統計數據，請幫我撰寫一段 100–150 字的文字說明，適合放在年度報告中。
+
+要求：
+- 客觀呈現數據的主要趨勢
+- 點出最值得注意的變化
+- 語氣正式，不做超出數據的推論
+
+數據：
+[貼入表格或數字]</div>
+          <div class="example-note">⚠️ 請確認 AI 的說明與原始數據一致，勿讓其自行推論或補充數據。</div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 提醒 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">使用提醒</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">✅</div>
+        <h3>草稿用途</h3>
+        <p>AI 生成的公文、信件皆為草稿，送出前務必由負責人審閱，確認內容、格式與權責正確。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔒</div>
+        <h3>不輸入個人資料</h3>
+        <p>撰寫信件或公文時，避免輸入他人的個人資訊（如身份證號、聯絡資料）到線上 AI 服務。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📋</div>
+        <h3>機關規定優先</h3>
+        <p>公文格式與用語以各機關的現行規定為準，AI 的輸出僅供參考，請依實際規範調整。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+<script>
+  function copyPrompt(btn) {
+    const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
+    navigator.clipboard.writeText(prompt).then(() => {
+      btn.textContent = '已複製！';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+</script>
+</body>
+</html>

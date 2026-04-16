@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文字處理 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .scenario {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    .scenario h3 { font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .scenario > p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+    .example-accordion {
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--bg);
+    }
+    .example-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+    .example-accordion summary::-webkit-details-marker { display: none; }
+    .toggle-icon { font-size: 0.75rem; transition: transform 0.2s; color: var(--teal-light); }
+    .example-accordion[open] .toggle-icon { transform: rotate(180deg); }
+    .example-body { padding: 0 16px 16px; }
+    .example-header { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+    .copy-btn {
+      background: var(--teal); color: #fff; border: none; border-radius: 6px;
+      padding: 5px 14px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: var(--teal-light); }
+    .copy-btn.copied { background: #27AE60; }
+    .example-prompt {
+      font-family: "Noto Sans TC", "Helvetica Neue", sans-serif;
+      font-size: 0.88rem; color: var(--text); line-height: 1.8;
+      white-space: pre-wrap; background: var(--white);
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+    }
+    .example-note { margin-top: 10px; font-size: 0.82rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">LLM 應用</div>
+  <h1 style="font-size:2rem;">📄 文字處理</h1>
+  <p class="subtitle" style="margin-bottom:0;">節省大量閱讀、翻譯、撰寫的時間。</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <div class="scenario">
+      <h3>英文論文潤稿</h3>
+      <p>把草稿交給 AI 改寫，指定期刊風格，保留你的數據與術語，只調整語法與流暢度。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">你是一位專精物理/化學期刊的資深編輯。請幫我潤稿以下段落，使其符合 Physical Review Letters 的學術語氣。
+
+要求：
+- 保留所有數據、公式與術語，不得更動
+- 只調整語法、用字與句子流暢度
+- 不要增加或刪減任何論點
+
+[貼入段落]</div>
+          <div class="example-note">⚠️ 潤稿後仍需自行確認術語正確性，AI 偶爾會把專有名詞改錯。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>文獻快速摘要</h3>
+      <p>把論文摘要（或全文）交給 AI，提取關鍵資訊，快速判斷這篇文章值不值得精讀。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請閱讀以下論文摘要，並提取：
+1. 研究問題（一句話）
+2. 使用的方法
+3. 主要發現
+4. 研究限制
+
+請用條列式呈現，每點不超過 40 字。
+
+[貼入摘要]</div>
+          <div class="example-note">⚠️ 若要引用，請回到原文確認——AI 偶爾會「補充」原文沒有的資訊。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>學術文本翻譯</h3>
+      <p>中翻英或英翻中，指定領域讓翻譯結果更準確，再自行校對術語。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請將以下段落翻譯成英文。這是物理學（凝態物理）領域的學術內容，請使用正確的學術術語，風格符合 Nature Physics 的寫作慣例。
+
+[貼入中文段落]</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>審稿意見回覆草稿</h3>
+      <p>把 Reviewer 的意見和你的回應思路交給 AI，生成正式的 Response to Reviewers 草稿。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請幫我撰寫一段正式的審稿回覆。
+
+Reviewer 的意見：
+[貼入審稿意見]
+
+我的回應方向：
+[說明你打算怎麼回答，例如：我們已在修改稿中補充了第三章的實驗細節]
+
+請用學術期刊標準的禮貌語氣撰寫，格式為 "We thank the reviewer for..." 開頭。</div>
+          <div class="example-note">⚠️ 草稿仍需修改以符合你的實際修改內容，不可直接送出。</div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 延伸觀看 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">延伸觀看</h2>
+    <p class="section-subtitle">如何更有效地用 AI 輔助研究寫作與工作流程。</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/p09yRj47kNM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">提示詞工程進階：結構化提示詞與溝通技巧</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">中文</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/UabBYexBD4k" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">RAG 與長上下文的對決：文獻管理怎麼選？</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">英文</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=VqB8zMujdjM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">AI Agent 對學術研究工作帶來的衝擊</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">中文</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+<script>
+  function copyPrompt(btn) {
+    const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
+    navigator.clipboard.writeText(prompt).then(() => {
+      btn.textContent = '已複製！';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+</script>
+</body>
+</html>

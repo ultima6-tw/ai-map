@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 基礎與風險管理 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">核心一</div>
+  <h1 style="font-size:2rem;">AI 基礎與風險管理</h1>
+  <p class="subtitle" style="margin-bottom:0;">了解 LLM 是什麼、它怎麼運作、以及為什麼你不能完全相信它的回答。</p>
+</div>
+
+<!-- ── LLM 是什麼 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">LLM 是什麼？</h2>
+    <p class="section-subtitle">它跟你實驗室用的 AI 不一樣。</p>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🔬</div>
+        <h3>你實驗室的 AI</h3>
+        <p>針對單一任務訓練，例如影像辨識、數據分類。換個任務就不能用——它只認識自己被訓練的那個問題。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <h3>LLM（大型語言模型）</h3>
+        <p>用大量人類語言文字訓練，所以你可以用說話的方式跟它互動。底層是同一種神經網路，但訓練目標完全不同。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>它怎麼生成文字？</h3>
+        <p>每次預測「下一個字最可能是什麼」，一個字一個字疊出來。這是它的核心機制，也是它所有限制的根源。</p>
+      </div>
+    </div>
+
+    <div class="alert" style="margin-top:32px;">
+      ChatGPT、Claude、Gemini 都是 LLM。DeepSeek、Qwen 也是——但它們帶有額外的資料安全風險，詳見「選對工具」。
+    </div>
+  </div>
+</section>
+
+<!-- ── 幻覺問題 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">幻覺問題</h2>
+    <p class="section-subtitle">AI 不會知道自己說錯了——但你在論文上署名，責任是你的。</p>
+
+    <div class="card-grid">
+      <div class="card" style="border-top:4px solid #E74C3C;">
+        <div class="card-icon">📄</div>
+        <h3>捏造的論文</h3>
+        <p>LLM 會生成一個「看起來合理」的引用——作者名、期刊名、年份、頁碼全都有。但那篇論文根本不存在。</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E67E22;">
+        <div class="card-icon">🔢</div>
+        <h3>錯誤的數字</h3>
+        <p>AI 不是在計算，它是在預測「數字統計上應該長什麼樣子」。計算結果、統計數據，都需要你自己驗證。</p>
+      </div>
+      <div class="card" style="border-top:4px solid #F1C40F;">
+        <div class="card-icon">😊</div>
+        <h3>越問越順你心</h3>
+        <p>AI 被訓練成「取悅使用者」。你越堅持，它越可能改口說你是對的——即使你其實是錯的。</p>
+      </div>
+    </div>
+
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:24px 28px;margin-top:32px;box-shadow:var(--shadow);">
+      <h3 style="color:var(--navy);margin-bottom:12px;">驗證原則</h3>
+      <ul style="padding-left:20px;color:var(--text-muted);font-size:0.92rem;line-height:2.2;">
+        <li>所有引用的論文，必須自己用 Google Scholar / PubMed 確認存在</li>
+        <li>數字、統計、公式，不可直接引用 AI 輸出，需另行驗算</li>
+        <li>對重要結論存疑時，換一個新對話重問——如果兩次答案不同，代表那裡有軟肋</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── 情境窗口 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">AI 為什麼會「忘事」？</h2>
+    <p class="section-subtitle">這不是 bug——是它的根本設計。</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🪟</div>
+        <h3>情境窗口</h3>
+        <p>AI 有一個「工作記憶」上限，叫做情境窗口。對話太長，最舊的內容就會被推出去——所以長對話中它會忘記你前面說過的事。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <h3>它其實是無狀態的</h3>
+        <p>每次你按送出，AI 從頭讀一次整段對話，回覆完就「消失」了。「記得你」的是 App，不是 AI 本身。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💡</div>
+        <h3>實用對策</h3>
+        <p>長任務時，把關鍵指示放在對話最前面，並標注 IMPORTANT。感覺 AI 開始「跑偏」時，直接開新對話重來。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 延伸觀看 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">延伸觀看</h2>
+    <p class="section-subtitle">深入了解 LLM 原理與幻覺問題的推薦影片。</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/XLN2x3bAMLQ" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">A Visual Guide to How LLMs Work</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">3Blue1Brown · 英文</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/wjZofJX0v4M" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">But what is a GPT? Visual intro to Transformers</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">3Blue1Brown · 英文</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/j5N2j6Ydhao" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">GPT 是如何工作的？為什麼要預測下一個詞？</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">漫士科普 · 中文</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=FPOIL0W-w1M" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">哈佛教授讓 AI 寫物理論文，發現系統性造假</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">幻覺案例 · 中文</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── 下一步 ── -->
+<section class="bg-gray">
+  <div class="section-inner" style="text-align:center;">
+    <h2 class="section-title">接下來</h2>
+    <p class="section-subtitle">了解基礎之後，下一步是選對工具。</p>
+    <a href="pillar-tools.html" class="btn btn-white" style="background:var(--teal);color:#fff;box-shadow:var(--shadow);">選對 AI 工具 →</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+</body>
+</html>

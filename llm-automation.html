@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自動化流程 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .scenario {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    .scenario h3 { font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .scenario > p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+    .example-accordion {
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--bg);
+    }
+    .example-accordion summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+    .example-accordion summary::-webkit-details-marker { display: none; }
+    .toggle-icon { font-size: 0.75rem; transition: transform 0.2s; color: var(--teal-light); }
+    .example-accordion[open] .toggle-icon { transform: rotate(180deg); }
+    .example-body { padding: 0 16px 16px; }
+    .example-header { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+    .copy-btn {
+      background: var(--teal); color: #fff; border: none; border-radius: 6px;
+      padding: 5px 14px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: var(--teal-light); }
+    .copy-btn.copied { background: #27AE60; }
+    .example-prompt {
+      font-family: "Noto Sans TC", "Helvetica Neue", sans-serif;
+      font-size: 0.88rem; color: var(--text); line-height: 1.8;
+      white-space: pre-wrap; background: var(--white);
+      border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+    }
+    .example-note { margin-top: 10px; font-size: 0.82rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">LLM 應用</div>
+  <h1 style="font-size:2rem;">⚙️ 自動化流程</h1>
+  <p class="subtitle" style="margin-bottom:0;">讓 AI 幫你執行，不只是給建議。</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <div class="scenario">
+      <h3>批次整理文獻資料</h3>
+      <p>把多篇論文的摘要一次貼入，請 AI 整理成比較表格，節省手動整理的時間。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">以下是五篇論文的摘要。請整理成一個比較表格，欄位為：論文標題、研究方法、樣本數、主要發現、適用條件。
+
+論文一：[摘要]
+論文二：[摘要]
+論文三：[摘要]
+…
+
+請用 Markdown 表格格式輸出。</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>格式轉換與整理</h3>
+      <p>把雜亂的數據或文字轉換成你需要的格式，例如從段落提取表格。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">以下是一段實驗紀錄的文字描述，請提取所有的數值資料，整理成 CSV 格式，欄位為：樣品編號、測量溫度（K）、電阻值（Ω）、備註。
+
+[貼入實驗紀錄文字]</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="scenario">
+      <h3>撰寫資料處理腳本</h3>
+      <p>描述你想做的事，讓 AI 幫你寫 Python 腳本，再由你修改和執行。</p>
+      <details class="example-accordion">
+        <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">請幫我寫一個 Python 腳本，功能如下：
+1. 讀取一個 CSV 檔（欄位：time, voltage, current）
+2. 計算每個時間點的功率（P = V × I）
+3. 畫出 time vs. power 的折線圖，並標注最大功率點
+4. 將圖片存成 PNG
+
+請使用 pandas 和 matplotlib，並加上必要的中文註解。</div>
+          <div class="example-note">⚠️ 執行前請先閱讀腳本內容，確認邏輯正確再跑，避免覆蓋原始數據。</div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 延伸觀看 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">延伸觀看</h2>
+    <p class="section-subtitle">AI 如何在實驗室與研究機構中加速自動化流程。</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/Sp2r2ankib0" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Accelerating Discovery with AI — Berkeley Lab</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">實驗室 AI 自動化 · 英文</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=bVnyDU8RyGk" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">How AI Supercomputing Is Transforming Product Design</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">NVIDIA Omniverse · 英文</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=3Errq-0T9w0" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">How Open World Models are Powering Physical AI</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">NVIDIA · 英文</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+<script>
+  function copyPrompt(btn) {
+    const prompt = btn.closest('.example-body').querySelector('.example-prompt').innerText;
+    navigator.clipboard.writeText(prompt).then(() => {
+      btn.textContent = '已複製！';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '複製'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+</script>
+</body>
+</html>

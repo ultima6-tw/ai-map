@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>有效與 AI 互動 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">核心三</div>
+  <h1 style="font-size:2rem;">有效與 AI 互動</h1>
+  <p class="subtitle" style="margin-bottom:0;">怎麼說話讓 AI 真正幫上忙——從研究問題到論文寫作。</p>
+</div>
+
+<!-- ── 五個技巧 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">五個提示技巧</h2>
+    <p class="section-subtitle">對應 LLM 的底層原理，每一個都有原因。</p>
+
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">1</div>
+        <div>
+          <h3 style="margin-bottom:6px;">給它一個角色</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">不要只問「如何潤稿」，而是說「你是一位專精物理期刊的資深編輯，請幫我潤稿」。角色讓模型從特定的訓練資料區域取樣，答案品質差很多。</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">2</div>
+        <div>
+          <h3 style="margin-bottom:6px;">給例子，不要給規則</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">與其說「請用簡潔的學術語氣」，不如貼一段你認為好的範例，說「請按照這個風格改寫」。示範比解釋有效得多。</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">3</div>
+        <div>
+          <h3 style="margin-bottom:6px;">叫它先思考再回答</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">在問題最後加上「請逐步思考」。AI 在寫出思考過程時，比直接給答案準確得多——尤其是邏輯推理或分析類任務。</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">4</div>
+        <div>
+          <h3 style="margin-bottom:6px;">指定輸出格式</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">想要表格就說「請用表格呈現」，想要條列就說「請用條列式，每點不超過兩行」。AI 對格式指令的遵循度很高，但要明確說。</p>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;flex-shrink:0;">5</div>
+        <div>
+          <h3 style="margin-bottom:6px;">把重點放在最前面</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">AI 對開頭的內容權重最高。如果你的核心限制或任務描述埋在問題中間，它可能沒讀進去。最重要的指示，放第一句。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 研究工作流 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">研究工作流：AI 能在哪些環節幫你？</h2>
+    <p class="section-subtitle">四個階段，每個都有實際可用的做法。</p>
+
+    <div class="card-grid">
+      <div class="card pillar">
+        <div class="card-icon">🔍</div>
+        <h3>問題探索</h3>
+        <p>用 Perplexity AI 的 Academic 模式，快速找出你研究領域近三年的重要論文，初步定位研究缺口。</p>
+        <p style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);">⚠️ 結果仍需自行在 PubMed / Web of Science 確認。</p>
+      </div>
+
+      <div class="card pillar">
+        <div class="card-icon">📚</div>
+        <h3>文獻審查</h3>
+        <p>把 PDF 上傳到 Claude 或 Elicit，請它提取樣本數、主要發現、研究限制，把幾十篇文獻整理成可比較的表格。</p>
+      </div>
+
+      <div class="card pillar">
+        <div class="card-icon">📊</div>
+        <h3>數據分析</h3>
+        <p>把 CSV 上傳到 ChatGPT 的 Advanced Data Analysis，請它繪製相關係數熱圖、找出異常值，並生成 Results 段落草稿。</p>
+        <p style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);">⚠️ 機敏數據請改用本地模型。</p>
+      </div>
+
+      <div class="card pillar">
+        <div class="card-icon">✍️</div>
+        <h3>寫作與校對</h3>
+        <p>貼入草稿，指定「依學術期刊語氣潤稿，保留原始數據，只調整語法與邏輯銜接」。比直接叫它寫效果好很多。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 常見問題 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">常見研究任務範例</h2>
+    <p class="section-subtitle">可以直接複製修改使用。</p>
+
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      <div style="background:var(--bg);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:0 var(--radius) var(--radius) 0;padding:20px 24px;">
+        <div style="font-size:0.8rem;font-weight:700;color:var(--teal);margin-bottom:8px;letter-spacing:0.05em;">英文潤稿</div>
+        <p style="font-family:monospace;font-size:0.9rem;color:var(--text);">你是一位物理期刊的資深編輯。請幫我潤稿以下段落，使其符合 Physical Review 的學術語氣。保留所有數據和術語，只調整語法與文句流暢度。<br>[貼入段落]</p>
+      </div>
+
+      <div style="background:var(--bg);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:0 var(--radius) var(--radius) 0;padding:20px 24px;">
+        <div style="font-size:0.8rem;font-weight:700;color:var(--teal);margin-bottom:8px;letter-spacing:0.05em;">文獻摘要</div>
+        <p style="font-family:monospace;font-size:0.9rem;color:var(--text);">請閱讀以下論文摘要，提取：(1) 研究問題、(2) 方法、(3) 主要發現、(4) 限制。請用表格呈現，每格不超過 50 字。<br>[貼入摘要]</p>
+      </div>
+
+      <div style="background:var(--bg);border:1px solid var(--border);border-left:4px solid var(--teal);border-radius:0 var(--radius) var(--radius) 0;padding:20px 24px;">
+        <div style="font-size:0.8rem;font-weight:700;color:var(--teal);margin-bottom:8px;letter-spacing:0.05em;">程式碼除錯</div>
+        <p style="font-family:monospace;font-size:0.9rem;color:var(--text);">以下 Python 程式碼出現錯誤。請逐步分析：(1) 錯誤原因、(2) 修正方式、(3) 修正後的完整程式碼。<br>[貼入程式碼和錯誤訊息]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 延伸觀看 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">延伸觀看</h2>
+    <p class="section-subtitle">提示技巧、研究工作流、以及 AI 在科學研究中的實際應用。</p>
+    <div class="resource-grid">
+      <a href="https://youtu.be/p09yRj47kNM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">提示詞工程進階：結構化提示詞與溝通技巧</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">中文</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/UabBYexBD4k" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">RAG 與長上下文的對決：你到底需要哪一個？</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">文獻管理策略 · 英文</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=VqB8zMujdjM" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">AI Agent 對學術研究工作帶來的衝擊</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">中文</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/P_fHJIYENdI" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">AlphaFold — AI 在科學研究中最有用的成果</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">生物科學應用 · 英文</div>
+        </div>
+      </a>
+      <a href="https://youtu.be/Sp2r2ankib0" target="_blank" class="resource-link">
+        <span class="icon">▶️</span>
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Accelerating Discovery with AI — Berkeley Lab</div>
+          <div style="font-size:0.8rem;color:var(--text-muted);">實驗室 AI 應用 · 英文</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── 回首頁 ── -->
+<section class="bg-gray">
+  <div class="section-inner" style="text-align:center;">
+    <h2 class="section-title">繼續深入學習</h2>
+    <p class="section-subtitle">課程頁面有各主題的詳細影片，可依自己的節奏觀看。</p>
+    <a href="courses.html" class="btn btn-white" style="background:var(--teal);color:#fff;box-shadow:var(--shadow);">前往課程 →</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+</body>
+</html>

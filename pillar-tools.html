@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>選對 AI 工具 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero" style="padding:48px 24px 40px;">
+  <div class="hero-badge">核心二</div>
+  <h1 style="font-size:2rem;">選對 AI 工具</h1>
+  <p class="subtitle" style="margin-bottom:0;">同一件任務，用哪個服務、哪個版本，資料的去向和風險完全不同。</p>
+</div>
+
+<!-- ── 資料去哪了 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">你輸入的東西，去了哪裡？</h2>
+    <p class="section-subtitle">這是選工具之前最重要的問題。</p>
+
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 32px;box-shadow:var(--shadow);margin-bottom:32px;">
+      <p style="font-size:1rem;line-height:1.9;color:var(--text);">
+        2023 年，三星工程師把機密程式碼貼進 ChatGPT，資料直接上傳到 OpenAI 的伺服器。問題不在駭客——而是他們沒意識到，任何輸入線上 AI 的內容，都會離開自己的電腦。三星事後全面禁止使用外部 AI。
+      </p>
+      <p style="font-size:0.9rem;color:var(--text-muted);margin-top:12px;">
+        對研究人員來說，這個風險尤其切身：<strong>未發表的實驗數據、研究構想、合作協議草稿</strong>——這些一旦送出去，你對它們的控制就結束了。
+      </p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card" style="border-top:4px solid #27AE60;">
+        <div class="card-icon">✅</div>
+        <h3 style="color:#1E8449;">相對安全</h3>
+        <p><strong>ChatGPT Team / Enterprise<br>Google Workspace（Gemini）</strong></p>
+        <p style="margin-top:8px;">有明確承諾不將輸入用於模型訓練。適合一般日常工作內容。</p>
+        <p style="margin-top:8px;font-size:0.85rem;color:#7F8C8D;">⚠️ 承諾無法被驗證，機敏資料仍不應輸入。</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E67E22;">
+        <div class="card-icon">⚠️</div>
+        <h3 style="color:#CA6F1E;">謹慎使用</h3>
+        <p><strong>ChatGPT 免費版<br>Gemini 個人版</strong></p>
+        <p style="margin-top:8px;">資料可能被用於訓練。避免輸入任何未發表的研究內容或個人資訊。</p>
+      </div>
+      <div class="card" style="border-top:4px solid #E74C3C;">
+        <div class="card-icon">🚫</div>
+        <h3 style="color:#C0392B;">建議避免</h3>
+        <p><strong>DeepSeek、通義千問（Qwen）<br>Kimi、文心一言</strong></p>
+        <p style="margin-top:8px;">受中國《國家情報法》規範，政府有權要求存取伺服器資料。回答內容可能受審查或有偏差。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 原則 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">判斷原則</h2>
+    <p class="section-subtitle">三個問題，幫你快速決定能不能用。</p>
+
+    <div style="display:flex;flex-direction:column;gap:16px;max-width:680px;">
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0;">1</div>
+        <div>
+          <h3 style="margin-bottom:4px;">這個資料是機敏的嗎？</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">未發表數據、合作協議、個人資訊——不管哪個版本，線上服務都不應該輸入。考慮本地模型。</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0;">2</div>
+        <div>
+          <h3 style="margin-bottom:4px;">這個服務是哪個國家的？</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">中國服務受當地法律規範，政府有權存取。即使是一般內容，也要評估這個風險。</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;">
+        <div style="background:var(--teal);color:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0;">3</div>
+        <div>
+          <h3 style="margin-bottom:4px;">它有明確的資料使用承諾嗎？</h3>
+          <p style="color:var(--text-muted);font-size:0.92rem;">至少要確認服務商有明確說明資料如何使用、是否用於訓練。免費版通常沒有這個保障。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert" style="margin-top:24px;max-width:680px;">
+      <strong>結論：機敏資料不論哪種版本都不應輸入線上服務。</strong>承諾無法被驗證——這是線上 AI 的根本限制。
+    </div>
+  </div>
+</section>
+
+<!-- ── 主流模型概覽 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">主流模型概覽</h2>
+    <p class="section-subtitle">各家定位不同，選對工具事半功倍。</p>
+
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:0.92rem;">
+        <thead>
+          <tr style="background:var(--teal);color:#fff;">
+            <th style="padding:12px 16px;text-align:left;">模型</th>
+            <th style="padding:12px 16px;text-align:left;">開發者</th>
+            <th style="padding:12px 16px;text-align:left;">適合用途</th>
+            <th style="padding:12px 16px;text-align:left;">風險等級</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 16px;font-weight:600;">ChatGPT</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">OpenAI（🇺🇸）</td>
+            <td style="padding:12px 16px;">日常寫作、問答、程式碼</td>
+            <td style="padding:12px 16px;"><span style="color:#E67E22;">免費版⚠️</span> / <span style="color:#27AE60;">企業版✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);background:var(--bg);">
+            <td style="padding:12px 16px;font-weight:600;">Claude</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">Anthropic（🇺🇸）</td>
+            <td style="padding:12px 16px;">長文件分析、學術寫作、邏輯推理</td>
+            <td style="padding:12px 16px;"><span style="color:#E67E22;">免費版⚠️</span> / <span style="color:#27AE60;">企業版✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 16px;font-weight:600;">Gemini</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">Google（🇺🇸）</td>
+            <td style="padding:12px 16px;">Google Workspace 整合、長文件</td>
+            <td style="padding:12px 16px;"><span style="color:#E67E22;">個人版⚠️</span> / <span style="color:#27AE60;">Workspace✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);background:var(--bg);">
+            <td style="padding:12px 16px;font-weight:600;">TAIDE</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">國科會（🇹🇼）</td>
+            <td style="padding:12px 16px;">繁體中文、台灣法規格式、在地語境</td>
+            <td style="padding:12px 16px;"><span style="color:#27AE60;">台灣官方✅</span></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 16px;font-weight:600;">DeepSeek / Qwen / Kimi / 文心</td>
+            <td style="padding:12px 16px;color:var(--text-muted);">各中國廠商（🇨🇳）</td>
+            <td style="padding:12px 16px;">—</td>
+            <td style="padding:12px 16px;"><span style="color:#E74C3C;">建議避免🚫</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── 下一步 ── -->
+<section class="bg-gray">
+  <div class="section-inner" style="text-align:center;">
+    <h2 class="section-title">接下來</h2>
+    <p class="section-subtitle">選好工具之後，學怎麼跟它說話。</p>
+    <a href="pillar-prompting.html" class="btn btn-white" style="background:var(--teal);color:#fff;box-shadow:var(--shadow);">有效與 AI 互動 →</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+</body>
+</html>
