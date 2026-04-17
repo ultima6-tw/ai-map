@@ -137,6 +137,41 @@
       </details>
     </div>
 
+    <div class="scenario">
+      <h3>🎬 Claude Code Demo：自動生成教學影片</h3>
+      <p>把這個 Prompt 貼進 Claude Code，AI 會逐步詢問主題、張數、語言等問題，再自動串接 python-pptx、LibreOffice、edge-tts、ffmpeg，從零生成完整 MP4 影片。</p>
+      <details class="example-accordion">
+        <summary>STARTER PROMPT <span class="toggle-icon">▼</span></summary>
+        <div class="example-body">
+          <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
+          <div class="example-prompt">I want to create a short educational video.
+First, create script.md to track everything.
+Ask me one question at a time and update
+script.md after each answer:
+  1. Topic / title of the video
+  2. Number of slides
+  3. Slide language (Chinese or English)
+  4. Voiceover language (Chinese or English)
+  5. Target audience
+  6. Auto-generate after script is ready,
+     or wait for confirmation first?
+
+Tools to use:
+  - python-pptx + LibreOffice -> PNG slides
+  - edge-tts -> MP3
+  - ffprobe -> measure audio duration
+  - ffmpeg -> assemble final MP4
+
+Generation order (per slide):
+  1. edge-tts -> mp3
+  2. ffprobe -> get duration
+  3. ffmpeg -loop 1 -t {duration} -> clip.mp4
+Then concat all clips into final MP4.</div>
+          <div class="example-note">⚠️ 需要先安裝：Claude Code、Node.js、Python、LibreOffice、python-pptx、edge-tts、ffmpeg</div>
+        </div>
+      </details>
+    </div>
+
   </div>
 </section>
 
