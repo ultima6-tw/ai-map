@@ -87,6 +87,33 @@
 
     .chapter-video {}
 
+    /* ── Video Embed ── */
+    .video-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .video-embed iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0;
+    }
+
+    /* ── Tool Category ── */
+    .tool-tag {
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.5);
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 720px) {
       .chapter { grid-template-columns: 1fr; }
@@ -297,6 +324,37 @@
 
       </div>
     </div><!-- /workshop 3 -->
+
+    <!-- ══ AI Tools ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="tool-tag">AI Tools</div>
+        <div>
+          <div class="workshop-title">AI Tool Introductions</div>
+          <div class="workshop-desc">Hands-on demos of selected AI tools to help you get up to speed quickly and apply them in your daily research and work.</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- NotebookLM -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Google NotebookLM</span>
+            <h4>NotebookLM: AI-Powered Document Understanding in Minutes</h4>
+            <p>A walkthrough of uploading documents, auto-summarization, Q&amp;A with source citations, cross-document analysis, mind maps, and audio overviews. Completely free — all you need is a Google account.</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-embed">
+              <iframe src="https://www.youtube.com/embed/uzddvhSQhQg"
+                title="Introduction to NotebookLM"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /AI Tools -->
 
     <div class="alert">
       Videos are being recorded and will be embedded here as YouTube links once complete. Have a specific chapter you'd like to see first? Let us know.

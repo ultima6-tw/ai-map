@@ -87,6 +87,33 @@
 
     .chapter-video {}
 
+    /* ── Video Embed ── */
+    .video-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .video-embed iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0;
+    }
+
+    /* ── Tool Category ── */
+    .tool-tag {
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.5);
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 720px) {
       .chapter { grid-template-columns: 1fr; }
@@ -297,6 +324,37 @@
 
       </div>
     </div><!-- /workshop 3 -->
+
+    <!-- ══ AI 工具 ══ -->
+    <div class="workshop">
+      <div class="workshop-header">
+        <div class="tool-tag">AI 工具</div>
+        <div>
+          <div class="workshop-title">AI 工具介紹</div>
+          <div class="workshop-desc">精選 AI 工具的實際操作示範，幫助你快速上手，立刻應用在日常研究與工作中。</div>
+        </div>
+      </div>
+      <div class="chapter-list">
+
+        <!-- NotebookLM -->
+        <div class="chapter">
+          <div class="chapter-info">
+            <span class="chapter-num-tag">Google NotebookLM</span>
+            <h4>NotebookLM：用 AI 快速整理文件、論文與報告</h4>
+            <p>示範如何上傳文件、自動摘要、問答附來源引用、跨文件比較分析、心智圖，以及語音摘要功能。完全免費，只需要 Google 帳號。</p>
+          </div>
+          <div class="chapter-video">
+            <div class="video-embed">
+              <iframe src="https://www.youtube.com/embed/gIhErqRuZ8I"
+                title="NotebookLM 介紹"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /AI 工具 -->
 
     <div class="alert">
       影片錄製中，完成後將在此嵌入 YouTube 連結。有特定章節想優先上線？歡迎告訴我們。
