@@ -114,8 +114,40 @@
       white-space: nowrap;
     }
 
+    /* ── Slides Download Bar ── */
+    .slides-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 32px;
+      background: var(--teal-pale);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .slides-bar span {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      flex: 1;
+    }
+    .slides-bar a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 16px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .btn-download { background: var(--teal); color: #fff; }
+    .btn-download:hover { background: var(--teal-light); }
+    .btn-view { background: transparent; color: var(--teal); border: 1.5px solid var(--teal); }
+    .btn-view:hover { background: var(--teal-pale); }
+
     /* ── Responsive ── */
     @media (max-width: 720px) {
+      .slides-bar { padding: 12px 16px; }
       .chapter { grid-template-columns: 1fr; }
       .chapter-list { padding: 16px; }
       .workshop-header { padding: 20px 16px; }
@@ -160,6 +192,16 @@
           <div class="workshop-desc">From the relationship between AI / ML / LLM, to hallucinations, context windows, and the stateless nature of models — after this, you'll understand the root cause of all the strange behaviors.</div>
         </div>
       </div>
+      <div class="slides-bar">
+        <span>📄 Lecture 1 slides (17 slides, includes IAMS AI Use Guidelines)</span>
+        <a class="btn-download"
+           href="https://docs.google.com/presentation/d/1TX8-TUDn4y1c7u5x_byfLSDDRGCXEKB0/export/pptx"
+           download>⬇ Download PPTX</a>
+        <a class="btn-view"
+           href="https://docs.google.com/presentation/d/1TX8-TUDn4y1c7u5x_byfLSDDRGCXEKB0/view"
+           target="_blank" rel="noopener">🔍 View Online</a>
+      </div>
+
       <div class="chapter-list">
 
         <!-- Chapter 1-1 -->
