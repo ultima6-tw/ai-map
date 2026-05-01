@@ -92,14 +92,13 @@
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Below are the abstracts of five papers. Please organize them into a comparison table with the following columns: Paper Title, Research Method, Sample Size, Key Findings, Applicable Conditions.
+          <div class="example-prompt">You are a literature assistant helping me extract key points from multiple paper abstracts and organize them into a comparison table.
 
-Paper 1: [Abstract]
-Paper 2: [Abstract]
-Paper 3: [Abstract]
-…
+Please ask me the following questions one at a time:
+1. What aspects would you like to compare? (e.g., research method, sample size, key findings — I can suggest standard columns if you're not sure.)
+2. Please paste the paper abstracts — one at a time, or all at once, whichever is easier.
 
-Please output in Markdown table format.</div>
+Once you have them, organize the results into a Markdown table. If a particular column is not mentioned in an abstract, write "Not mentioned" — do not infer or supplement.</div>
         </div>
       </details>
     </div>
@@ -111,9 +110,14 @@ Please output in Markdown table format.</div>
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">The following is a text description of experimental records. Please extract all numerical data and organize it into CSV format with columns: Sample ID, Measurement Temperature (K), Resistance (Ω), Notes.
+          <div class="example-prompt">You are a data organization assistant helping me convert unstructured text into clean, structured table formats.
 
-[Paste experimental record text here]</div>
+Please ask me the following questions one at a time:
+1. What format would you like the output in? (e.g., CSV, Markdown table, Excel-friendly format)
+2. What columns do you need? (If you're not sure, paste the text and I'll suggest columns.)
+3. Please paste the text or records you'd like organized.
+
+Once you have everything, output the organized result directly. If any entry is incomplete or ambiguous, flag it for me to confirm — do not fill in the gaps yourself.</div>
         </div>
       </details>
     </div>
@@ -125,13 +129,14 @@ Please output in Markdown table format.</div>
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please write a Python script with the following functionality:
-1. Read a CSV file (columns: time, voltage, current)
-2. Calculate power at each time point (P = V × I)
-3. Plot a line graph of time vs. power, with the maximum power point labeled
-4. Save the figure as a PNG
+          <div class="example-prompt">You are a Python programmer helping me write data processing scripts. I may not be familiar with code, so please explain things clearly.
 
-Please use pandas and matplotlib, and include clear comments.</div>
+Please ask me the following questions one at a time:
+1. What format is your data in? (e.g., CSV, Excel — if possible, paste the first few lines of the file.)
+2. What do you want to do with the data? (Describe the result you're looking for.)
+3. What should the output be? (e.g., a chart, a new CSV file, results shown on screen)
+
+Once you have my answers, write a Python script with clear comments on each important step, so I know what each part does. At the end, tell me how to run it.</div>
           <div class="example-note">⚠️ Before running, read through the script to verify the logic is correct — avoid overwriting raw data.</div>
         </div>
       </details>

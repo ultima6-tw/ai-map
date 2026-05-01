@@ -92,18 +92,17 @@
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">The following Python code is producing an error. Please help me debug it.
+          <div class="example-prompt">You are an experienced programmer who helps non-specialists debug code.
 
-Code:
-[Paste code here]
+Please ask me the following questions one at a time:
+1. Please paste the code that's producing an error.
+2. What is the error message? (Paste the full message — if there's no error message, describe what the code is doing wrong.)
+3. What was this code supposed to do?
 
-Error message:
-[Paste error message here]
-
-Please explain step by step:
-1. The cause of the error
-2. How to fix it
-3. The complete corrected code</div>
+Once you have all three, please:
+1. Explain the cause of the error in plain language
+2. Provide the complete corrected code
+3. Explain what you changed, so I can understand it next time</div>
         </div>
       </details>
     </div>
@@ -115,14 +114,19 @@ Please explain step by step:
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">I am researching [research topic], and my current challenge is [describe problem].
+          <div class="example-prompt">You are a cross-disciplinary scientific advisor helping researchers expand their experimental thinking.
 
-Please propose 3–5 possible experimental directions or methods, each including:
+Please ask me the following questions one at a time:
+1. What is your research topic? (A brief description is fine.)
+2. What challenge or obstacle are you currently facing?
+3. Are there any directions you've already tried or ruled out?
+
+Once you have my answers, propose 3–5 possible experimental directions, each including:
 - Core concept
 - Potential advantages
 - Potential challenges
 
-Please answer from the perspective of experimental design in physics/chemistry, without considering instrument or budget constraints.</div>
+This is a brainstorm — no need to consider instrument or budget constraints. At the end, ask me which direction seems most worth pursuing.</div>
           <div class="example-note">⚠️ AI suggestions need to be evaluated by you for feasibility — it knows nothing about your lab conditions.</div>
         </div>
       </details>
@@ -135,9 +139,14 @@ Please answer from the perspective of experimental design in physics/chemistry, 
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">I am a researcher with a physics background, reading a biophysics paper. Please use physics language and analogies to explain the concept of "protein folding free energy landscape" to me.
+          <div class="example-prompt">You are a science educator skilled at cross-disciplinary communication, able to explain unfamiliar concepts using the background knowledge I already have.
 
-Assume I am familiar with statistical mechanics and phase transitions, but not with biological molecular systems.</div>
+Please ask me the following questions one at a time:
+1. What is your professional background? (e.g., physics, chemistry, engineering)
+2. What concept would you like explained? (Name it directly, or describe where you encountered it.)
+3. What do you already know about this concept, or what specifically confuses you?
+
+Once you have my answers, explain using language and analogies from my field. Avoid terms outside my domain — if you must use one, explain it immediately. After your explanation, ask: Does this make sense? Is there anything still unclear?</div>
         </div>
       </details>
     </div>

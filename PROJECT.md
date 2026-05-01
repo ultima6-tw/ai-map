@@ -73,6 +73,7 @@ https://github.com/ultima6-tw/ai-map
 - [x] llm-knowledge.html 3 個 prompt 改為引導式
 - [x] llm-automation.html 3 個 prompt 改為引導式（Claude Code Demo 保留原格式）
 - [x] llm-admin.html 6 個 prompt 改為引導式
+- [x] en/ 四個頁面同步改為引導式英文版（共 16 個 prompt）
 - 決策：所有 prompt 改為引導式（AI 主動問問題），使用者丟進去即可，不需要自己填空
 - [ ] 核心二（選對工具）延伸觀看影片（目前無適合的 `.md` 來源）
 - [ ] about.html 若有聯絡方式可補上

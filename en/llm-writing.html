@@ -92,14 +92,16 @@
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">You are a senior editor specializing in physics and chemistry journals. Please edit the following paragraph to match the academic style of Physical Review Letters.
+          <div class="example-prompt">You are a senior academic editor specializing in writing for science and engineering journals.
 
-Requirements:
-- Preserve all data, formulas, and technical terms — do not alter them
-- Only adjust grammar, word choice, and sentence flow
-- Do not add or remove any arguments
+Please ask me the following questions one at a time, waiting for my answer before continuing:
+1. What field is this text from? (e.g., physics, chemistry, materials science)
+2. Which target journal? (e.g., Physical Review Letters — or say "not sure" if you don't know)
+3. Please paste the paragraph you'd like edited.
 
-[Paste paragraph here]</div>
+Once you have the paragraph, provide the edited version and briefly explain what you changed and why.
+
+Rule: preserve all data, formulas, and technical terms — only adjust grammar and fluency, do not add or remove any arguments.</div>
           <div class="example-note">⚠️ After editing, verify technical terms yourself — AI occasionally mistranslates or changes specialized terminology.</div>
         </div>
       </details>
@@ -112,15 +114,20 @@ Requirements:
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please read the following abstract and extract:
-1. Research question (one sentence)
+          <div class="example-prompt">You are a research assistant familiar with cross-disciplinary scientific literature, helping me decide whether a paper is worth reading in full.
+
+First, ask me: What is your connection to this paper, or what are you hoping to get from it? (If you're not sure, "I don't know" is fine.)
+
+After I answer, ask me to paste the abstract.
+
+Once you have the abstract, extract the following as bullet points, each no longer than 40 words:
+1. Research question
 2. Methods used
 3. Key findings
 4. Study limitations
+5. Relevance to my needs (based on what I told you)
 
-Present as bullet points, each no longer than 40 words.
-
-[Paste abstract here]</div>
+If the abstract does not mention a particular item, write "Not mentioned" — do not infer or supplement.</div>
           <div class="example-note">⚠️ If citing, always return to the original text — AI occasionally "supplements" information not present in the source.</div>
         </div>
       </details>
@@ -133,9 +140,15 @@ Present as bullet points, each no longer than 40 words.
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please translate the following paragraph into English. This is academic content in the field of physics (condensed matter physics). Use correct technical terminology and match the writing conventions of Nature Physics.
+          <div class="example-prompt">You are a language specialist in academic translation, familiar with writing conventions in science and engineering journals.
 
-[Paste Chinese paragraph here]</div>
+Please ask me the following questions one at a time:
+1. Which direction — Chinese to English, or English to Chinese?
+2. What field is this content from? (e.g., condensed matter physics, organic chemistry)
+3. Any reference journal style? (e.g., Nature Physics — fine to say "none")
+4. Please paste the paragraph you'd like translated.
+
+Once you have it, provide the translation. If a technical term has multiple valid translations, list them and explain the difference so I can choose.</div>
         </div>
       </details>
     </div>
@@ -147,15 +160,15 @@ Present as bullet points, each no longer than 40 words.
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please help me write a formal response to the following reviewer comment.
+          <div class="example-prompt">You are a senior researcher experienced with academic journal submission, helping me write a Response to Reviewers.
 
-Reviewer's comment:
-[Paste reviewer comment here]
+Please ask me the following questions one at a time:
+1. Please paste the reviewer's comment.
+2. How do you intend to respond? (e.g., added experimental details, partially agree but with reservations, reviewer misunderstood the point)
 
-My intended response:
-[Describe how you plan to respond, e.g.: We have added experimental details in Chapter 3 of the revised manuscript]
+Once you have both, draft a formal response paragraph beginning with "We thank the reviewer for...", in a polite and academic tone.
 
-Please write in the formal, courteous tone of an academic journal response letter, beginning with "We thank the reviewer for..."</div>
+If you have multiple comments to address, finish one and I'll provide the next.</div>
           <div class="example-note">⚠️ The draft must still be revised to reflect your actual revisions — do not submit directly.</div>
         </div>
       </details>

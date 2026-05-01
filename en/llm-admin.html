@@ -92,14 +92,14 @@
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please help me draft a formal official document.
+          <div class="example-prompt">You are an administrative assistant familiar with formal institutional document formats, helping me draft official correspondence.
 
-Issuing unit: Institute of Atomic and Molecular Sciences, Academia Sinica
-Recipient: [Fill in]
-Subject: [One sentence describing the purpose, e.g.: Invitation to the 2026 Annual Symposium]
-Key content: [Bullet points, e.g.: date, venue, registration method, deadline]
+Please ask me the following questions one at a time:
+1. What is the purpose of this document? (One sentence.)
+2. Who is the recipient?
+3. What are the key content points? (Bullet points, e.g.: date, venue, what you're asking them to do)
 
-Please use standard formal document format, maintain a formal tone, and keep clear logical structure between paragraphs.</div>
+Once you have my answers, draft a formal document using standard formatting. The issuing unit defaults to the Institute of Atomic and Molecular Sciences, Academia Sinica. After completing the draft, remind me to have a supervisor review it before sending.</div>
           <div class="example-note">⚠️ After drafting, please have a supervisor review it to confirm the content and format meet institutional requirements before sending.</div>
         </div>
       </details>
@@ -112,16 +112,19 @@ Please use standard formal document format, maintain a formal tone, and keep cle
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please organize the following meeting notes into formal meeting minutes.
+          <div class="example-prompt">You are an administrative assistant helping me organize rough meeting notes into formal meeting minutes.
 
-Format requirements:
-- Meeting name, date, attendees (preserve the information I provide)
-- Discussion items: organized by topic, summarizing key discussion points for each
-- Resolutions: bullet points, noting responsible persons and deadlines (if applicable)
-- Action items: bullet points
+Please ask me the following questions one at a time:
+1. Please paste your meeting notes or transcript. (It's fine if they're messy.)
+2. What is the meeting name and date? Who were the attendees?
 
-Notes content:
-[Paste notes or transcript here]</div>
+Once you have both, organize into formal format:
+- Meeting info (name, date, attendees)
+- Discussion items (organized by topic)
+- Resolutions (bullet points, noting responsible persons and deadlines)
+- Action items (bullet points)
+
+After organizing, ask me to confirm the resolutions are accurate to avoid transcription errors.</div>
           <div class="example-note">⚠️ After organizing, verify that the resolutions match the actual discussion — avoid transcription errors.</div>
         </div>
       </details>
@@ -134,14 +137,15 @@ Notes content:
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please help me write an email.
+          <div class="example-prompt">You are an administrative assistant skilled in professional correspondence, helping me draft formal letters or emails.
 
-Recipient: [e.g.: International collaboration partner]
-Purpose: [e.g.: Confirm details of an upcoming visit, including schedule, venue, and reception arrangements]
-Tone: Formal but friendly
-Our institution: Institute of Atomic and Molecular Sciences, Academia Sinica
+Please ask me the following questions one at a time:
+1. Should this be in Chinese or English?
+2. Who is the recipient? (Name, title, or organization)
+3. What is the purpose of this message?
+4. What tone — strictly formal, or formal but friendly?
 
-Please begin with "Dear [Name]," and close with "Best regards."</div>
+Once you have my answers, draft the complete letter. Our institution defaults to the Institute of Atomic and Molecular Sciences, Academia Sinica. After the draft, remind me to review the content before sending.</div>
         </div>
       </details>
     </div>
@@ -153,18 +157,15 @@ Please begin with "Dear [Name]," and close with "Best regards."</div>
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please write an event announcement in a formal but welcoming tone, suitable for sending to all institute members.
+          <div class="example-prompt">You are an administrative assistant helping me write an event announcement suitable for sending to all institute members.
 
-Event details:
-- Event name: [Fill in]
-- Date and time: [Fill in]
-- Venue: [Fill in]
-- Audience: All IAMS members
-- Registration: [Fill in, or state no registration required]
-- Contact: [Fill in]
-- Other notes: [Fill in or leave blank]
+Please ask me the following questions one at a time:
+1. What is the event name and type?
+2. What are the date, time, and venue?
+3. How do people register? (Or state that no registration is needed.)
+4. Who is the contact person?
 
-Please include a title, body, and closing, with contact information at the end.</div>
+Once you have my answers, write a complete announcement with title, body, and closing — formal but welcoming in tone, suitable for all IAMS members.</div>
         </div>
       </details>
     </div>
@@ -176,27 +177,19 @@ Please include a title, body, and closing, with contact information at the end.<
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Please create a conference registration webpage (single HTML file with embedded CSS).
+          <div class="example-prompt">You are a web development assistant helping me create a static conference registration page (single HTML file — no coding knowledge required).
 
-Conference details:
-- Conference name: [e.g.: 2026 IAMS Annual Symposium]
-- Date: [Fill in]
-- Venue: [Fill in]
-- Organizer: Institute of Atomic and Molecular Sciences, Academia Sinica
-- Registration deadline: [Fill in]
+Please ask me the following questions one at a time:
+1. What is the conference name, date, venue, and registration deadline?
+2. What information should the registration form collect? (I can suggest standard fields if you're not sure.)
+3. Any special requirements? (e.g., vegetarian meal option, notes field, specific color scheme)
 
-Registration form fields:
-- Name (required)
-- Department / Lab affiliation (required)
-- Position (Researcher / Postdoc / Graduate student / Administrative staff / Other)
-- Email (required)
-- Vegetarian meal required (Yes / No)
-- Notes (optional)
+Once you have my answers, generate a complete HTML file:
+- Clean and professional, mobile-responsive
+- Shows a "Thank you for registering" message after form submission
+- Organizer defaults to the Institute of Atomic and Molecular Sciences, Academia Sinica
 
-Design requirements:
-- Clean and professional, white and navy color scheme
-- Mobile-responsive
-- After form submission, display "Thank you for registering — we will confirm by email" (no backend needed; simulate with JavaScript)</div>
+⚠️ Note: This is a static page; data will not be automatically collected. For real registrations, pair with Google Forms or Formspree.</div>
           <div class="example-note">⚠️ This is a static form; data will not be automatically collected. For real registrations, pair with Google Forms or Formspree.</div>
         </div>
       </details>
@@ -209,15 +202,14 @@ Design requirements:
         <summary>PROMPT EXAMPLE <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">Copy</button></div>
-          <div class="example-prompt">Below is a set of statistical data. Please write a 100–150 word narrative summary suitable for an annual report.
+          <div class="example-prompt">You are an administrative assistant helping me turn numerical data or tables into a clear written summary suitable for reports or presentations.
 
-Requirements:
-- Objectively present the main trends in the data
-- Highlight the most noteworthy changes
-- Formal tone; do not draw inferences beyond the data
+Please ask me the following questions one at a time:
+1. Please paste the data or table.
+2. Where will this summary appear? (e.g., annual report, presentation slide, external announcement)
+3. Roughly how long should it be? (e.g., 100 words, one paragraph)
 
-Data:
-[Paste table or numbers here]</div>
+Once you have my answers, write the narrative summary: objectively present the main trends, highlight the most noteworthy changes, and maintain a formal tone — do not draw inferences beyond the data.</div>
           <div class="example-note">⚠️ Verify that the AI's narrative is consistent with the raw data — do not allow it to infer or supplement figures.</div>
         </div>
       </details>
