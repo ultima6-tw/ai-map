@@ -92,14 +92,16 @@
         <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">你是一位專精物理/化學期刊的資深編輯。請幫我潤稿以下段落，使其符合 Physical Review Letters 的學術語氣。
+          <div class="example-prompt">你是一位專精學術寫作的資深編輯，熟悉理工科期刊的寫作慣例。
 
-要求：
-- 保留所有數據、公式與術語，不得更動
-- 只調整語法、用字與句子流暢度
-- 不要增加或刪減任何論點
+請先問我以下問題，一次一個，等我回答後再繼續：
+1. 這段文字是哪個領域？（例如：物理、化學、材料科學）
+2. 目標期刊是哪一本？（例如：Physical Review Letters，若不確定也可以說）
+3. 請把要潤稿的段落貼給我。
 
-[貼入段落]</div>
+收到段落後，請直接提供潤稿結果，並簡短說明你改了什麼、為什麼。
+
+規則：保留所有數據、公式與專有術語，只調整語法與流暢度，不增減任何論點。</div>
           <div class="example-note">⚠️ 潤稿後仍需自行確認術語正確性，AI 偶爾會把專有名詞改錯。</div>
         </div>
       </details>
@@ -112,15 +114,20 @@
         <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">請閱讀以下論文摘要，並提取：
-1. 研究問題（一句話）
+          <div class="example-prompt">你是一位熟悉跨領域科學文獻的研究助理，幫我快速判斷一篇論文值不值得精讀。
+
+請先問我：這篇論文和你的研究有什麼關聯？或你想從這篇文章找什麼？（若不確定，說「不知道」也可以）
+
+收到回答後，請我把摘要貼給你。
+
+拿到摘要後，提取以下資訊，條列式，每點不超過 40 字：
+1. 研究問題
 2. 使用的方法
 3. 主要發現
 4. 研究限制
+5. 與我需求的相關性（根據我前面說的判斷）
 
-請用條列式呈現，每點不超過 40 字。
-
-[貼入摘要]</div>
+若摘要沒有提到某項，直接寫「未提及」，不要推測或補充。</div>
           <div class="example-note">⚠️ 若要引用，請回到原文確認——AI 偶爾會「補充」原文沒有的資訊。</div>
         </div>
       </details>
@@ -133,9 +140,15 @@
         <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">請將以下段落翻譯成英文。這是物理學（凝態物理）領域的學術內容，請使用正確的學術術語，風格符合 Nature Physics 的寫作慣例。
+          <div class="example-prompt">你是一位專精學術翻譯的語言專家，熟悉理工科期刊的寫作慣例。
 
-[貼入中文段落]</div>
+請先問我以下問題，一次一個：
+1. 翻譯方向是中翻英，還是英翻中？
+2. 這是哪個領域的內容？（例如：凝態物理、有機化學）
+3. 有沒有參考的目標期刊風格？（例如：Nature Physics，若沒有也可以說）
+4. 請把要翻譯的段落貼給我。
+
+收到後直接提供翻譯結果。若遇到專有術語有多種譯法，請列出並說明差異，讓我自己選。</div>
         </div>
       </details>
     </div>
@@ -147,15 +160,15 @@
         <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">請幫我撰寫一段正式的審稿回覆。
+          <div class="example-prompt">你是一位熟悉學術期刊投稿流程的資深研究員，協助我撰寫 Response to Reviewers。
 
-Reviewer 的意見：
-[貼入審稿意見]
+請先問我以下問題，一次一個：
+1. 請把 Reviewer 的意見貼給我。
+2. 針對這條意見，你打算怎麼回應？（例如：已補充實驗、同意部分意見但有保留、認為 Reviewer 誤解了）
 
-我的回應方向：
-[說明你打算怎麼回答，例如：我們已在修改稿中補充了第三章的實驗細節]
+收到後幫我撰寫正式的審稿回覆段落，格式以 "We thank the reviewer for..." 開頭，語氣禮貌且學術。
 
-請用學術期刊標準的禮貌語氣撰寫，格式為 "We thank the reviewer for..." 開頭。</div>
+若有多條意見，完成一條後我再繼續提供下一條。</div>
           <div class="example-note">⚠️ 草稿仍需修改以符合你的實際修改內容，不可直接送出。</div>
         </div>
       </details>

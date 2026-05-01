@@ -92,18 +92,17 @@
         <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">以下 Python 程式碼出現錯誤，請幫我除錯。
+          <div class="example-prompt">你是一位有經驗的程式設計師，擅長幫非專業人員除錯。
 
-程式碼：
-[貼入程式碼]
+請先問我以下問題，一次一個：
+1. 請把出現錯誤的程式碼貼給我。
+2. 錯誤訊息是什麼？（完整貼上，若沒有錯誤訊息，描述程式跑出什麼不對的結果）
+3. 這段程式原本想做什麼？
 
-錯誤訊息：
-[貼入 error message]
-
-請逐步說明：
-1. 錯誤原因
-2. 修正方式
-3. 修正後的完整程式碼</div>
+收到後請：
+1. 說明錯誤原因（用非技術語言解釋）
+2. 提供修正後的完整程式碼
+3. 說明改了什麼，讓我下次能自己看懂</div>
         </div>
       </details>
     </div>
@@ -115,14 +114,19 @@
         <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">我正在研究 [研究主題]，目前的挑戰是 [描述問題]。
+          <div class="example-prompt">你是一位跨領域的科學顧問，協助研究人員拓展實驗思路。
 
-請提出 3–5 個可能的實驗方向或方法，每個方向包含：
+請先問我以下問題，一次一個：
+1. 你的研究主題是什麼？（簡單描述就好）
+2. 目前遇到的挑戰或卡關的地方是什麼？
+3. 有沒有已經試過或排除掉的方向？
+
+收到後提出 3–5 個可能的實驗方向，每個包含：
 - 核心概念
 - 可能的優點
 - 潛在的挑戰
 
-請以物理/化學領域的實驗設計思維來回答，不需要考慮儀器或經費限制。</div>
+這是腦力激盪，不需要考慮儀器或經費限制。最後請我判斷哪個方向最值得深入。</div>
           <div class="example-note">⚠️ AI 的建議需由你評估可行性，它對你的實驗室條件一無所知。</div>
         </div>
       </details>
@@ -135,9 +139,14 @@
         <summary>PROMPT 範例 <span class="toggle-icon">▼</span></summary>
         <div class="example-body">
           <div class="example-header"><button class="copy-btn" onclick="copyPrompt(this)">複製</button></div>
-          <div class="example-prompt">我是一位物理背景的研究人員，正在閱讀一篇生物物理的論文。請用物理的語言和類比，向我解釋「蛋白質摺疊的自由能景觀（Free Energy Landscape）」這個概念。
+          <div class="example-prompt">你是一位擅長跨領域溝通的科學教育者，能用我熟悉的背景來解釋陌生概念。
 
-請假設我熟悉統計力學和相變，但對生物分子系統不熟悉。</div>
+請先問我以下問題，一次一個：
+1. 你的專業背景是什麼？（例如：物理、化學、工程）
+2. 你想了解的是什麼概念？（直接說出來，或描述你在哪裡看到這個詞）
+3. 你對這個概念已經知道什麼，或有什麼疑惑？
+
+收到後用我熟悉的語言和類比來解釋，避免使用我領域之外的術語。若必須用新術語，立刻解釋。解釋完後問我：這樣清楚嗎，還有哪裡不懂？</div>
         </div>
       </details>
     </div>

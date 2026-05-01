@@ -69,6 +69,11 @@ https://github.com/ultima6-tw/ai-map
 
 ## 待辦
 - [ ] 課程頁面影片 placeholder → 有 YouTube 連結後換成 iframe embed
+- [x] llm-writing.html 4 個 prompt 改為引導式
+- [x] llm-knowledge.html 3 個 prompt 改為引導式
+- [x] llm-automation.html 3 個 prompt 改為引導式（Claude Code Demo 保留原格式）
+- [x] llm-admin.html 6 個 prompt 改為引導式
+- 決策：所有 prompt 改為引導式（AI 主動問問題），使用者丟進去即可，不需要自己填空
 - [ ] 核心二（選對工具）延伸觀看影片（目前無適合的 `.md` 來源）
 - [ ] about.html 若有聯絡方式可補上
 - [x] setup-guide.html 的 YouTube 影片連結（已嵌入 iframe）
