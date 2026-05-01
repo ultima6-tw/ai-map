@@ -78,3 +78,4 @@ https://github.com/ultima6-tw/ai-map
   - `setup-guide.html` / `en/setup-guide.html`：讓 AI 先認識你，含完整 Prompt + 複製按鈕
   - `index.html` / `en/index.html`：在研究人員/行政人員 section 之前加入 Setup Guide 入口 section
   - `setup-guide.html` / `en/setup-guide.html`：嵌入 YouTube 影片（中：D--Tg7HwnmE / 英：iPmEORni1bs）
+  - Prompt 結尾改為通用版：檔名 `my-ai-settings.md`，列出各工具放置位置，移除 Claude 專屬敘述
