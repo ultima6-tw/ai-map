@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>讓 AI 先認識你 — ACE</title>
+  <link rel="icon" href="assets/img/ace-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .prompt-box {
+      background: #1e2a2a;
+      color: #8CD2FF;
+      font-family: monospace;
+      font-size: 0.88rem;
+      line-height: 1.7;
+      border-radius: 12px;
+      padding: 28px 32px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      position: relative;
+      margin-top: 24px;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: var(--blue);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 18px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-family: sans-serif;
+      transition: background 0.2s;
+    }
+    .copy-btn:hover { background: #0a5a90; }
+    .copy-btn.copied { background: #22C55E; }
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .step-num {
+      background: var(--blue);
+      color: #fff;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      flex-shrink: 0;
+      font-size: 0.95rem;
+    }
+    .step-text { padding-top: 6px; font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
+  </style>
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="courses.html">課程</a></li>
+      <li><a href="resources.html">資源</a></li>
+      <li><a href="about.html">關於</a></li>
+      <li><a href="en/setup-guide.html" style="color:var(--teal);font-weight:700;">EN</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<div class="hero" style="padding:48px 24px 40px;">
+  <h1 style="font-size:2rem;">在開始之前——讓 AI 先認識你</h1>
+  <p class="subtitle" style="margin-bottom:0;">花五分鐘，讓 AI 從第一句話就懂你的習慣、風格與底線。</p>
+</div>
+
+<!-- ── 為什麼 ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">為什麼要這樣做？</h2>
+    <div class="card-grid" style="grid-template-columns:1fr 1fr;">
+      <div class="card" style="border-top:4px solid #E74C3C;">
+        <div class="card-icon">😤</div>
+        <h3>沒有設定</h3>
+        <p>AI 不認識你，每次對話都從零開始。說話風格不對、重點都偏，跟它說過的事，下次開新對話又忘光。</p>
+      </div>
+      <div class="card" style="border-top:4px solid #22C55E;">
+        <div class="card-icon">✅</div>
+        <h3>有了設定</h3>
+        <p>AI 從第一句話就知道你是誰、你怎麼工作、什麼事絕對不能做。不用重複說明，直接合作。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 使用步驟 ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">怎麼使用？</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">複製下方的 Prompt，貼到 Claude（或任何 AI 工具）的對話框。</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">AI 會用聊天的方式問你幾個問題，就像跟朋友說話一樣，不需要懂技術。</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">幾分鐘後，你會得到一份專屬設定檔（<code>claude-tmp.md</code>）。依照說明放到對應位置即可。</div>
+    </div>
+
+    <div class="alert" style="margin-top:8px;">
+      <strong>適用工具：</strong>
+      Claude Code（CLAUDE.md）、ChatGPT（自訂指示）、Cursor（.cursorrules）、GitHub Copilot（.github/copilot-instructions.md）、Windsurf（.windsurfrules）、Gemini（Gems）
+    </div>
+  </div>
+</section>
+
+<!-- ── Prompt ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Prompt</h2>
+    <p class="section-subtitle">複製以下全部內容，貼到 AI 對話框後送出。</p>
+    <div style="position:relative;">
+      <div class="prompt-box" id="prompt-content">You are a friendly assistant helping the user configure Claude so it better understands their habits, personality, and working style.
+
+The user may not be technically experienced. Talk like a friend having a casual conversation — no jargon.
+
+## Process
+
+Two stages: interview, then generate.
+
+### Stage 1: Interview
+
+Ask one question at a time. Wait for the answer before moving to the next. You don't have to follow the order strictly — let the conversation flow naturally based on what the user says.
+
+The first question must be shown in Chinese, English, and Japanese simultaneously, because you don't yet know which language the user understands:
+
+你希望用什麼語言溝通？
+What language would you like to use?
+どの言語で話しますか？
+
+After the user answers, use that language for all remaining questions and responses.
+
+Remaining questions (ask in the user's chosen language):
+
+2. When Claude is unsure what you want, would you prefer it asks you first, or just makes a call and moves ahead?
+3. What operating system do you mainly use — Mac, Windows, or Linux? Do you work on more than one computer?
+4. What do you usually use Claude for? For example — writing code, drafting documents, organizing information, or something else?
+5. Are there any specific tools or software you always use? (If you're not sure how to describe them, just tell me what you do and I'll figure it out.)
+6. Has Claude — or any AI tool — ever done something that really annoyed you?
+7. Would you prefer Claude to finish a whole task in one go, or check in with you along the way before continuing?
+8. When you hit a wall or get stuck at work, what do you usually do?
+9. Do you tend to think everything through before starting, or figure things out as you go?
+10. If something you made has a problem, how would you like someone to tell you?
+11. What does "done" mean to you — good enough to move on, or not finished until you're truly satisfied?
+12. How would people who know you well describe you as a person?
+13. Are there any files or folders you don't want Claude to touch?
+14. Is there anything else you'd want Claude to know? If not, we're ready to put this together.
+
+### Stage 2: Generate
+
+After the interview, say (in the user's chosen language): "Great, let me put your settings together."
+
+Generate a Markdown file. Write the entire settings file in the user's chosen language. Use this structure:
+
+# Claude Settings
+
+## Communication Style
+(Language, tone, preferred and disliked ways of communicating)
+
+## Personality & Collaboration
+(How to handle ambiguous requests, whether to proactively suggest alternatives, how to give feedback)
+
+## Work Pace
+(Ask first vs. decide independently; check in along the way vs. finish all at once)
+
+## My Setup
+(Operating system, number of machines)
+
+## What I Do & Tools I Use
+(Types of work, software)
+
+## Do NOT Do These
+(Clear list of forbidden behaviors, stated directly)
+
+## Other Notes
+(File restrictions, special rules, etc.)
+
+After generating, say (in the user's chosen language):
+"This has been saved as claude-tmp.md — open it and check if everything looks right.
+
+Once you're happy with it, choose where to put it:
+- Just for one project: rename it to CLAUDE.md and place it in that project's folder
+- For all projects (global): copy the contents into ~/.claude/CLAUDE.md
+
+If Claude ever does something that bothers you later, just let me know and I'll add it to the list."
+
+## Reminders for yourself (do not say these to the user)
+
+- If the user says "I don't know" or "doesn't matter", offer a sensible default and ask them to confirm
+- Be specific — avoid vague filler like "maintain good communication"
+- The "Do NOT Do These" section is the most important — write it clearly and directly
+- Avoid technical terms where possible; if you must use one, follow it with a plain-language explanation
+- Always save the output as claude-tmp.md — never write to or overwrite CLAUDE.md
+- Infer personality from how the user describes their behavior and habits — do not just transcribe their answers, synthesize them into actionable guidance for Claude</div>
+      <button class="copy-btn" onclick="copyPrompt(this)">複製</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · 中央研究院原子與分子科學研究所（IAMS）</p>
+</footer>
+
+<script>
+function copyPrompt(btn) {
+  const text = document.getElementById("prompt-content").innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = "已複製！";
+    btn.classList.add("copied");
+    setTimeout(() => {
+      btn.textContent = "複製";
+      btn.classList.remove("copied");
+    }, 2000);
+  });
+}
+</script>
+
+<script data-goatcounter="https://ultima6.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

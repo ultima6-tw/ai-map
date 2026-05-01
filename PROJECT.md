@@ -15,12 +15,14 @@ https://github.com/ultima6-tw/ai-map
 
 ---
 
-## 目前完成狀態（2026-04-16）
+## 目前完成狀態（2026-05-01）
 
 ### 網站架構
 | 檔案 | 說明 |
 |------|------|
-| `index.html` | 首頁：Hero、三核心、研究人員與行政人員應用分區 |
+| `index.html` | 首頁：Hero、三核心、**讓 AI 先認識你**、研究人員與行政人員應用分區 |
+| `setup-guide.html` | 讓 AI 先認識你：引導式 Prompt + 複製按鈕（中文）|
+| `en/setup-guide.html` | Let AI Know You First（英文版）|
 | `courses.html` | 課程：三個工作坊，各拆分為多個章節，YouTube 影片 placeholder |
 | `resources.html` | 資源：工具選擇三色卡、APS/ACS 期刊政策比較、外部連結 |
 | `about.html` | 關於 ACE：使命、對象、三核心說明 |
@@ -62,8 +64,16 @@ https://github.com/ultima6-tw/ai-map
 - 課程章節結構對應 `Projects/AI Literacy/Video1_VO_English_Internal.md`（Video 1 共 46 頁）
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
+## 更新紀錄
+- **2026-04-30**：courses.html + en/courses.html Workshop 1 加入投影片下載列（⬇ 下載 PPTX + 🔍 線上預覽），連結指向 Google Drive（AI_Literacy_Class1.pptx，Google Slides ID: 1TX8-TUDn4y1c7u5x_byfLSDDRGCXEKB0）
+
 ## 待辦
 - [ ] 課程頁面影片 placeholder → 有 YouTube 連結後換成 iframe embed
 - [ ] 核心二（選對工具）延伸觀看影片（目前無適合的 `.md` 來源）
-- [ ] 英文版（目前全站中文，英文版規劃中）
 - [ ] about.html 若有聯絡方式可補上
+- [ ] setup-guide.html 的 YouTube 影片連結（部署後取得 URL 再補）
+
+## 更新紀錄（續）
+- **2026-05-01**：新增 Claude Setup Guide 相關頁面
+  - `setup-guide.html` / `en/setup-guide.html`：讓 AI 先認識你，含完整 Prompt + 複製按鈕
+  - `index.html` / `en/index.html`：在研究人員/行政人員 section 之前加入 Setup Guide 入口 section
