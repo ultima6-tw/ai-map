@@ -71,9 +71,10 @@ https://github.com/ultima6-tw/ai-map
 - [ ] 課程頁面影片 placeholder → 有 YouTube 連結後換成 iframe embed
 - [ ] 核心二（選對工具）延伸觀看影片（目前無適合的 `.md` 來源）
 - [ ] about.html 若有聯絡方式可補上
-- [ ] setup-guide.html 的 YouTube 影片連結（部署後取得 URL 再補）
+- [x] setup-guide.html 的 YouTube 影片連結（已嵌入 iframe）
 
 ## 更新紀錄（續）
 - **2026-05-01**：新增 Claude Setup Guide 相關頁面
   - `setup-guide.html` / `en/setup-guide.html`：讓 AI 先認識你，含完整 Prompt + 複製按鈕
   - `index.html` / `en/index.html`：在研究人員/行政人員 section 之前加入 Setup Guide 入口 section
+  - `setup-guide.html` / `en/setup-guide.html`：嵌入 YouTube 影片（中：D--Tg7HwnmE / 英：iPmEORni1bs）
