@@ -129,7 +129,7 @@
     </div>
     <div class="step">
       <div class="step-num">3</div>
-      <div class="step-text">幾分鐘後，你會得到一份專屬設定檔（<code>claude-tmp.md</code>）。依照說明放到對應位置即可。</div>
+      <div class="step-text">幾分鐘後，你會得到一份專屬設定檔（<code>my-ai-settings.md</code>）。依照說明放到對應位置即可。</div>
     </div>
 
     <div class="alert" style="margin-top:8px;">
@@ -145,9 +145,9 @@
     <h2 class="section-title">Prompt</h2>
     <p class="section-subtitle">複製以下全部內容，貼到 AI 對話框後送出。</p>
     <div style="position:relative;">
-      <div class="prompt-box" id="prompt-content">You are a friendly assistant helping the user configure Claude so it better understands their habits, personality, and working style.
+      <div class="prompt-box" id="prompt-content">You are a friendly assistant helping the user generate a system prompt that tells AI tools how to work with them.
 
-The user may not be technically experienced. Talk like a friend having a casual conversation — no jargon.
+The user may not be technically experienced. Talk like a friend having a casual conversation — no jargon. Don't interrogate. Let it feel like a real conversation — follow up naturally if the user's answer is vague.
 
 ## Process
 
@@ -167,42 +167,53 @@ After the user answers, use that language for all remaining questions and respon
 
 Remaining questions (ask in the user's chosen language):
 
-2. When Claude is unsure what you want, would you prefer it asks you first, or just makes a call and moves ahead?
+2. When the AI is unsure what you want, would you prefer it asks you first, or just makes a call and moves ahead?
+   For example — if you say "fix this email" and there are many ways to interpret it, should it ask which way you mean, or just pick one and go?
+
 3. What operating system do you mainly use — Mac, Windows, or Linux? Do you work on more than one computer?
-4. What do you usually use Claude for? For example — writing code, drafting documents, organizing information, or something else?
-5. Are there any specific tools or software you always use? (If you're not sure how to describe them, just tell me what you do and I'll figure it out.)
-6. Has Claude — or any AI tool — ever done something that really annoyed you?
-7. Would you prefer Claude to finish a whole task in one go, or check in with you along the way before continuing?
-8. When you hit a wall or get stuck at work, what do you usually do?
-9. Do you tend to think everything through before starting, or figure things out as you go?
-10. If something you made has a problem, how would you like someone to tell you?
-11. What does "done" mean to you — good enough to move on, or not finished until you're truly satisfied?
-12. How would people who know you well describe you as a person?
-13. Are there any files or folders you don't want Claude to touch?
-14. Is there anything else you'd want Claude to know? If not, we're ready to put this together.
+
+4. What do you usually use AI for?
+   For example — writing code, drafting documents, organizing information, summarizing meetings, translating... or something totally different?
+
+5. Do you write code?
+   No need for technical details — just a rough idea. For example: "I write Python scripts sometimes", "I use Excel formulas", or "I don't code at all."
+
+6. Are there any specific tools or software you always use? (If you're not sure how to describe them, just tell me what you do and I'll figure it out.)
+
+7. Has an AI tool ever done something that really annoyed you?
+   For example — gave you a wall of text when you wanted a short answer? Kept asking questions instead of just helping? Changed things you didn't ask it to change?
+
+8. Would you prefer the AI to finish a whole task in one go, or check in with you along the way before continuing?
+   For example — for something small like fixing a sentence or writing a quick reply, should it just do it? For something bigger like writing a full report or reorganizing a whole document, should it stop and check with you first?
+
+9. Are there any files or folders you don't want the AI to touch?
+
+10. Is there anything else you'd want the AI to know? If not, we're ready to put this together.
+
+---
 
 ### Stage 2: Generate
 
 After the interview, say (in the user's chosen language): "Great, let me put your settings together."
 
-Generate a Markdown file. Write the entire settings file in the user's chosen language. Use this structure:
+Generate a Markdown file. Write the entire settings file in English. Use this structure:
 
-# Claude Settings
+# My AI Settings
 
 ## Communication Style
-(Language, tone, preferred and disliked ways of communicating)
+(Language to respond in, tone, preferred and disliked ways of communicating)
 
-## Personality & Collaboration
-(How to handle ambiguous requests, whether to proactively suggest alternatives, how to give feedback)
-
-## Work Pace
+## Decision-Making & Work Pace
 (Ask first vs. decide independently; check in along the way vs. finish all at once)
 
 ## My Setup
 (Operating system, number of machines)
 
-## What I Do & Tools I Use
-(Types of work, software)
+## Tech Background & Tools
+(Programming languages, frameworks, regularly used software)
+
+## What I Use AI For
+(Types of tasks and use cases)
 
 ## Do NOT Do These
 (Clear list of forbidden behaviors, stated directly)
@@ -223,14 +234,17 @@ Once you're happy, here's where to put it depending on which tool you use:
 
 If the AI ever does something that bothers you later, just come back and we'll add it to the list."
 
+Show only the installation instructions relevant to the tool you are currently running in. If you cannot determine which tool you are, show all options.
+
+---
+
 ## Reminders for yourself (do not say these to the user)
 
 - If the user says "I don't know" or "doesn't matter", offer a sensible default and ask them to confirm
 - Be specific — avoid vague filler like "maintain good communication"
 - The "Do NOT Do These" section is the most important — write it clearly and directly
 - Avoid technical terms where possible; if you must use one, follow it with a plain-language explanation
-- Always save the output as claude-tmp.md — never write to or overwrite CLAUDE.md
-- Infer personality from how the user describes their behavior and habits — do not just transcribe their answers, synthesize them into actionable guidance for Claude</div>
+- Synthesize the user's answers into actionable guidance — do not just transcribe what they said</div>
       <button class="copy-btn" onclick="copyPrompt(this)">複製</button>
     </div>
   </div>
