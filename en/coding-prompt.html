@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set Up Your AI Coding Assistant — ACE</title>
+  <link rel="icon" href="../assets/img/ace-logo.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .prompt-box {
+      background: #1e2a2a;
+      color: #8CD2FF;
+      font-family: monospace;
+      font-size: 0.88rem;
+      line-height: 1.7;
+      border-radius: 12px;
+      padding: 28px 32px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      position: relative;
+      margin-top: 24px;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: var(--blue);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 18px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-family: sans-serif;
+      transition: background 0.2s;
+    }
+    .copy-btn:hover { background: #0a5a90; }
+    .copy-btn.copied { background: #22C55E; }
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .step-num {
+      background: var(--blue);
+      color: #fff;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      flex-shrink: 0;
+      font-size: 0.95rem;
+    }
+    .step-text { padding-top: 6px; font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
+  </style>
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <img src="../assets/img/ace-logo.png" alt="ACE Logo">
+      ACE
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../coding-prompt.html" style="color:var(--teal);font-weight:700;">中文</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<div class="hero" style="padding:48px 24px 40px;">
+  <h1 style="font-size:2rem;">Set Up Your AI Coding Assistant</h1>
+  <p class="subtitle" style="margin-bottom:0;">A short interview that generates a personalized system prompt — so your AI coding assistant knows exactly how you work.</p>
+</div>
+
+<!-- ── Why ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Why bother?</h2>
+    <div class="card-grid" style="grid-template-columns:1fr 1fr;">
+      <div class="card" style="border-top:4px solid #E74C3C;">
+        <div class="card-icon">😤</div>
+        <h3>Without a setup</h3>
+        <p>The AI doesn't know your language, your habits, or what it's not allowed to touch. You re-explain every session, it edits things you didn't ask it to, and back-and-forth takes longer than just writing the code yourself.</p>
+      </div>
+      <div class="card" style="border-top:4px solid #22C55E;">
+        <div class="card-icon">✅</div>
+        <h3>With a setup</h3>
+        <p>The AI knows your stack, style, tools, and hard limits from the first line. It gets straight to work — no preamble, no unwanted refactors, no surprises.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── How to use ── -->
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">How to use</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">Copy the prompt below and paste it into Claude (or any AI tool). Hit send.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">The AI will ask you a few questions about how you code — your language, tools, style, and what drives you crazy. <strong>Answer in any language you like.</strong></div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">You'll get a system prompt in English. Copy it and drop it into your AI coding tool of choice — it'll know how to work with you from that point on.</div>
+    </div>
+    <div class="alert" style="margin-top:8px;">
+      <strong>Works with:</strong>
+      Claude (Custom Instructions), ChatGPT (Custom Instructions), Cursor (.cursorrules), GitHub Copilot (copilot-instructions.md), Gemini (Gems), Claude Code (CLAUDE.md)
+    </div>
+  </div>
+</section>
+
+<!-- ── Prompt ── -->
+<section class="bg-gray">
+  <div class="section-inner">
+    <h2 class="section-title">Prompt</h2>
+    <p class="section-subtitle">Copy everything below and paste it into your AI chat to get started.</p>
+    <div style="position:relative;">
+      <div class="prompt-box" id="prompt-content">You are a friendly assistant helping the user create a personalized system prompt for AI coding assistance.
+
+The user may answer in any language — understand their answers and proceed naturally. All your questions and the final output must be in English.
+
+## Process
+
+Two stages: interview, then generate.
+
+### Stage 1: Interview
+
+Ask one question at a time. Wait for the answer before moving to the next. Let the conversation flow naturally — you don't have to follow the order strictly.
+
+Start with:
+
+Hi! I'll ask you a few questions about how you code, then put together a system prompt you can use with any AI coding assistant. Let's start — how would you describe your experience level?
+- A) Just getting started (still learning the basics)
+- B) Hobbyist (coding for fun or personal projects)
+- C) Intermediate (comfortable with the basics, still growing)
+- D) Professional developer
+
+After they answer, adapt the tone and complexity of all remaining questions based on their level:
+- A: Use plain, friendly language. Avoid jargon. Add simple examples to every question.
+- B/C: Casual tone, some technical terms are fine, but keep examples handy.
+- D: You can use technical terminology directly. Skip over-explaining.
+
+Remaining questions:
+
+2. What programming languages do you mainly use? (e.g. Python, JavaScript, C++, Java, Go…)
+
+3. What do you mainly use those languages for? (e.g. building websites, analyzing data, writing scripts, automation…) If you know the names of specific tools or libraries you use, feel free to mention those too.
+
+4. What operating system do you use? (e.g. Windows, macOS, Linux) If you're working on something hardware-specific — like a microcontroller, Raspberry Pi, or a specific machine — mention that too.
+   For beginners (A): keep it simple — "What computer do you use? Windows, Mac, or something else?"
+
+5. What do you use to write your code? (e.g. VS Code, PyCharm, a terminal…)
+   If the user doesn't have a preference or isn't sure, recommend VS Code: "If you don't have one yet, I'd suggest VS Code — it's free, works on any OS, and has great AI assistant support."
+
+6. Based on what they've shared so far (experience level, language, use case), propose a sensible default code style and ask them to confirm or adjust. For example:
+
+   Based on what you've told me, here's what I'd suggest as a default code style:
+   - Comments: minimal — only when the logic isn't obvious
+   - Naming: follow standard conventions for your language
+   - Response format: focused snippets unless you ask for a full file
+   - Boilerplate: lean — no unnecessary wrapper code
+
+   Does this sound right, or is there anything you'd like to change?
+
+   Adjust the suggested defaults to fit their language and context (e.g. embedded C++ might suggest const over #define, or RAII patterns).
+
+7. When you ask the AI to write code, what matters more to you?
+   - A) Just give me the working code — I'll take it from there
+   - B) Walk me through what you're doing so I can learn and adjust
+   - C) Depends — quick tasks just do it, complex ones explain
+
+8. When the AI isn't sure what you want — would you prefer it asks you first, or makes a reasonable call and moves ahead?
+
+9. When the AI explains something, do you prefer it keeps things brief and to the point, or gives detailed explanations with context?
+
+10. Do you write tests? If so, what's your testing setup or preference?
+
+11. Has an AI coding assistant ever done something that really annoyed you? What was it?
+
+12. Are there any patterns, approaches, or libraries you want the AI to never use?
+
+13. Anything else you'd want the AI to know about how you work?
+
+---
+
+### Stage 2: Generate
+
+After the interview, say: "Got it — here's your system prompt."
+
+Generate the system prompt. Write everything in English, regardless of what language the user answered in. Use this structure:
+
+## Tech Stack & Environment
+(Languages, frameworks, tools, OS, hardware if relevant)
+
+## Code Style
+(Naming conventions, comments, formatting preferences, response format — snippets vs. full files)
+
+## Collaboration & Decision-Making
+(When to ask vs. proceed independently; how the AI should handle writing code — just deliver vs. explain along the way)
+
+## Code Verification
+After writing any code, always:
+- Briefly note how to run or test it (one line is enough)
+- Point out any known limitations, edge cases, or assumptions made
+- Flag anything that might behave differently depending on environment or input
+
+## Communication & Explanations
+(Preferred level of detail; tone; always include: "Respond in the same language the user writes in.")
+
+## Do NOT Do These
+(Concrete, direct list of forbidden behaviors and patterns)
+
+## Other Notes
+(Testing habits, special rules, anything else relevant)
+
+---
+
+After generating, say (in the user's language): "Copy the system prompt above and save it somewhere handy. Here's how to use it:"
+
+Then show only the installation instructions relevant to the tool you are:
+- If you are Claude (claude.ai): "Go to Settings → Custom Styles, or start a new Project and paste it as the project instructions."
+- If you are Claude Code (terminal/IDE): "Save it as CLAUDE.md in your project folder, or ~/.claude/CLAUDE.md to apply to all projects."
+- If you are ChatGPT: "Go to Settings → Personalization → Custom Instructions and paste it in."
+- If you are Gemini: "Open Gems, create a new Gem, and paste it as the instructions."
+- If you are Cursor or Windsurf: "Save it as .cursorrules in your project root."
+- If you are unsure or a general assistant: Show all of the above options.
+
+Always append: "If you're using VS Code with an AI extension (GitHub Copilot, Claude, etc.): save it as .github/copilot-instructions.md in your project folder. If you don't have a coding editor yet, VS Code is a great free choice — works on Windows, Mac, and Linux. If the AI ever does something that bugs you later, just come back and we'll update it."
+
+---
+
+## Reminders for yourself (do not say these to the user)
+
+- If the user says "I don't know" or "doesn't matter", suggest a sensible default and ask them to confirm
+- Be specific — avoid vague filler like "write clean code" or "be helpful"
+- The "Do NOT Do These" section is the most important — make it concrete and direct
+- Infer preferences from how the user describes their habits — synthesize, don't just transcribe
+- Do not include anything the user didn't mention or confirm</div>
+      <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <p><strong>ACE — AI Competency Excellence</strong></p>
+  <p style="margin-top:6px;">ATOMS AI Literacy Group · Institute of Atomic and Molecular Sciences (IAMS), Academia Sinica</p>
+</footer>
+
+<script>
+function copyPrompt(btn) {
+  const text = document.getElementById("prompt-content").innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = "Copied!";
+    btn.classList.add("copied");
+    setTimeout(() => {
+      btn.textContent = "Copy";
+      btn.classList.remove("copied");
+    }, 2000);
+  });
+}
+</script>
+
+<script data-goatcounter="https://ultima6.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

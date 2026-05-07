@@ -23,6 +23,8 @@ https://github.com/ultima6-tw/ai-map
 | `index.html` | 首頁：Hero、三核心、**讓 AI 先認識你**、研究人員與行政人員應用分區 |
 | `setup-guide.html` | 讓 AI 先認識你：引導式 Prompt + 複製按鈕（中文）|
 | `en/setup-guide.html` | Let AI Know You First（英文版）|
+| `coding-prompt.html` | 設定你的 AI 程式助手：訪談式 Prompt + 複製按鈕（中文）|
+| `en/coding-prompt.html` | Set Up Your AI Coding Assistant（英文版）|
 | `courses.html` | 課程：三個工作坊，各拆分為多個章節，YouTube 影片 placeholder |
 | `resources.html` | 資源：工具選擇三色卡、APS/ACS 期刊政策比較、外部連結 |
 | `about.html` | 關於 ACE：使命、對象、三核心說明 |
@@ -65,6 +67,7 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-05-07**：新增 coding-prompt.html / en/coding-prompt.html；首頁研究人員與行政人員 section 各加入 coding prompt 卡片（中英文）
 - **2026-04-30**：courses.html + en/courses.html Workshop 1 加入投影片下載列（⬇ 下載 PPTX + 🔍 線上預覽），連結指向 Google Drive（AI_Literacy_Class1.pptx，Google Slides ID: 1TX8-TUDn4y1c7u5x_byfLSDDRGCXEKB0）
 
 ## 待辦
