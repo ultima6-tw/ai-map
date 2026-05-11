@@ -67,6 +67,11 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-05-11**：courses.html + en/courses.html Ch 1-3 換為 ep03 YouTube embed（ZH: g1MgyRCgoOg，EN: q6HobCWNybY）
+- **2026-05-11**：courses.html + en/courses.html Ch 1-2 換為 ep02 YouTube embed（ZH: dUQYxRhe5aA，EN: LS4jeJLy-5M）
+- **2026-05-11**：en/courses.html Workshop 2 加入 Vibe Coding 延伸觀看（Extended Viewing，fHWFF_pnqDk）
+- **2026-05-11**：en/courses.html 同步對齊 7 集影片系列（同中文版），ep01 EN iframe 換為新版（g58MKUTCeAA），Workshop 3 移除
+- **2026-05-11**：courses.html 章節結構對齊 7 集影片系列：各章標題/描述改為對應各 ep 實際內容（ep01–07），Workshop 3 移除（內容已含在 ep07/Workshop 2 Ch 2），Workshop 2 標題改為「提示技巧與安全使用」；ep01 ZH iframe 換為新版（er_vunAQ8VE）
 - **2026-05-07**：新增 coding-prompt.html / en/coding-prompt.html；首頁研究人員與行政人員 section 各加入 coding prompt 卡片（中英文）
 - **2026-04-30**：courses.html + en/courses.html Workshop 1 加入投影片下載列（⬇ 下載 PPTX + 🔍 線上預覽），連結指向 Google Drive（AI_Literacy_Class1.pptx，Google Slides ID: 1TX8-TUDn4y1c7u5x_byfLSDDRGCXEKB0）
 
@@ -83,6 +88,12 @@ https://github.com/ultima6-tw/ai-map
 - [x] setup-guide.html 的 YouTube 影片連結（已嵌入 iframe）
 
 ## 更新紀錄（續）
+- **2026-05-07**：setup-guide.html / en/setup-guide.html 更新為 v2 prompt（AI Initial Setup Prompt）
+  - Prompt 從 14 題縮為 10 題，移除抽象個性題，新增技術背景題（Q5）
+  - 各題加入引導例子，降低非技術使用者回答門檻
+  - 輸出改為固定英文，輸出結構更新（新增 Tech Background & Tools，移除 Personality & Collaboration）
+  - 加入 AI 自我識別指令（只顯示當前工具的安裝說明）
+  - 步驟說明中 `claude-tmp.md` 改為 `my-ai-settings.md`
 - **2026-05-01**：新增 Claude Setup Guide 相關頁面
   - `setup-guide.html` / `en/setup-guide.html`：讓 AI 先認識你，含完整 Prompt + 複製按鈕
   - `index.html` / `en/index.html`：在研究人員/行政人員 section 之前加入 Setup Guide 入口 section
