@@ -68,7 +68,7 @@ https://github.com/ultima6-tw/ai-map
 
 ## 更新紀錄
 - **2026-05-13**：網站結構重組（第三輪）
-  - `resources.html` / `en/resources.html`：影片改為「一影片一行、影片左描述右」版型；官方說明連結移至 section 最上方；Ep08 連結移至主標題正下方
+  - `resources.html` / `en/resources.html`：影片改為「一影片一行、影片左描述右」版型；官方說明連結移至 section 最上方；Ep08 連結移至主標題正下方；說明文字改為清單格式（`<ul><li>`）
 - **2026-05-13**：網站結構重組（第二輪）
   - `courses.html` / `en/courses.html`：Workshop 3 底部加入各廠商工具連結（ChatGPT / Gemini / Claude / Copilot）
   - `resources.html` / `en/resources.html`：頁面標題改為「Claude.ai 操作介紹」（nav 仍顯示「資源」）；移除實用連結 section
