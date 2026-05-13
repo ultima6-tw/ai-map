@@ -68,6 +68,7 @@ https://github.com/ultima6-tw/ai-map
 
 ## 更新紀錄
 - **2026-05-13**：resources.html / en/resources.html Code 區新增三支示波器/硬體控制影片（9oMwjWW3wsg Keysight示波器、A4H2UyeRx9w Lecroy示波器、nmGEedloQ6E ESP32自動化測試台），共五支影片
+- **2026-05-14**：resources.html / en/resources.html 全部影片加語言標示（🎬 影片語言：中文/英文）；EN 頁中文影片描述翻譯成英文
 - **2026-05-13**：resources.html / en/resources.html Code 兩支影片描述全面更新（分析 YouTube 說明，改為具體 demo 內容）
 - **2026-05-13**：resources.html / en/resources.html Cowork 三支影片描述全面更新（逐一分析 YouTube 章節，改為列出每支影片的實際 demo 範例，方便讀者選片）
 - **2026-05-13**：resources.html / en/resources.html Cowork 區新增第三支影片（227K1Vy82ag，「10分鐘精通 Claude Cowork 全自動辦公」）
