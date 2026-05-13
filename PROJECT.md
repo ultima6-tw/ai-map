@@ -67,6 +67,10 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-05-13**：網站結構重組
+  - `resources.html` / `en/resources.html`：改為 Claude Cowork + Code 使用指南，含四支示範影片（Cowork ZH/EN、Arduino、RPi）；移除三色卡與期刊政策
+  - `index.html` / `en/index.html`：三核心方向下方新增「工具安全性」三色卡（安全/謹慎/避免）
+  - `llm-writing.html` / `en/llm-writing.html`：新增 APS/ACS 期刊 AI 政策 section（原在 resources.html）
 - **2026-05-11**：YouTube 標題全面統一（ep01–07）：ZH 格式 `{主題} | AI 素養系列 Ep.XX`、EN 格式 `{Topic} | AI Literacy Series Ep.XX`；同步修正 courses.html ZH iframe title 屬性中的全形分隔符號與不一致後綴
 - **2026-05-11**：courses.html + en/courses.html Ch 2-2 換為 ep07 YouTube embed（ZH: ppNN74zWJVw，EN: 3CgTsibYXl8）
 - **2026-05-11**：courses.html + en/courses.html Ch 2-1 換為 ep06 YouTube embed（ZH: PQZI8DjOfHo，EN: o6cMfp8ogBA）

@@ -29,80 +29,85 @@
 <!-- ── Page Header ── -->
 <div class="hero" style="padding:48px 24px 40px;">
   <h1 style="font-size:2rem;">資源</h1>
-  <p class="subtitle" style="margin-bottom:0;">工具選擇指南、期刊政策、以及你需要知道的 AI 規範。</p>
+  <p class="subtitle" style="margin-bottom:0;">Claude Cowork 與 Claude Code 使用指南，含操作示範影片。</p>
 </div>
 
-<!-- ── 工具選擇 ── -->
+<!-- ── Claude Cowork ── -->
 <section>
   <div class="section-inner">
-    <h2 class="section-title">如何選擇 AI 工具？</h2>
-    <p class="section-subtitle">同一個服務，不同版本風險完全不同。用這個原則快速判斷。</p>
+    <h2 class="section-title">Claude Cowork — 委派任務，讓 AI 幫你做完</h2>
+    <p class="section-subtitle">整理資料夾、製作報表、郵件分類、排程管理。說完目標可以走開，回來拿結果。</p>
 
-    <div class="card-grid">
-      <div class="card" style="border-top:4px solid #27AE60;">
-        <div class="card-icon">✅</div>
-        <h3 style="color:#1E8449;">相對安全</h3>
-        <p>ChatGPT Team / Enterprise、Google Workspace（Gemini）——有明確承諾不將你的輸入用於模型訓練。適合一般工作內容。</p>
-        <p style="margin-top:12px;font-size:0.85rem;color:#7F8C8D;">⚠️ 承諾無法被驗證，機敏資料仍不應輸入。</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:8px;">
+      <div>
+        <p style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:10px;">中文操作示範</p>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
+          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                  src="https://www.youtube.com/embed/_cVTzXvb7xs"
+                  title="Claude Cowork 中文操作示範" frameborder="0"
+                  allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="card" style="border-top:4px solid #E67E22;">
-        <div class="card-icon">⚠️</div>
-        <h3 style="color:#CA6F1E;">謹慎使用</h3>
-        <p>ChatGPT 免費版、Gemini 個人版——資料可能被用於訓練。避免輸入任何未發表的研究內容或個人資訊。</p>
-      </div>
-      <div class="card" style="border-top:4px solid #E74C3C;">
-        <div class="card-icon">🚫</div>
-        <h3 style="color:#C0392B;">建議避免</h3>
-        <p>DeepSeek、通義千問（Qwen）、Kimi、文心一言——受中國《國家情報法》規範，政府有權要求存取你的資料，回答內容可能受審查。</p>
+      <div>
+        <p style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:10px;">English Tutorial</p>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
+          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                  src="https://www.youtube.com/embed/SNo_recKZyY"
+                  title="Claude Cowork English Tutorial" frameborder="0"
+                  allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
       </div>
     </div>
 
-    <div class="alert" style="margin-top:32px;">
-      <strong>原則：機敏資料（未發表實驗數據、個人資訊）不論哪種版本都不應輸入線上服務。</strong><br>
-      有本地模型需求請聯絡 ACE。
+    <div class="resource-grid" style="margin-top:28px;">
+      <a href="https://support.claude.com" target="_blank" class="resource-link">
+        <span class="icon">📖</span> Claude Cowork 官方說明
+      </a>
+      <a href="https://youtu.be/1nO6gG9xx2g?start=339" target="_blank" class="resource-link">
+        <span class="icon">▶️</span> Ep08 第三章：Cowork vs Code 概念介紹
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ── 期刊 AI 政策 ── -->
+<!-- ── Claude Code ── -->
 <section class="bg-gray">
   <div class="section-inner">
-    <h2 class="section-title">學術期刊 AI 使用規定</h2>
-    <p class="section-subtitle">投稿前請確認各期刊政策，以下為 APS 與 ACS 重點比較。</p>
+    <h2 class="section-title">Claude Code — 讓 AI 直接讀你的程式與檔案</h2>
+    <p class="section-subtitle">批次資料處理、硬體控制、自動化腳本。以下兩個真實案例展示 Code 的能力範圍。</p>
 
-    <div class="card-grid" style="grid-template-columns:1fr 1fr;">
-      <div class="card">
-        <h3>APS（美國物理學會）</h3>
-        <ul style="margin-top:8px;padding-left:18px;font-size:0.92rem;color:var(--text-muted);line-height:2;">
-          <li>必須在 Cover Letter 揭露 AI 使用</li>
-          <li><strong>完全禁止</strong> AI 生成圖片</li>
-          <li>AI 不能列為作者，作者負完全責任</li>
-          <li>審稿人不得將稿件上傳外部 AI</li>
-        </ul>
-        <div style="margin-top:16px;">
-          <a href="https://journals.aps.org/authors/ai-based-writing-tools" target="_blank" class="resource-link" style="font-size:0.85rem;">
-            <span class="icon">🔗</span> APS 官方政策頁面
-          </a>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:8px;">
+      <div>
+        <p style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:10px;">Arduino 全自動開發示範</p>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
+          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                  src="https://www.youtube.com/embed/Yt8mc5v7MYA"
+                  title="Arduino 全自動開發示範" frameborder="0"
+                  allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                  allowfullscreen></iframe>
         </div>
       </div>
-      <div class="card">
-        <h3>ACS（美國化學學會）</h3>
-        <ul style="margin-top:8px;padding-left:18px;font-size:0.92rem;color:var(--text-muted);line-height:2;">
-          <li>必須在 Acknowledgments 揭露 AI 使用</li>
-          <li>允許 AI 生成圖片，但需在圖說標注</li>
-          <li>AI 不能列為作者，作者負完全責任</li>
-          <li>編輯可因 AI 使用「太廣泛」而拒稿</li>
-        </ul>
-        <div style="margin-top:16px;">
-          <a href="https://researcher-resources.acs.org/publish/aipolicy" target="_blank" class="resource-link" style="font-size:0.85rem;">
-            <span class="icon">🔗</span> ACS 官方政策頁面
-          </a>
+      <div>
+        <p style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:10px;">Raspberry Pi IoT 控制示範</p>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
+          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                  src="https://www.youtube.com/embed/X2ZN5rIF22Y"
+                  title="Raspberry Pi IoT 控制示範" frameborder="0"
+                  allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                  allowfullscreen></iframe>
         </div>
       </div>
     </div>
 
-    <div class="alert" style="margin-top:24px;">
-      各期刊要求不同，投稿前請務必自行確認目標期刊的最新政策。
+    <div class="resource-grid" style="margin-top:28px;">
+      <a href="https://code.claude.com/docs/zh-TW/best-practices" target="_blank" class="resource-link">
+        <span class="icon">📖</span> Claude Code 最佳實踐（官方文件）
+      </a>
+      <a href="https://youtu.be/1nO6gG9xx2g?start=853" target="_blank" class="resource-link">
+        <span class="icon">▶️</span> Ep08 第三章：Claude Code 能做什麼
+      </a>
     </div>
   </div>
 </section>
@@ -124,12 +129,6 @@
       </a>
       <a href="https://github.com/features/copilot" target="_blank" class="resource-link">
         <span class="icon">💻</span> GitHub Copilot
-      </a>
-      <a href="https://journals.aps.org/authors/ai-based-writing-tools" target="_blank" class="resource-link">
-        <span class="icon">📋</span> APS AI Policy
-      </a>
-      <a href="https://researcher-resources.acs.org/publish/aipolicy" target="_blank" class="resource-link">
-        <span class="icon">📋</span> ACS AI Policy
       </a>
     </div>
   </div>
