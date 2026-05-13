@@ -132,7 +132,7 @@
       </a>
     </div>
 
-    <p class="section-subtitle">批次資料處理、硬體控制、自動化腳本。以下兩個真實案例展示 Code 的能力範圍。</p>
+    <p class="section-subtitle">批次資料處理、硬體控制、自動化腳本。以下五個真實案例展示 Code 的能力範圍。</p>
 
     <!-- 影片列 1 -->
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-top:8px;padding-bottom:24px;border-bottom:1px solid var(--border);">
@@ -155,7 +155,7 @@
     </div>
 
     <!-- 影片列 2 -->
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-top:24px;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-top:24px;padding-bottom:24px;border-bottom:1px solid var(--border);">
       <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
         <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
                 src="https://www.youtube.com/embed/X2ZN5rIF22Y"
@@ -170,6 +170,63 @@
           <li>自然語言查詢感測器數值（如：土壤濕不濕？）</li>
           <li>透過對話直接控制 GPIO 腳位（點亮 LED、切換狀態）</li>
           <li>AI 驅動的 IoT 監控與控制完整架構</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 影片列 3 -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-top:24px;padding-bottom:24px;border-bottom:1px solid var(--border);">
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
+        <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                src="https://www.youtube.com/embed/9oMwjWW3wsg"
+                title="Claude + Oscilloscope: Agentic Hardware Testing" frameborder="0"
+                allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+      <div>
+        <ul style="font-size:0.9rem;color:var(--text-muted);line-height:2;padding-left:18px;margin:0;">
+          <li>MCP server + PyVISA 直連 Keysight 示波器</li>
+          <li>Claude 即時讀取波形數據並判讀結果</li>
+          <li>驗證 I2C 時序與 PWM 訊號的正確性</li>
+          <li>AI 自動判斷量測結果是否符合規格</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 影片列 4 -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-top:24px;padding-bottom:24px;border-bottom:1px solid var(--border);">
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
+        <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                src="https://www.youtube.com/embed/A4H2UyeRx9w"
+                title="I gave Claude Code control of my Lecroy Oscilloscope" frameborder="0"
+                allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+      <div>
+        <ul style="font-size:0.9rem;color:var(--text-muted);line-height:2;padding-left:18px;margin:0;">
+          <li>Claude Code 控制 Lecroy 示波器執行量測</li>
+          <li>KiCad 電路圖設計 → ATtiny1614 韌體燒錄</li>
+          <li>SPICE 模擬結果與真實波形自動比對驗證</li>
+          <li>完整 Hardware-in-the-Loop 開發驗證流程</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 影片列 5 -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-top:24px;">
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000;">
+        <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                src="https://www.youtube.com/embed/nmGEedloQ6E"
+                title="AI-Driven ESP32 Workflow (Spec → Code → Test)" frameborder="0"
+                allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+      <div>
+        <ul style="font-size:0.9rem;color:var(--text-muted);line-height:2;padding-left:18px;margin:0;">
+          <li>Raspberry Pi 搭建 ESP32 自動化測試台</li>
+          <li>Claude Code 全程管控：燒錄、監控、測試</li>
+          <li>Wi-Fi 與 BLE 行為的自動化驗證</li>
+          <li>完整 Spec → Code → Test 流程示範</li>
         </ul>
       </div>
     </div>
