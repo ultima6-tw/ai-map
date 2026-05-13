@@ -67,6 +67,7 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-05-13**：resources.html / en/resources.html Code 兩支影片描述全面更新（分析 YouTube 說明，改為具體 demo 內容）
 - **2026-05-13**：resources.html / en/resources.html Cowork 三支影片描述全面更新（逐一分析 YouTube 章節，改為列出每支影片的實際 demo 範例，方便讀者選片）
 - **2026-05-13**：resources.html / en/resources.html Cowork 區新增第三支影片（227K1Vy82ag，「10分鐘精通 Claude Cowork 全自動辦公」）
 - **2026-05-13**：網站結構重組（第三輪）
