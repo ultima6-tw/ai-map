@@ -67,7 +67,10 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
-- **2026-05-13**：網站結構重組
+- **2026-05-13**：網站結構重組（第二輪）
+  - `courses.html` / `en/courses.html`：Workshop 3 底部加入各廠商工具連結（ChatGPT / Gemini / Claude / Copilot）
+  - `resources.html` / `en/resources.html`：頁面標題改為「Claude.ai 操作介紹」（nav 仍顯示「資源」）；移除實用連結 section
+- **2026-05-13**：網站結構重組（第一輪）
   - `resources.html` / `en/resources.html`：改為 Claude Cowork + Code 使用指南，含四支示範影片（Cowork ZH/EN、Arduino、RPi）；移除三色卡與期刊政策
   - `index.html` / `en/index.html`：三核心方向下方新增「工具安全性」三色卡（安全/謹慎/避免）
   - `llm-writing.html` / `en/llm-writing.html`：新增 APS/ACS 期刊 AI 政策 section（原在 resources.html）
