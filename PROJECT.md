@@ -67,6 +67,7 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-05-14**：resources.html / en/resources.html 新增 Claude Design 節區（第三節），含官方連結（claude.ai/design）與兩支英文影片（t_LBECIQQqs Anthropic官方、X7YMMyd2Qnk Tristen O'Brien基礎教學）
 - **2026-05-13**：resources.html / en/resources.html Code 區新增三支示波器/硬體控制影片（9oMwjWW3wsg Keysight示波器、A4H2UyeRx9w Lecroy示波器、nmGEedloQ6E ESP32自動化測試台），共五支影片
 - **2026-05-14**：resources.html / en/resources.html 全部影片加語言標示（🎬 影片語言：中文/英文）；EN 頁中文影片描述翻譯成英文
 - **2026-05-13**：resources.html / en/resources.html Code 兩支影片描述全面更新（分析 YouTube 說明，改為具體 demo 內容）
