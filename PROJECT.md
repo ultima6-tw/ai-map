@@ -75,6 +75,8 @@ https://github.com/ultima6-tw/ai-map
 - **2026-05-11**：courses.html + en/courses.html Ch 1-3 換為 ep03 YouTube embed（ZH: g1MgyRCgoOg，EN: q6HobCWNybY）
 - **2026-05-11**：courses.html + en/courses.html Ch 1-2 換為 ep02 YouTube embed（ZH: dUQYxRhe5aA，EN: LS4jeJLy-5M）
 - **2026-05-11**：en/courses.html Workshop 2 加入 Vibe Coding 延伸觀看（Extended Viewing，fHWFF_pnqDk）
+- **2026-05-13**：Workshop 3 ZH embed 更新為修正版（1nO6gG9xx2g，舊版 3e0ZrzUewrc 因 sample rate 問題刪除）
+- **2026-05-13**：courses.html + en/courses.html Workshop 3 改為三章結構，各對應不同客群，並以 YouTube 時間戳直接跳到對應章節（ZH: ?start=339 / ?start=853；EN: ?start=378 / ?start=1003）
 - **2026-05-12**：courses.html + en/courses.html 新增 Workshop 3「AI Agent 時代：從概念到工具」，嵌入 EP08（ZH: 3e0ZrzUewrc，EN: Vapyq4WwjvQ）
 - **2026-05-11**：en/courses.html 同步對齊 7 集影片系列（同中文版），ep01 EN iframe 換為新版（g58MKUTCeAA），Workshop 3 移除
 - **2026-05-11**：courses.html 章節結構對齊 7 集影片系列：各章標題/描述改為對應各 ep 實際內容（ep01–07），Workshop 3 移除（內容已含在 ep07/Workshop 2 Ch 2），Workshop 2 標題改為「提示技巧與安全使用」；ep01 ZH iframe 換為新版（er_vunAQ8VE）
