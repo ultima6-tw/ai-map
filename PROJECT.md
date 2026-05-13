@@ -67,16 +67,22 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-05-11**：YouTube 標題全面統一（ep01–07）：ZH 格式 `{主題} | AI 素養系列 Ep.XX`、EN 格式 `{Topic} | AI Literacy Series Ep.XX`；同步修正 courses.html ZH iframe title 屬性中的全形分隔符號與不一致後綴
+- **2026-05-11**：courses.html + en/courses.html Ch 2-2 換為 ep07 YouTube embed（ZH: ppNN74zWJVw，EN: 3CgTsibYXl8）
+- **2026-05-11**：courses.html + en/courses.html Ch 2-1 換為 ep06 YouTube embed（ZH: PQZI8DjOfHo，EN: o6cMfp8ogBA）
+- **2026-05-11**：courses.html + en/courses.html Ch 1-5 換為 ep05 YouTube embed（ZH: ZE5Eue5NzzE，EN: WRvNKtdNTc8）
+- **2026-05-11**：courses.html + en/courses.html Ch 1-4 換為 ep04 YouTube embed（ZH: 9M1PNym-cOo，EN: ZcVWLmrPpzM）
 - **2026-05-11**：courses.html + en/courses.html Ch 1-3 換為 ep03 YouTube embed（ZH: g1MgyRCgoOg，EN: q6HobCWNybY）
 - **2026-05-11**：courses.html + en/courses.html Ch 1-2 換為 ep02 YouTube embed（ZH: dUQYxRhe5aA，EN: LS4jeJLy-5M）
 - **2026-05-11**：en/courses.html Workshop 2 加入 Vibe Coding 延伸觀看（Extended Viewing，fHWFF_pnqDk）
+- **2026-05-12**：courses.html + en/courses.html 新增 Workshop 3「AI Agent 時代：從概念到工具」，嵌入 EP08（ZH: 3e0ZrzUewrc，EN: Vapyq4WwjvQ）
 - **2026-05-11**：en/courses.html 同步對齊 7 集影片系列（同中文版），ep01 EN iframe 換為新版（g58MKUTCeAA），Workshop 3 移除
 - **2026-05-11**：courses.html 章節結構對齊 7 集影片系列：各章標題/描述改為對應各 ep 實際內容（ep01–07），Workshop 3 移除（內容已含在 ep07/Workshop 2 Ch 2），Workshop 2 標題改為「提示技巧與安全使用」；ep01 ZH iframe 換為新版（er_vunAQ8VE）
 - **2026-05-07**：新增 coding-prompt.html / en/coding-prompt.html；首頁研究人員與行政人員 section 各加入 coding prompt 卡片（中英文）
 - **2026-04-30**：courses.html + en/courses.html Workshop 1 加入投影片下載列（⬇ 下載 PPTX + 🔍 線上預覽），連結指向 Google Drive（AI_Literacy_Class1.pptx，Google Slides ID: 1TX8-TUDn4y1c7u5x_byfLSDDRGCXEKB0）
 
 ## 待辦
-- [ ] 課程頁面影片 placeholder → 有 YouTube 連結後換成 iframe embed
+- [x] 課程頁面影片 placeholder → 全部換成 iframe embed（ep01–07，2026-05-11 完成）
 - [x] llm-writing.html 4 個 prompt 改為引導式
 - [x] llm-knowledge.html 3 個 prompt 改為引導式
 - [x] llm-automation.html 3 個 prompt 改為引導式（Claude Code Demo 保留原格式）
