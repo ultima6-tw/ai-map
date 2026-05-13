@@ -1,0 +1,107 @@
+site_name: ACE – AI Competency Excellence
+site_url: https://ultima6-tw.github.io/ai-map/
+repo_url: https://github.com/ultima6-tw/ai-map
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: assets/ace-logo.png
+  favicon: assets/ace-logo.png
+  edit_uri: edit/main/docs/
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+
+nav:
+  - Home: index.md
+  - 繁體中文 (ZH):
+    - 🏠 中文首頁: zh/index.md
+    - 🧩 基礎知識 (Basics):
+      - 什麼是 LLM?: zh/what-is-ai-or-llm.md
+      - AI 名詞解釋 (Glossary): zh/glossary.md
+      - AI 模型概覽: zh/model-index.md
+      - AI 應用與案例: zh/ai-application.md
+      - AI 幻覺與預防: zh/ai-hallucination.md
+      - 社會影響與挑戰: zh/ai-impact.md
+      - 🇹🇼 數位主權與 TAIDE: zh/digital-sovereignty.md
+    - 🛠️ 實戰應用 (Practical):
+      - 🏠 本地模型與隱私: zh/local-ai-privacy.md
+      - 🖥️ 程式開發: zh/tools-coding.md
+      - 🎨 影像生成: zh/tools-image.md
+      - 🧠 Agent 智能體: zh/agent.md
+      - 🔍 學術研究工作流: zh/research-workflow.md
+    - 🧠 深入技術與優化 (Optimization):
+      - 🗣️ 提示詞工程: zh/prompt-engineering.md
+      - 🧠 上下文工程: zh/context-engineering.md
+      - ⚙️ 測試架構工程: zh/harness-engineering.md
+    - 📈 趨勢與未來 (Trends):
+      - 📰 最新 AI 新聞: zh/ai-news.md
+      - 🎓 跨領域學術動態: zh/academic-trends.md
+  - English (EN):
+    - 🏠 English Home: en/index.md
+    - 🧩 Basics:
+      - What is AI/LLM?: en/what-is-ai-or-llm.md
+      - AI Glossary: en/glossary.md
+      - AI Models Index: en/model-index.md
+      - AI Applications: en/ai-application.md
+      - Safe Usage (Hallucination): en/ai-hallucination.md
+      - AI Impact & Challenges: en/ai-impact.md
+      - 🇹🇼 Digital Sovereignty: en/digital-sovereignty.md
+    - 🛠️ Practical:
+      - 🏠 Local AI & Privacy: en/local-ai-privacy.md
+      - 🖥️ Coding: en/tools-coding.md
+      - 🎨 Image Generation: en/tools-image.md
+      - 🧠 Agent Basics: en/agent.md
+      - 🔍 Academic Workflow: en/research-workflow.md
+    - 🧠 Optimization & Research:
+      - 🗣️ Prompt Engineering: en/prompt-engineering.md
+      - 🧠 Context Engineering: en/context-engineering.md
+      - ⚙️ Harness Engineering: en/harness-engineering.md
+    - 📈 Trends & Future:
+      - 📰 AI News: en/ai-news.md
+      - 🎓 Academic Trends: en/academic-trends.md
