@@ -35,7 +35,8 @@
 - 2026-09-08：副標題改為「公文、信件、會議記錄，到創作與生活中的大小事——把交給 AI 就好的事交給它，把時間留給真正需要判斷的事。」，涵蓋原本 2 張卡片＋Sanderson 影片主題
 - 2026-09-08：`en/index.html` 已同步——標題改為 "What Can LLMs (Gemini/ChatGPT/Claude) Do for Everyone?"，副標題與影片說明譯成英文（人名 Brandon Sanderson 本來就是英文，頻道名 AI 101 保留原文，語言標示 Chinese）
 - 2026-09-08：原本「行政工作」「設定 AI 程式助手」2 張卡片改成一行純文字連結（比照「研究人員」section 已有的「延伸閱讀」樣式），ZH：「延伸閱讀： 行政工作 · 設定 AI 程式助手」；EN：「Further reading: Administrative Tasks · Set Up Your AI Coding Assistant」。這個 section 現在視覺焦點就是 Sanderson 那支影片。
-- 2026-09-08：試過把 Sanderson 影片（`kAhT04co8f8`）改成 iframe 嵌入播放，YouTube 顯示「影片擁有者已禁止在其他網站上播放這部影片」，上傳頻道 AI 101 設了 embedding 限制，無法嵌入，改回點擊跳轉 YouTube 的 resource-link 卡片。**AI 101 頻道的影片之後都不要嘗試嵌入**，直接用 resource-link 連結樣式。
+- 2026-09-08：試過把 Sanderson 影片（`kAhT04co8f8`）改成 iframe 嵌入播放，YouTube 顯示「影片擁有者已禁止在其他網站上播放這部影片」，上傳頻道 AI 101 設了 embedding 限制，無法嵌入。**AI 101 頻道的影片之後都不要嘗試 iframe 嵌入**。
+- 2026-09-08：改用 YouTube 縮圖代替（`https://img.youtube.com/vi/{影片ID}/hqdefault.jpg`，這個是靜態圖片 URL，不受 embedding 限制影響，一定能顯示），整張圖可點擊連到 YouTube，中間疊加 ▶️ 播放圖示；標題/來源/簡介放在縮圖下方。ZH/EN 已同步套用。此樣式之後若要讓影片更醒目、又擔心 embedding 被鎖，可以直接比照這個做法。
 
 ## 首頁「研究人員」影片清單（index.html）
 
