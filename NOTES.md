@@ -24,6 +24,16 @@
 | 自動化 | `/llm-automation.html` | `/en/llm-automation.html` | 批次處理、格式轉換、Python 腳本 |
 | 行政工作 | `/llm-admin.html` | `/en/llm-admin.html` | 公文、會議記錄、信件、公告、報名網站、報表 |
 
+## 首頁「一般人」section（原「行政人員」，index.html）
+
+2026-09-08：標題「LLM (Gemini/ChatGPT/Claude) 能幫行政人員做什麼？」改為「能幫一般人做什麼？」，因為新增的影片（Brandon Sanderson 談 AI 時代創作者）內容比「行政人員」廣，不只是公文/會議記錄類任務。原本「行政工作」「設定你的 AI 程式助手」2 張卡片保留，影片放在卡片上方（resource-link 樣式）。
+
+| 影片 ID | 頻道 | 長度 | 重點 |
+|---------|------|------|------|
+| `kAhT04co8f8` | AI 101 | 9:54 | Brandon Sanderson（《迷霧之子》作者，Kickstarter 募資史上最高紀錄保持人）談 AI 時代創作者：你才是作品，不是產出 |
+
+- 待辦：副標題「公文、信件、會議記錄、公告——把重複性的文字工作交給 AI，把時間留給真正需要判斷的事。」還是舊的（只對應 2 張卡片，跟 Sanderson 影片主題不搭），沒有一併調整；en/index.html 也還沒同步這個 section 的改動
+
 ## 首頁「研究人員」影片清單（index.html）
 
 2026-09-08：原本 4 張卡片（文字處理/知識與邏輯/自動化流程/coding-prompt）改成 3 支陶哲軒談 AI×數學/科學研究的影片（resource-link 清單樣式，每支影片標題下方附一句話簡介內容），4 個子頁面改用一行純文字連結保留入口（不用卡片）。
