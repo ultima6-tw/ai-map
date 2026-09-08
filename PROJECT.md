@@ -67,7 +67,7 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
-- **2026-09-08**：index.html「研究人員」section 原本 4 張卡片改為 3 支陶哲軒談 AI×數學/科學研究影片清單（resource-link 樣式），4 個子頁面入口改成一行純文字連結（詳見 NOTES.md「首頁『研究人員』影片清單」）。en/index.html 尚未同步。
+- **2026-09-08**：index.html「研究人員」section 原本 4 張卡片改為 3 支陶哲軒談 AI×數學/科學研究影片清單（resource-link 樣式，各附一句話內容簡介），4 個子頁面入口改成一行純文字連結（詳見 NOTES.md「首頁『研究人員』影片清單」）。en/index.html 尚未同步。
 - **2026-05-14**：resources.html / en/resources.html 頁面副標題縮短為單行（ZH：「Claude Cowork、Code 與 Design 使用指南，含操作示範影片。」EN：「Claude Cowork, Code & Design — hands-on demo videos.」）
 - **2026-05-14**：resources.html / en/resources.html 新增 Claude Design 節區（第三節），含官方連結（claude.ai/design）與兩支英文影片（t_LBECIQQqs Anthropic官方、X7YMMyd2Qnk Tristen O'Brien基礎教學）
 - **2026-05-13**：resources.html / en/resources.html Code 區新增三支示波器/硬體控制影片（9oMwjWW3wsg Keysight示波器、A4H2UyeRx9w Lecroy示波器、nmGEedloQ6E ESP32自動化測試台），共五支影片
