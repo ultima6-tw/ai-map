@@ -37,6 +37,8 @@
 - 2026-09-08：原本「行政工作」「設定 AI 程式助手」2 張卡片改成一行純文字連結（比照「研究人員」section 已有的「延伸閱讀」樣式），ZH：「延伸閱讀： 行政工作 · 設定 AI 程式助手」；EN：「Further reading: Administrative Tasks · Set Up Your AI Coding Assistant」。這個 section 現在視覺焦點就是 Sanderson 那支影片。
 - 2026-09-08：試過把 Sanderson 影片（`kAhT04co8f8`）改成 iframe 嵌入播放，YouTube 顯示「影片擁有者已禁止在其他網站上播放這部影片」，上傳頻道 AI 101 設了 embedding 限制，無法嵌入。**AI 101 頻道的影片之後都不要嘗試 iframe 嵌入**。
 - 2026-09-08：改用 YouTube 縮圖代替（`https://img.youtube.com/vi/{影片ID}/hqdefault.jpg`，這個是靜態圖片 URL，不受 embedding 限制影響，一定能顯示），整張圖可點擊連到 YouTube，中間疊加 ▶️ 播放圖示；標題/來源/簡介放在縮圖下方。ZH/EN 已同步套用。此樣式之後若要讓影片更醒目、又擔心 embedding 被鎖，可以直接比照這個做法。
+- 2026-09-08：Sanderson 縮圖容器寬度從 640px 縮到 320px（使用者覺得太大，縮小 50%）
+- 2026-09-08：「研究人員」section 3 支陶哲軒影片也統一改用同款縮圖樣式（原本是 icon+文字的 resource-link），`resource-grid` 3 欄不變，每欄內縮圖在上、標題/來源/簡介在下
 
 ## 首頁「研究人員」影片清單（index.html）
 

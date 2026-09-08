@@ -67,6 +67,7 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-09-08**：Sanderson 縮圖縮小為 320px（原 640px 的 50%）；「研究人員」section 3 支陶哲軒影片也改用真實 YouTube 縮圖（原本圖示+文字的 resource-link 樣式），縮圖在上、標題/來源/簡介在下方，跟「一般人」的 Sanderson 卡片同款。ZH/EN 已同步。
 - **2026-09-08**：「一般人」section 的 Sanderson 影片改用真實 YouTube 縮圖（`img.youtube.com` 靜態圖片，整張可點擊）取代原本的圖示+文字卡片，視覺更突出；iframe 嵌入播放行不通（AI 101 頻道禁止站外嵌入，詳見 NOTES.md）。ZH/EN 已同步。
 - **2026-09-08**：「一般人」section 剩下的「行政工作」「設定 AI 程式助手」2 張卡片改成一行純文字連結（延伸閱讀），ZH/EN 都已同步。section 現在只有 1 支影片＋一行文字連結，影片是主要內容。
 - **2026-09-08**：en/index.html 同步「一般人」section（標題改 "What Can LLMs (Gemini/ChatGPT/Claude) Do for Everyone?"、副標題與 Sanderson 影片譯成英文，語言標示 Chinese，卡片保留不動）。
