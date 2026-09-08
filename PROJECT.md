@@ -15,12 +15,12 @@ https://github.com/ultima6-tw/ai-map
 
 ---
 
-## 目前完成狀態（2026-05-14）
+## 目前完成狀態（2026-09-08）
 
 ### 網站架構
 | 檔案 | 說明 |
 |------|------|
-| `index.html` | 首頁：Hero、三核心、**讓 AI 先認識你**、研究人員與行政人員應用分區 |
+| `index.html` | 首頁：Hero、三核心、**讓 AI 先認識你**、研究人員（陶哲軒 AI×科學研究影片×3）與一般人（Sanderson AI 創作者影片，原「行政人員」）應用分區，皆為 YouTube 縮圖清單 + 一行文字延伸連結 |
 | `setup-guide.html` | 讓 AI 先認識你：引導式 Prompt + 複製按鈕（中文）|
 | `en/setup-guide.html` | Let AI Know You First（英文版）|
 | `coding-prompt.html` | 設定你的 AI 程式助手：訪談式 Prompt + 複製按鈕（中文）|
@@ -67,12 +67,11 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
-- **2026-09-08**：Sanderson 縮圖縮小為 320px（原 640px 的 50%）；「研究人員」section 3 支陶哲軒影片也改用真實 YouTube 縮圖（原本圖示+文字的 resource-link 樣式），縮圖在上、標題/來源/簡介在下方，跟「一般人」的 Sanderson 卡片同款。ZH/EN 已同步。
-- **2026-09-08**：「一般人」section 的 Sanderson 影片改用真實 YouTube 縮圖（`img.youtube.com` 靜態圖片，整張可點擊）取代原本的圖示+文字卡片，視覺更突出；iframe 嵌入播放行不通（AI 101 頻道禁止站外嵌入，詳見 NOTES.md）。ZH/EN 已同步。
-- **2026-09-08**：「一般人」section 剩下的「行政工作」「設定 AI 程式助手」2 張卡片改成一行純文字連結（延伸閱讀），ZH/EN 都已同步。section 現在只有 1 支影片＋一行文字連結，影片是主要內容。
-- **2026-09-08**：en/index.html 同步「一般人」section（標題改 "What Can LLMs (Gemini/ChatGPT/Claude) Do for Everyone?"、副標題與 Sanderson 影片譯成英文，語言標示 Chinese，卡片保留不動）。
-- **2026-09-08**：index.html「行政人員」section 標題改為「一般人」，新增 Brandon Sanderson 談 AI 時代創作者的影片（resource-link 樣式，放在標題下方、原本 2 張卡片之上）；原本「行政工作」「設定你的 AI 程式助手」2 張卡片保留不動。副標題同步改為「公文、信件、會議記錄，到創作與生活中的大小事——把交給 AI 就好的事交給它，把時間留給真正需要判斷的事。」。en/index.html 尚未同步。
-- **2026-09-08**：index.html「研究人員」section 原本 4 張卡片改為 3 支陶哲軒談 AI×數學/科學研究影片清單（resource-link 樣式，各附一句話內容簡介），4 個子頁面入口改成一行純文字連結（詳見 NOTES.md「首頁『研究人員』影片清單」）。en/index.html 已同步（標題/簡介翻譯成英文，人名譯為 Terence Tao、頻道名保留原文，語言標示 Chinese，比照 pillar-foundations.html 既有慣例）。
+- **2026-09-08**：首頁「研究人員」「一般人」（原「行政人員」）兩個 section 改版，影片取代原本的功能卡片：
+  - 研究人員：4 張卡片 → 3 支陶哲軒談 AI×數學/科學研究的影片（YouTube 縮圖 + 標題/來源/簡介），4 個子頁面入口改一行「延伸閱讀」文字連結
+  - 一般人：標題由「行政人員」改為「一般人」，副標題同步擴大涵蓋範圍；新增 Brandon Sanderson 談 AI 時代創作者的影片（縮圖 320px），原本「行政工作」「設定 AI 程式助手」2 張卡片也改成一行文字連結
+  - 影片改用真實 YouTube 縮圖（`img.youtube.com` 靜態圖）而非 iframe 嵌入播放——AI 101 頻道的影片禁止站外嵌入，試過會顯示「無法播放」
+  - ZH/EN 兩個語言版本皆已同步，過程細節見 NOTES.md「首頁『研究人員』影片清單」「首頁『一般人』section」
 - **2026-05-14**：resources.html / en/resources.html 頁面副標題縮短為單行（ZH：「Claude Cowork、Code 與 Design 使用指南，含操作示範影片。」EN：「Claude Cowork, Code & Design — hands-on demo videos.」）
 - **2026-05-14**：resources.html / en/resources.html 新增 Claude Design 節區（第三節），含官方連結（claude.ai/design）與兩支英文影片（t_LBECIQQqs Anthropic官方、X7YMMyd2Qnk Tristen O'Brien基礎教學）
 - **2026-05-13**：resources.html / en/resources.html Code 區新增三支示波器/硬體控制影片（9oMwjWW3wsg Keysight示波器、A4H2UyeRx9w Lecroy示波器、nmGEedloQ6E ESP32自動化測試台），共五支影片
@@ -115,10 +114,6 @@ https://github.com/ultima6-tw/ai-map
 - 決策：所有 prompt 改為引導式（AI 主動問問題），使用者丟進去即可，不需要自己填空
 - [ ] 核心二（選對工具）延伸觀看影片（目前無適合的 `.md` 來源）
 - [ ] about.html 若有聯絡方式可補上
-- [x] setup-guide.html 的 YouTube 影片連結（已嵌入 iframe）
-- [x] en/index.html 同步「研究人員」影片清單（2026-09-08 完成，標題/簡介譯成英文，語言標示 Chinese）
-- [x] 「一般人」section 副標題調整（2026-09-08 完成，改為涵蓋創作/生活大小事）
-- [x] 「一般人」section：en/index.html 同步完成（2026-09-08，標題改 "For Everyone"、副標題與 Sanderson 影片皆已譯成英文）
 
 ## 更新紀錄（續）
 - **2026-05-07**：setup-guide.html / en/setup-guide.html 更新為 v2 prompt（AI Initial Setup Prompt）
