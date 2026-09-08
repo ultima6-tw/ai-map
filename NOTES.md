@@ -39,7 +39,7 @@
 - llGxnS34pz8：在 UCLA 講座上，陶哲軒用 Erdős 千題資料庫與一個硬幣遊戲題目，具體示範研究裡哪一步該交給人、哪一步該交給 AI。
 - aId6vSIsxuo：AI 幾分鐘就能寫出博士級證明，數學家的危機不是失業，而是「消化不良」——證明量暴增，審查與吸收速度跟不上。
 
-- 待辦：`en/index.html` 尚未同步（英文版目前還是原本 4 張卡片，這 3 支影片都是中文，需要決定 EN 頁要不要放、要不要加英文說明）
+- `en/index.html` 已同步（2026-09-08）：標題與簡介譯成英文；人名「陶哲軒」譯為 Terence Tao，頻道名（AI 101 / JOHNSON-MATH）保留原文；語言標示改為「Chinese」（比照 pillar-foundations.html 既有的「漫士科普 · Chinese」慣例）
 
 ## Claude.ai 介紹頁影片清單（resources.html）
 
