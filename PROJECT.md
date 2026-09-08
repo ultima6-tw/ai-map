@@ -15,7 +15,7 @@ https://github.com/ultima6-tw/ai-map
 
 ---
 
-## 目前完成狀態（2026-05-01）
+## 目前完成狀態（2026-05-14）
 
 ### 網站架構
 | 檔案 | 說明 |
@@ -25,8 +25,8 @@ https://github.com/ultima6-tw/ai-map
 | `en/setup-guide.html` | Let AI Know You First（英文版）|
 | `coding-prompt.html` | 設定你的 AI 程式助手：訪談式 Prompt + 複製按鈕（中文）|
 | `en/coding-prompt.html` | Set Up Your AI Coding Assistant（英文版）|
-| `courses.html` | 課程：三個工作坊，各拆分為多個章節，YouTube 影片 placeholder |
-| `resources.html` | 資源：工具選擇三色卡、APS/ACS 期刊政策比較、外部連結 |
+| `courses.html` | 課程：三個工作坊，各拆分為多個章節，ep01–07 + ep08 全部嵌入 |
+| `resources.html` | Claude.ai 操作介紹：Cowork（3 影片）、Code（5 影片）、Design（2 影片）|
 | `about.html` | 關於 ACE：使命、對象、三核心說明 |
 | `pillar-foundations.html` | 核心一：AI 基礎與風險管理（LLM 概念、幻覺、情境窗口） |
 | `pillar-tools.html` | 核心二：選對 AI 工具（Samsung 事件、工具比較表、判斷原則） |
@@ -67,6 +67,8 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-09-08**：index.html「研究人員」section 原本 4 張卡片改為 3 支陶哲軒談 AI×數學/科學研究影片清單（resource-link 樣式），4 個子頁面入口改成一行純文字連結（詳見 NOTES.md「首頁『研究人員』影片清單」）。en/index.html 尚未同步。
+- **2026-05-14**：resources.html / en/resources.html 頁面副標題縮短為單行（ZH：「Claude Cowork、Code 與 Design 使用指南，含操作示範影片。」EN：「Claude Cowork, Code & Design — hands-on demo videos.」）
 - **2026-05-14**：resources.html / en/resources.html 新增 Claude Design 節區（第三節），含官方連結（claude.ai/design）與兩支英文影片（t_LBECIQQqs Anthropic官方、X7YMMyd2Qnk Tristen O'Brien基礎教學）
 - **2026-05-13**：resources.html / en/resources.html Code 區新增三支示波器/硬體控制影片（9oMwjWW3wsg Keysight示波器、A4H2UyeRx9w Lecroy示波器、nmGEedloQ6E ESP32自動化測試台），共五支影片
 - **2026-05-14**：resources.html / en/resources.html 全部影片加語言標示（🎬 影片語言：中文/英文）；EN 頁中文影片描述翻譯成英文
@@ -109,6 +111,7 @@ https://github.com/ultima6-tw/ai-map
 - [ ] 核心二（選對工具）延伸觀看影片（目前無適合的 `.md` 來源）
 - [ ] about.html 若有聯絡方式可補上
 - [x] setup-guide.html 的 YouTube 影片連結（已嵌入 iframe）
+- [ ] en/index.html 同步「研究人員」影片清單（3 支影片皆中文，需決定 EN 版怎麼處理）
 
 ## 更新紀錄（續）
 - **2026-05-07**：setup-guide.html / en/setup-guide.html 更新為 v2 prompt（AI Initial Setup Prompt）
