@@ -34,6 +34,7 @@
 
 - 2026-09-08：副標題改為「公文、信件、會議記錄，到創作與生活中的大小事——把交給 AI 就好的事交給它，把時間留給真正需要判斷的事。」，涵蓋原本 2 張卡片＋Sanderson 影片主題
 - 2026-09-08：`en/index.html` 已同步——標題改為 "What Can LLMs (Gemini/ChatGPT/Claude) Do for Everyone?"，副標題與影片說明譯成英文（人名 Brandon Sanderson 本來就是英文，頻道名 AI 101 保留原文，語言標示 Chinese）
+- 2026-09-08：原本「行政工作」「設定 AI 程式助手」2 張卡片改成一行純文字連結（比照「研究人員」section 已有的「延伸閱讀」樣式），ZH：「延伸閱讀： 行政工作 · 設定 AI 程式助手」；EN：「Further reading: Administrative Tasks · Set Up Your AI Coding Assistant」。這個 section 現在視覺焦點就是 Sanderson 那支影片。
 
 ## 首頁「研究人員」影片清單（index.html）
 

@@ -67,6 +67,7 @@ https://github.com/ultima6-tw/ai-map
 - YouTube 連結從原有 `.md` 中篩選，加入各核心頁面的「延伸觀看」區塊
 
 ## 更新紀錄
+- **2026-09-08**：「一般人」section 剩下的「行政工作」「設定 AI 程式助手」2 張卡片改成一行純文字連結（延伸閱讀），ZH/EN 都已同步。section 現在只有 1 支影片＋一行文字連結，影片是主要內容。
 - **2026-09-08**：en/index.html 同步「一般人」section（標題改 "What Can LLMs (Gemini/ChatGPT/Claude) Do for Everyone?"、副標題與 Sanderson 影片譯成英文，語言標示 Chinese，卡片保留不動）。
 - **2026-09-08**：index.html「行政人員」section 標題改為「一般人」，新增 Brandon Sanderson 談 AI 時代創作者的影片（resource-link 樣式，放在標題下方、原本 2 張卡片之上）；原本「行政工作」「設定你的 AI 程式助手」2 張卡片保留不動。副標題同步改為「公文、信件、會議記錄，到創作與生活中的大小事——把交給 AI 就好的事交給它，把時間留給真正需要判斷的事。」。en/index.html 尚未同步。
 - **2026-09-08**：index.html「研究人員」section 原本 4 張卡片改為 3 支陶哲軒談 AI×數學/科學研究影片清單（resource-link 樣式，各附一句話內容簡介），4 個子頁面入口改成一行純文字連結（詳見 NOTES.md「首頁『研究人員』影片清單」）。en/index.html 已同步（標題/簡介翻譯成英文，人名譯為 Terence Tao、頻道名保留原文，語言標示 Chinese，比照 pillar-foundations.html 既有慣例）。
