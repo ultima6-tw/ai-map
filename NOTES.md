@@ -33,7 +33,7 @@
 | `kAhT04co8f8` | AI 101 | 9:54 | Brandon Sanderson（《迷霧之子》作者，Kickstarter 募資史上最高紀錄保持人）談 AI 時代創作者：你才是作品，不是產出 |
 
 - 2026-09-08：副標題改為「公文、信件、會議記錄，到創作與生活中的大小事——把交給 AI 就好的事交給它，把時間留給真正需要判斷的事。」，涵蓋原本 2 張卡片＋Sanderson 影片主題
-- 待辦：en/index.html 還沒同步這個 section 的改動（標題/副標題/影片）
+- 2026-09-08：`en/index.html` 已同步——標題改為 "What Can LLMs (Gemini/ChatGPT/Claude) Do for Everyone?"，副標題與影片說明譯成英文（人名 Brandon Sanderson 本來就是英文，頻道名 AI 101 保留原文，語言標示 Chinese）
 
 ## 首頁「研究人員」影片清單（index.html）
 
